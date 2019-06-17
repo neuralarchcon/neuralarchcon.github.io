@@ -1,0 +1,82 @@
+---
+layout: index
+title: News
+tagline:
+tags : [news, info]
+img :
+img-mobile :
+author : Marcin Koculak
+css:
+js:
+keywords: components, demo
+canonical:
+---
+{% include JB/setup %}
+
+<div class="container">
+  <div class="page-header-title">
+    <h2 class="heading-title color-title text-left">News</h2>
+  </div>
+</div>
+
+<!-- Blog content + sidebar -->
+<section class="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <div class="blog-block post-content-area">
+          {% for news in site.categories.news %}
+          <div class="blog-block post-content-area">
+            {% if news.img %}
+            <img src="{{ BASE_PATH }}/assets/images/{{ news.img }}" alt="{{ news.title }} image">
+            {% endif %}
+            <div class="blog-post">
+              <h3><a href="{{ BASE_PATH }}{{ news.url }}">{{ news.title }}</a></h3>
+              <p>{{ news.excerpt }}</p>
+              <a class="btn btn-common" href="{{ BASE_PATH }}{{ news.url }}">Read More</a>
+            </div>
+          </div>
+          <div class="mb-60"></div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Blog sidebar area -->
+      <div class="col-sm-12 col-md-3">
+        <div class="blog-block about-sidebar-widget">
+          <img src="{{ BASE_PATH }}/assets/images/blog/author.jpg">
+          <h4>About Author</h4>
+          <p>Aenean vestibulum purus a nulla sollicitudin molestie. Maecenas bibendum erat in erat maximus, vel imperdiet leo mattis.</p>
+        </div>
+
+        <div class="mb-60"></div>
+
+        <div class="blog-block categories-sidebar-widget">
+          <h4>Categories</h4>
+          <div class="post-category">
+            <a href="#">Category 1 <span class="pull-right">(3)</span></a>
+          </div>
+
+          <div class="post-category">
+            <a href="#">Category 2 <span class="pull-right">(1)</span></a>
+          </div>
+
+          <div class="post-category">
+            <a href="#">Category 3 <span class="pull-right">(2)</span></a>
+          </div>
+
+          <div class="post-category">
+            <a href="#">Category 4 <span class="pull-right">(5)</span></a>
+          </div>
+
+          <div class="post-category">
+            <a href="#">Category 5 <span class="pull-right">(3)</span></a>
+          </div>
+        </div>
+
+        <div class="mb-60"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
