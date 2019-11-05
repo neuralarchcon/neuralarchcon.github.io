@@ -2939,9 +2939,9 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-form .contact-icon {
-  left: 34px;
-  position: absolute;
-  top: 16px;
+  left: 18px;
+  position: relative;
+  top: 36px;
   color: #444
 }
 
@@ -3020,7 +3020,7 @@ address i {
   letter-spacing: 0px;
   border: 1px solid #ddd;
   border-radius: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding: 10px 20px;
   min-height: 50px;
   -webkit-box-shadow: none;
@@ -3094,7 +3094,7 @@ address i {
 .help-block.with-errors li {
   color: #ec7160;
   font-size: 13px;
-  margin-top: -30px;
+  margin-top: -10px;
   margin-bottom: 0
 }
 
@@ -4608,4 +4608,37 @@ img {
   padding-left: 10px;
   font-size: 10px;
   line-height: 14px;
+}
+
+/* working group elements */
+.group-panel {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #ddd;
+  box-shadow: 0px 0px 5px 1px #ddd;
+
+  padding: 1.5em;
+  margin: 0 0 2em 0;
+}
+
+.leader-title {
+  font-weight: bold;
+}
+
+.leader {
+  font-size: 16px;
+  margin: 0 0 1.5em 0;
+}
+
+.group-sidebar{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10em;
+}
+
+.sidebar-item {
+  display: table;
+  margin: 0 0 10px 0;
+  color: #333;
 }
