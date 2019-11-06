@@ -4620,6 +4620,12 @@ img {
 
   padding: 1.5em;
   margin: 0 0 2em 0;
+  position: relative;
+}
+
+.anchor {
+  position: absolute;
+  top: -15em;
 }
 
 .leader-title {
@@ -4634,11 +4640,17 @@ img {
 .group-sidebar{
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 10em;
+  top: 15em;
 }
 
 .sidebar-item {
   display: table;
   margin: 0 0 10px 0;
   color: #333;
+}
+
+.nav-stick {
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
