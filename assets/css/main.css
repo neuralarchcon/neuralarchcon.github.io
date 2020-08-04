@@ -4703,3 +4703,12 @@ img {
 .contact-name {
   color: #666;
 }
+
+.publication {
+  padding-left: 3em;
+  text-indent: -3em;
+}
+
+.color-title {
+  color: #444;
+}
