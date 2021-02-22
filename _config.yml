@@ -24,9 +24,9 @@ post_limit: 5
 title : NeurArchCon
 tagline: Site for COST Action CA18106
 author :
-  name : Marcin Koculak
-  site: https://mkoculak.github.io
-  description : Ph.D. student interested in Cognitive Neuroscience of Consciousness.
+  name : Action Media Manager
+  site:
+  description : Bringing you all the news and updates on the COST Action project.
   image :
   email :
   github :

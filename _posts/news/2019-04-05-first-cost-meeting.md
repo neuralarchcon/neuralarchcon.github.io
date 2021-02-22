@@ -6,7 +6,7 @@ tags : [test, news, markdown]
 img : brussels.jpg
 img2 :
 img3 :
-author : Marcin Koculak
+author : Action Media Manager
 title2 :
 title3 :
 css:
