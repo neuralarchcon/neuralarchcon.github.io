@@ -3,7 +3,7 @@ layout: post
 category : news
 tagline: "Example news page"
 tags : [test, news, markdown]
-img : news/brussels.jpg
+img : news/march.png
 img2 :
 img3 :
 author : Action Media Manager
@@ -17,4 +17,4 @@ canonical:
 
 ---
 {% include JB/setup %}
-We started of with a fruitful meeting of the COST Management Board in Brussels.
+While the data is still being collected, you follow us on Twitter. We will keep you updated about our recent developments!
