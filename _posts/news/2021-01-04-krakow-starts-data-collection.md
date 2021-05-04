@@ -3,7 +3,7 @@ layout: post
 category : news
 tagline: "Example news page"
 tags : [test, news, markdown]
-img : news/january.png
+img : news/Krakow-pre-starts.png
 img2 :
 img3 :
 author : Action Media Manager

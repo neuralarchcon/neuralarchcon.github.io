@@ -15,9 +15,8 @@ js:
 bgcolor:
 keywords:
 canonical:
-
 ---
-{% include JB/setup %}
+
 The success of our Action stands on shoulders of the Action members. Let us introduce one of the key figures behind data collection endeavour – Renate Rutiku.
 
 <!--more-->

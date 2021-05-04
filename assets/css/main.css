@@ -4712,3 +4712,9 @@ img {
 .color-title {
   color: #444;
 }
+
+.news-excerpt {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  text-align: justify;
+}

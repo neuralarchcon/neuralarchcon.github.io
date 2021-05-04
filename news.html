@@ -32,7 +32,8 @@ canonical:
             {% endif %}
             <div class="blog-post">
               <h3><a href="{{ BASE_PATH }}{{ news.url }}">{{ news.title }}</a></h3>
-              <p>{{ news.excerpt }}</p>
+              <span>{{ news.date | date_to_long_string }}</span>
+              <p class="news-excerpt">{{ news.excerpt | strip_html }}</p>
               <a class="btn btn-common" href="{{ BASE_PATH }}{{ news.url }}">Read More</a>
             </div>
           </div>
