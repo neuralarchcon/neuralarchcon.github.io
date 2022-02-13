@@ -4332,7 +4332,7 @@ ul.nav-tabs li a {
 
 @media (max-width: 480px) {
   .navbar-brand img {
-    max-width: 30vh
+    max-width: 25vh
   }
 
   .sub-title {
