@@ -1145,7 +1145,7 @@ footer .menu li a:hover {
   color: #ccc !important;
   display: flex;
   font-weight: 700;
-  padding-right: 15px
+  padding: 1em
 }
 
 .navbar-brand #logo {
@@ -4332,7 +4332,7 @@ ul.nav-tabs li a {
 
 @media (max-width: 480px) {
   .navbar-brand img {
-    max-width: 120px
+    max-width: 30vh
   }
 
   .sub-title {
