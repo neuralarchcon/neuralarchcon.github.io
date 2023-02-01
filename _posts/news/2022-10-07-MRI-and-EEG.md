@@ -23,7 +23,7 @@ The EEG and MRI (Kraków site) teams have just completed the collection of the d
 
 **Samuel Nowak: What data did you collect?**
 
-Katarzyna Hat: In the project, we collected two types of data: MRI and behavioural. We studied a wide range of behavioural paradigms that can provide us with a better insight into human consciousness. In order to study cognitive functions, we also reached for questionnaires and computer tasks performed in our laboratory. 
+**Katarzyna Hat**: In the project, we collected two types of data: MRI and behavioural. We studied a wide range of behavioural paradigms that can provide us with a better insight into human consciousness. In order to study cognitive functions, we also reached for questionnaires and computer tasks performed in our laboratory. 
 
 **And your goal is….**
 
