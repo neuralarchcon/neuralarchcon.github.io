@@ -1,0 +1,137 @@
+---
+layout: index
+title: Datasets
+tagline:
+tags : [datasets, info]
+img :
+img-mobile :
+author : Marcin Koculak
+css:
+js:
+keywords: components
+canonical:
+---
+{% include JB/setup %}
+
+<div class="container">
+    <div class="page-header-title">
+        <h2 class="heading-title color-title text-left">Datasets</h2>
+    </div>
+</div>
+
+<!-- Datasets content + sidebar -->
+<section class="datasets">
+    <div class="container">
+        <div class="row">
+
+            <!-- Selectors for datasets-->
+            <div class="col-sm-12 col-md-3">
+                <input type="text" id="datasetInput" placeholder="Search for a Dataset.." title="Type in a word"><br />
+                <div class="filter-section">
+                    <label for="participantSlider">Number of participants: </label>
+                    <span id="sliderValue">0</span>
+                    <input type="range" id="participantSlider" min="0" max="1000" value="0" class="slider">
+                </div><br>
+
+                <span>Site:</span><br>
+                <input type="checkbox" class="siteCheckbox" name="AarhusCheckbox" value="Aarhus"> Aarhus<br>
+                <input type="checkbox" class="siteCheckbox" name="BrnoCheckbox" value="Brno"> Brno<br>
+                <input type="checkbox" class="siteCheckbox" name="KrakowCheckbox" value="Krakow"> Krakow<br>
+            </div>
+
+            <div class="col-sm-12 col-md-9">
+                <div class="datasets-list post-content-area">
+                    {% for dataset in site.categories.datasets %}
+                    <div class="dataset-item post-content-area">
+                        <div class="dataset-post" data-participants="{{ dataset.participants | default: 0 }}">
+                            <h3><a href="{{ BASE_PATH }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
+                            <p class="datasets-excerpt">{{ dataset.summary | strip_html }}</p>
+                        </div>
+                        <div class="dataset-meta">
+                            <span class="metadata" id="modalities"><strong>Modalities:</strong> {{ dataset.modality | join: ", "
+                                }}</span>
+                            <span class="metadata" id="participants"><strong>Participants:</strong> {{ dataset.participants | default: 0
+                                }}</span>
+                            <span class="metadata" id="site"><strong>Site:</strong> {{ dataset.site | join: ", " }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+</section>
+
+<script>
+    function findTextInTitle(text, element) {
+        var title = element.querySelector('h3').textContent.toLowerCase() || '';
+        if (title.includes(text.toLowerCase())) {
+            return true;
+        }
+        return false;
+    };
+
+    function checkParticipants(participants, element) {
+        var datasetParticipants = parseInt(element.getElementsByTagName('div')[0].getAttribute('data-participants')) || 0;
+        return datasetParticipants >= participants;
+    };
+
+    function checkSite(site, element) {
+        var datasetSite = element.querySelector('#site').textContent.toLowerCase() || '';
+        return datasetSite.includes(site.toLowerCase());
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const datasetInput = document.getElementById('datasetInput');
+        const slider = document.getElementById('participantSlider');
+        const sliderValue = document.getElementById('sliderValue');
+        const datasets = document.querySelectorAll('.dataset-item'); // Adjust class name as needed
+        const siteCheckboxes = document.querySelectorAll('.siteCheckbox');
+        const siteCheckboxesArray = Array.from(siteCheckboxes);
+
+        function decideVisibility(element) {
+            const matchesTitle = findTextInTitle(datasetInput.value, element);
+            const meetsParticipantCriteria = checkParticipants(parseInt(slider.value), element);
+            var meetsSiteCriteria = siteCheckboxesArray.some(checkbox => checkbox.checked && checkSite(checkbox.value, element));
+            // If no site checkboxes are checked, consider it as meeting the criteria
+            if (siteCheckboxesArray.every(checkbox => !checkbox.checked)) {
+                console.log("No site checkboxes are checked.");
+                meetsSiteCriteria = true;
+            }
+
+            const valueVector = [
+                matchesTitle,
+                meetsParticipantCriteria,
+                meetsSiteCriteria
+            ];
+
+            if (valueVector.every(Boolean)) {
+                element.style.display = '';
+            } else {
+                element.style.display = 'none';
+            };
+        };
+
+        datasetInput.addEventListener('input', function () {
+            datasets.forEach(dataset => {
+                decideVisibility(dataset);
+            });
+        });
+
+        slider.addEventListener('input', function () {
+            const minParticipants = parseInt(this.value);
+            sliderValue.textContent = minParticipants;
+
+            datasets.forEach(dataset => {
+                decideVisibility(dataset);
+            });
+        });
+
+        siteCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                datasets.forEach(dataset => {
+                    decideVisibility(dataset);
+                });
+            });
+        });
+    });
+</script>
