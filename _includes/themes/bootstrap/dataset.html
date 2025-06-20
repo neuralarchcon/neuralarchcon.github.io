@@ -1,0 +1,24 @@
+
+<!-- Post content+sidebar -->
+
+<div class="mb-60"></div>
+
+  <!-- Blog content + sidebar -->
+
+  <section id="post" class="blog">
+
+    <div class="container">
+<h1 class="title">{{page.title}}</h1>
+<div class="mb-60"></div>
+      <div class="datacon row">
+        <div class="col-sm-12 col-md-9">
+           {{ content }}
+          <div class="mb-60"></div>
+          <div class="mb-60"></div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          {% include side-bar.html %}
+        </div>
+      </div>
+     </div>
+   </section>

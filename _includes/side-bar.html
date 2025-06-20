@@ -1,10 +1,35 @@
+{% if page.category == "datasets" %}
+<div class="blog-block about-sidebar-widget">
+  <h4>Modalities:</h4>
+  <p>{{ page.modality | join: ", " }}</p>
+  
+  <h4>Participants:</h4>
+  <p>{{ page.participants }}</p>
+  
+  <h4>Site:</h4>
+  <p>{{ page.site | join: ", " }}</p>
+  
+  <h4>Authors:</h4>
+  <p>{{ page.authors | join: "<br> " }}</p>
+
+  <h4>Contact:</h4>
+  {% for contact in page.contact %}
+    <p><a href="mailto:{{ page.email[forloop.index0] }}">{{ contact }}</a></p>
+  {% endfor %}
+
+  {% if page.doi %}
+    <h4>How to cite:</h4>
+    <p><a href="{{ page.doi }}">{{ page.citation }}</a></p>
+  {% endif %}
+</div>
+{% else %}
 <div class="blog-block about-sidebar-widget">
   <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}">
   <h4><a href="{{ site.author.site }}">{{ site.author.name }}</a></h4>
   <p>{{ site.author.description }}</p>
   {% include social-block.html %}
 </div>
-
+{% endif %}
 <div class="mb-60"></div>
 
 <!--

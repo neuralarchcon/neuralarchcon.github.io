@@ -4755,3 +4755,8 @@ img {
 .dataset-item {
   margin: 0 0 60px 0;
 }
+
+.datacon li {
+  list-style: square;
+  margin-left: 1.5em;
+}
