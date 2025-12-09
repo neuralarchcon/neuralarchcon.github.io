@@ -1,6 +1,5 @@
 ---
 layout: dataset
-category: datasets
 title: "Multi-site memory"
 modality: ["Behavior"]
 participants: 254

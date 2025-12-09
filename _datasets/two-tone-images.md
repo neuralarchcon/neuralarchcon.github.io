@@ -1,6 +1,5 @@
 ---
 layout: dataset
-category: datasets
 title: "Eye tracking with two-tone images"
 modality: ["eye-tracking"]
 participants: 20

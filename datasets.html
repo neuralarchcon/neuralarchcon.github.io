@@ -41,7 +41,7 @@ canonical:
 
             <div class="col-sm-12 col-md-9">
                 <div class="datasets-list post-content-area">
-                    {% for dataset in site.categories.datasets %}
+                    {% for dataset in site.datasets %}
                     <div class="dataset-item post-content-area">
                         <div class="dataset-post" data-participants="{{ dataset.participants | default: 0 }}">
                             <h3><a href="{{ BASE_PATH }}{{ dataset.url }}">{{ dataset.title }}</a></h3>

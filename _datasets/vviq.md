@@ -1,6 +1,5 @@
 ---
 layout: dataset
-category: datasets
 title: "VVIQ-2 – Vividness of Visual Imagery Questionnaire 2"
 modality: ["behaviour"]
 participants: 298
