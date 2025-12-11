@@ -11,6 +11,55 @@ js:
 keywords: components
 canonical:
 ---
+
+<style>
+.accordion .card {
+    margin-bottom: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.accordion .card-header {
+    background-color: #f8f9fa;
+    padding: 0;
+}
+
+.accordion .card-header h2 {
+    margin: 0;
+}
+
+.accordion .card-header .btn-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 1rem 1.25rem;
+}
+
+.accordion .card-header .btn-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.accordion .card-header .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.accordion .card-body {
+    padding: 1.25rem;
+}
+
+.dataset-item {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.dataset-item:last-child {
+    border-bottom: none;
+}
+</style>
 {% include JB/setup %}
 
 <div class="container">
@@ -27,32 +76,74 @@ canonical:
             <!-- Selectors for datasets-->
             <div class="col-sm-12 col-md-3">
                 <input type="text" id="datasetInput" placeholder="Search for a Dataset.." title="Type in a word"><br />
-                <div class="filter-section">
-                    <label for="participantSlider">Number of participants: </label>
-                    <span id="sliderValue">0</span>
-                    <input type="range" id="participantSlider" min="0" max="1000" value="0" class="slider">
-                </div><br>
 
-                <span>Site:</span><br>
+                <br>
+                <!-- Dynamically generate domain checkboxes -->
+                <span><strong>Domain:</strong></span><br>
+                {% assign all_domains = "" | split: "" %}
+                {% for dataset in site.datasets %}
+                    {% for domain in dataset.domain %}
+                        {% unless all_domains contains domain %}
+                            {% assign all_domains = all_domains | push: domain %}
+                        {% endunless %}
+                    {% endfor %}
+                {% endfor %}
+                {% assign sorted_domains = all_domains | sort %}
+                {% for domain in sorted_domains %}
+                <input type="checkbox" class="domainCheckbox" name="{{ domain | slugify }}Checkbox" value="{{ domain }}"> {{ domain | capitalize }}<br>
+                {% endfor %}
+
+                <br>
+                <span><strong>Site:</strong></span><br>
                 <input type="checkbox" class="siteCheckbox" name="AarhusCheckbox" value="Aarhus"> Aarhus<br>
                 <input type="checkbox" class="siteCheckbox" name="BrnoCheckbox" value="Brno"> Brno<br>
                 <input type="checkbox" class="siteCheckbox" name="KrakowCheckbox" value="Krakow"> Krakow<br>
             </div>
 
             <div class="col-sm-12 col-md-9">
-                <div class="datasets-list post-content-area">
-                    {% for dataset in site.categories.datasets %}
-                    <div class="dataset-item post-content-area">
-                        <div class="dataset-post" data-participants="{{ dataset.participants | default: 0 }}">
-                            <h3><a href="{{ BASE_PATH }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
-                            <p class="datasets-excerpt">{{ dataset.summary | strip_html }}</p>
+                <!-- Collect all unique modalities -->
+                {% assign all_modalities = "" | split: "" %}
+                {% for dataset in site.datasets %}
+                    {% for modality in dataset.modality %}
+                        {% unless all_modalities contains modality %}
+                            {% assign all_modalities = all_modalities | push: modality %}
+                        {% endunless %}
+                    {% endfor %}
+                {% endfor %}
+                {% assign sorted_modalities = all_modalities | sort %}
+
+                <!-- Create accordion for each modality category -->
+                <div class="accordion" id="datasetAccordion">
+                    {% for modality in sorted_modalities %}
+                    <div class="card modality-section" data-modality="{{ modality }}">
+                        <div class="card-header" id="heading{{ modality | slugify }}">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{ modality | slugify }}" aria-expanded="true" aria-controls="collapse{{ modality | slugify }}">
+                                    {{ modality | capitalize }}
+                                </button>
+                            </h2>
                         </div>
-                        <div class="dataset-meta">
-                            <span class="metadata" id="modalities"><strong>Modalities:</strong> {{ dataset.modality | join: ", "
-                                }}</span>
-                            <span class="metadata" id="participants"><strong>Participants:</strong> {{ dataset.participants | default: 0
-                                }}</span>
-                            <span class="metadata" id="site"><strong>Site:</strong> {{ dataset.site | join: ", " }}</span>
+
+                        <div id="collapse{{ modality | slugify }}" class="collapse" aria-labelledby="heading{{ modality | slugify }}" data-parent="#datasetAccordion">
+                            <div class="card-body">
+                                <div class="datasets-list post-content-area">
+                                    {% for dataset in site.datasets %}
+                                        {% if dataset.modality contains modality %}
+                                        <div class="dataset-item post-content-area" data-modality="{{ dataset.modality | join: ',' }}">
+                                            <div class="dataset-post" data-participants="{{ dataset.participants | default: 0 }}">
+                                                <h3><a href="{{ BASE_PATH }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
+                                                <p class="datasets-excerpt">{{ dataset.summary | strip_html }}</p>
+                                            </div>
+                                            <div class="dataset-meta">
+                                                <span class="metadata" id="domain-display"><strong>Domain:</strong> {{ dataset.domain | join: ", " }}</span>
+                                                <span class="metadata" id="domain" style="display: none;">{{ dataset.domain | join: ", " }}</span>
+                                                <span class="metadata" id="site"><strong>Site:</strong> {{ dataset.site | join: ", " }}</span>
+                                            </div>
+                                        </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
@@ -70,68 +161,83 @@ canonical:
         return false;
     };
 
-    function checkParticipants(participants, element) {
-        var datasetParticipants = parseInt(element.getElementsByTagName('div')[0].getAttribute('data-participants')) || 0;
-        return datasetParticipants >= participants;
-    };
-
     function checkSite(site, element) {
         var datasetSite = element.querySelector('#site').textContent.toLowerCase() || '';
         return datasetSite.includes(site.toLowerCase());
     };
 
+    function checkDomain(domain, element) {
+        var datasetDomain = element.querySelector('#domain').textContent.toLowerCase() || '';
+        return datasetDomain.includes(domain.toLowerCase());
+    };
+
     document.addEventListener('DOMContentLoaded', function () {
         const datasetInput = document.getElementById('datasetInput');
-        const slider = document.getElementById('participantSlider');
-        const sliderValue = document.getElementById('sliderValue');
-        const datasets = document.querySelectorAll('.dataset-item'); // Adjust class name as needed
+        const datasets = document.querySelectorAll('.dataset-item');
         const siteCheckboxes = document.querySelectorAll('.siteCheckbox');
         const siteCheckboxesArray = Array.from(siteCheckboxes);
+        const domainCheckboxes = document.querySelectorAll('.domainCheckbox');
+        const domainCheckboxesArray = Array.from(domainCheckboxes);
+        const modalitySections = document.querySelectorAll('.modality-section');
 
         function decideVisibility(element) {
             const matchesTitle = findTextInTitle(datasetInput.value, element);
-            const meetsParticipantCriteria = checkParticipants(parseInt(slider.value), element);
+
             var meetsSiteCriteria = siteCheckboxesArray.some(checkbox => checkbox.checked && checkSite(checkbox.value, element));
             // If no site checkboxes are checked, consider it as meeting the criteria
             if (siteCheckboxesArray.every(checkbox => !checkbox.checked)) {
-                console.log("No site checkboxes are checked.");
                 meetsSiteCriteria = true;
+            }
+
+            var meetsDomainCriteria = domainCheckboxesArray.some(checkbox => checkbox.checked && checkDomain(checkbox.value, element));
+            // If no domain checkboxes are checked, consider it as meeting the criteria
+            if (domainCheckboxesArray.every(checkbox => !checkbox.checked)) {
+                meetsDomainCriteria = true;
             }
 
             const valueVector = [
                 matchesTitle,
-                meetsParticipantCriteria,
-                meetsSiteCriteria
+                meetsSiteCriteria,
+                meetsDomainCriteria
             ];
 
             if (valueVector.every(Boolean)) {
                 element.style.display = '';
+                return true;
             } else {
                 element.style.display = 'none';
+                return false;
             };
         };
 
-        datasetInput.addEventListener('input', function () {
+        function updateSectionVisibility() {
+            modalitySections.forEach(section => {
+                const datasetsInSection = section.querySelectorAll('.dataset-item');
+                const hasVisibleDatasets = Array.from(datasetsInSection).some(dataset => dataset.style.display !== 'none');
+
+                if (hasVisibleDatasets) {
+                    section.style.display = '';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        };
+
+        function filterDatasets() {
             datasets.forEach(dataset => {
                 decideVisibility(dataset);
             });
-        });
+            updateSectionVisibility();
+        };
 
-        slider.addEventListener('input', function () {
-            const minParticipants = parseInt(this.value);
-            sliderValue.textContent = minParticipants;
-
-            datasets.forEach(dataset => {
-                decideVisibility(dataset);
-            });
-        });
+        datasetInput.addEventListener('input', filterDatasets);
 
         siteCheckboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', function () {
-                datasets.forEach(dataset => {
-                    decideVisibility(dataset);
-                });
-            });
+            checkbox.addEventListener('change', filterDatasets);
+        });
+
+        domainCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', filterDatasets);
         });
     });
 </script>

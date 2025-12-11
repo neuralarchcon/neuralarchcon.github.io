@@ -9,6 +9,12 @@ extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 url: http://locahost:4000
 baseurl: ""
+
+# Collections
+collections:
+  datasets:
+    output: true
+    permalink: /datasets/:title/
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
