@@ -30,14 +30,14 @@ Object recognition, partial change blindness, working memory precision - all wit
 
 {% include JB/setup %}
 
-![[Pasted image 20251211203259.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_18_RWM_1.png)
 
-![[Pasted image 20251211203317.png]]
-![[Pasted image 20251211203328.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_18_RWM_2.png)
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_18_RWM_3.png)
 
-![[Pasted image 20251211203339.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_18_RWM_4.png)
 
-![[Pasted image 20251211203352.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_18_RWM_5.png)
 
 
 

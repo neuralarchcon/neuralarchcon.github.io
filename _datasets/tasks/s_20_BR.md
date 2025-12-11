@@ -27,7 +27,7 @@ doi:
 
 {% include JB/setup %}
 
-![[Pasted image 20251211210645.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_20_BR_1.png)
 #### Detailed description
 
 *  Each eye was presented with a 4.5 or 20 Hz sinusoidal flicker throughout 3 min blocks. Subjects reported their perceptual state through button-press. Crossmodal cues (also 4.5 or 20 Hz; 2, 3.1 or 4 s in duration) or visual-only periods (2.6 s in duration) were separated by inter-stimulus intervals of 7–10 s.

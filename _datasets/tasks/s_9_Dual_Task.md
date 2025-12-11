@@ -43,7 +43,7 @@ the current trial.
 * Each consecutive session started with a 10-trial training session for the main task; this was followed by 300 experimental trials, which gave 900 experimental trials per participant in total. Each trial started with a central fixation point, after which the Gabor grating was presented. Afterwards participants were asked to respond to the motor cue that was presented in the centre of the screen. The cue was either a vertical bar or an arrow pointing left or right. Participants were asked to press “space” when a vertical bar appeared, “L” when an arrow pointing left was presented, and “R” for an arrow pointing right. Participants were explicitly told that this task was irrelevant to the main task and were asked to react as quickly and accurately as possible. After participants responded to a cue the PAS appeared and was used for rating; this was then followed by a discrimination task. The time limit for all responses was 3s. The outline of the procedure is presented in Fig. 1.
 * After each session, participants’ accuracy in the motor cue and Gabor discrimination task was estimated so that participants with low accuracy would go through the training session again.
 
-![[Pasted image 20251211193320.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_9_Dual_Task_1.png)
 
 #### Behavioural Measures 
 * Accuracy

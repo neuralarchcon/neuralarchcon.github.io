@@ -41,7 +41,7 @@ This task follows the same experimental logic as the visual and auditory metacog
 
 * The perceptual decision and confidence rating phases are time-restricted. No feedback is delivered to subjects about their performance.
 
-![[Pasted image 20251211194242.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_11_Multimod_Meta_pain_1.png)
 
 #### Behavioural Measures
 * Accuracy
