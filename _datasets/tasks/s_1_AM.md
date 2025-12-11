@@ -1,23 +1,39 @@
 ---
 layout: dataset
-title: "Multi-site memory"
-modality: ["Behavior"]
-participants: 254
-paradigm: ["memory", "paired associate learning", "PAL", "vision", "confidence", "metacognition", "multi-site"]
-site: ["Aarhus", "Krakow", "Brno"]
-contact: ["Jovana Bjekic", "Dunja Paunovic", "Kristian Sandberg"]
-email1: ["jovana.bjekic@imi.bg.ac.rs", "dunja.paunovic@imi.bg.ac.rs", "kristian.sandberg@cfin.au.dk"]
-CC: ["Katarina Vulic", "Milan Brázdil", "Michal Wierzchon"]
-email2: ["vulic@biomed.ee.ethz.ch", "milan.brazdil@ceitec.muni.cz", "michal.wierzchon@uj.edu.pl"]
+title: Associative memory
+modality:
+  - behavior
+domain:
+  - vision
+  - memory
+paradigm:
+  - paired associate learning
+  - PAL
+  - confidence
+  - metacognition
+site:
+  - Aarhus
+  - Krakow
+  - Brno
+contact:
+  - Jovana Bjekic
+  - Dunja Paunovic
+  - Kristian Sandberg
+email:
+  - jovana.bjekic@imi.bg.ac.rs
+  - dunja.paunovic@imi.bg.ac.rs
+  - kristian.sandberg@cfin.au.dk
 ratings: true
-summary: "Scene-item paired associative memory task with confidence rating"
+summary: Scene-item paired associative memory task with confidence rating. Memory metacognition task + implicit memory.
+participants: 254
+cost_group: memory
 citation:
 doi:
 ---
 
 {% include JB/setup %}
 
-Scene-item paired associative memory task with confidence rating after recognition of old or new pairs. Additionally, there is a repeated encoding of the pairs, followed by recognition of single scenes and a cued recall.
+ Scene-item ( landscape fotographs and objects) paired associative memory task with confidence rating after recognition of old or new pairs. Additionally, there is a repeated encoding of the pairs, followed by recognition of single scenes and a cued recall.
 
 ![]({{ BASE_PATH }}/assets/images/datasets/paradigm_multisite.png)
 
@@ -29,3 +45,5 @@ Scene-item paired associative memory task with confidence rating after recogniti
 
 ![]({{ BASE_PATH }}/assets/images/datasets/detailed_paradigm_multisite.png) 
 
+#### Related publications
+1. Bjekić, J., Vulić, K., Živanović, M., Vujičić, J., Ljubisavljević, M., & Filipović, S. R. (2019). The immediate and delayed effects of single tDCS session over posterior parietal cortex on face-word associative memory. Behavioural brain research, 366, 88-95. [https://doi.org/10.1016/j.bbr.2019.03.023](https://doi.org/10.1016/j.bbr.2019.03.023)

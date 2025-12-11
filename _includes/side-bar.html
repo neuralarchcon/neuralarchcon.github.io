@@ -1,25 +1,45 @@
 {% if page.collection == "datasets" %}
 <div class="blog-block about-sidebar-widget">
+  {% if page.modality and page.modality.size > 0 %}
   <h4>Modalities:</h4>
   <p>{{ page.modality | join: ", " }}</p>
-  
+  {% endif %}
+
+  {% if page.domain and page.domain.size > 0 %}
+  <h4>Domain:</h4>
+  <p>{{ page.domain | join: ", " }}</p>
+  {% endif %}
+
+  {% if page.paradigm and page.paradigm.size > 0 %}
+  <h4>Paradigm:</h4>
+  <p>{{ page.paradigm | join: ", " }}</p>
+  {% endif %}
+
+  {% if page.participants %}
   <h4>Participants:</h4>
   <p>{{ page.participants }}</p>
-  
+  {% endif %}
+
+  {% if page.site and page.site.size > 0 %}
   <h4>Site:</h4>
   <p>{{ page.site | join: ", " }}</p>
-  
+  {% endif %}
+
+  {% if page.authors and page.authors.size > 0 %}
   <h4>Authors:</h4>
   <p>{{ page.authors | join: "<br> " }}</p>
+  {% endif %}
 
+  {% if page.contact and page.contact.size > 0 %}
   <h4>Contact:</h4>
   {% for contact in page.contact %}
     <p><a href="mailto:{{ page.email[forloop.index0] }}">{{ contact }}</a></p>
   {% endfor %}
+  {% endif %}
 
   {% if page.doi %}
-    <h4>How to cite:</h4>
-    <p><a href="{{ page.doi }}">{{ page.citation }}</a></p>
+  <h4>How to cite:</h4>
+  <p><a href="{{ page.doi }}">{{ page.citation }}</a></p>
   {% endif %}
 </div>
 {% else %}

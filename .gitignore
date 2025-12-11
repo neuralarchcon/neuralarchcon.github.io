@@ -10,3 +10,4 @@ _site/
 vendor/bundle/
 .bundle/
 Gemfile.lock
+CLAUDE.md
