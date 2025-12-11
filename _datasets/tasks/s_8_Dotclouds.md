@@ -31,7 +31,7 @@ In each trial, participants were asked to indicate the mean motion direction of 
 
 #### Detailed description
 
-![[Pasted image 20251210051545.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_8_Dotclouds_1.png)
 
 #### Behavioural Measures 
 * Accuracy

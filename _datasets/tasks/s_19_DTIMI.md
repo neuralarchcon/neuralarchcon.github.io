@@ -37,9 +37,9 @@ doi:
 * The experimental paradigm of E2a. The display on the top left with two faces on the sides and a small landolt in the middle is associated with two different tasks (bottom row): the participant either has to indicate whether the faces have a similar orientation or rate the visibility of the small landolt square. In the single task condition (see methods) all these tasks are trained independently, but in the main experimental phase (dual-task condition) the participant has to be prepared for all these tasks. In the dual-task condition the participants had to perform the face task on 90% of trials, thus ensuring that attention is diverted away from the faint landolt stimulus. In the critical trials there was no landolt, but the participants were nevertheless prompted to rate the visibility of the physically absent stimulus.
 * The experimental paradigm of E2b. The display on the top left with circles in the corners and a letter display in the middle is associated with three different tasks (bottom row): the participant either has to indicate whether the circles are similar, type in the letters or rate the visibility of the letters. In the single task condition (see methods) all these tasks are trained independently, but in the main experimental phase (dual-task condition) the participant has to be prepared for all these tasks. In the dual-task condition the participants had to perform the circle task on 90% of trials, thus ensuring that attention is diverted away from the letters. In the critical trials there were no letters, but the participants were nevertheless prompted to rate the visibility of the physically absent stimuli
 
-![[Pasted image 20251211205305.png]]
-![[Pasted image 20251211205357.png]]
-![[Pasted image 20251211205532.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_19_DTIMI_1.png)
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_19_DTIMI_2.png)
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_19_DTIMI_3.png)
 
 #### Behavioural Measures
 * Accuracy

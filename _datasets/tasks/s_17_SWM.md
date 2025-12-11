@@ -30,7 +30,7 @@ doi:
 
 Eight objects were each presented in a box arranged in a circular array. After the offset of the objects, the boxes remained on the screen; the frame of one of them turned red, and a line pointed to this box. The participants then had to select between two images or words, one corresponding to the target object and one corresponding to an object not presented in the array. Subsequently, participants reported their awareness of the object using the Perceptual Awareness Scale (PAS).
 
-![[Pasted image 20251211201757.png]]
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_17_SWM_1.png)
 #### Detailed description
 
 * . Each trial started with a fixation cross (plus sign; font type, “Times”; font size, 32) that appeared for 1 s. Thereafter, 8 objects were presented arranged in an imaginary circle around the fixation cross (radius of the imaginary circle, 4.82°; size of each object, 2.41 ° x 2.41° of visual angles). Each object was placed inside a thin, black, square frame and was visible for 250 ms. After that time, only the empty frames remained on the screen; after 100 ms they were accompanied by a cue in the form of a red line pointing towards one of the frames (the cued frame also turned red). The cue and the red frame remained on the screen for 500 ms. There was a 1400 ms time interval between the cue and the frame’s disappearance and the onset of the test display.
