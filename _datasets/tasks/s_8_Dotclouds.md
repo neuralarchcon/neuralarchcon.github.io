@@ -28,10 +28,11 @@ doi:
 
 In each trial, participants were asked to indicate the mean motion direction of a random-dot kinetogram by clicking within a circular frame located on top, to the right or to the left of the stimulus (first-order task). They were then asked to report how confident they were in their response (second-order task) by moving the mouse cursor on a visual analogue scale with marks between 0% (certainty that the first-order response was erroneous) and 100% (certainty that the first-order response was correct) in 5% steps.
 
-![[Pasted image 20251210051545.png]]
+
 #### Detailed description
 
-* 
+![[Pasted image 20251210051545.png]]
+
 #### Behavioural Measures 
 * Accuracy
 * RT

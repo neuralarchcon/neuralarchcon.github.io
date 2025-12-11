@@ -41,6 +41,8 @@ This task follows the same experimental logic as the visual and auditory metacog
 
 * The perceptual decision and confidence rating phases are time-restricted. No feedback is delivered to subjects about their performance.
 
+![[Pasted image 20251211194242.png]]
+
 #### Behavioural Measures
 * Accuracy
 * RT1 (reaction time for perceptual decision)

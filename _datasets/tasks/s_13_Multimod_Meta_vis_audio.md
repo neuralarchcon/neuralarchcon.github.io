@@ -33,6 +33,5 @@ Visual and auditory metacognition tasks. Simple 2-AFC (two-alternative forced ch
 
 #### Detailed description
 
-
 #### Related publications
 1. Zylberberg, A., Bartfeld, P., & Signman, M. (2012). The construction of confidence in perceptual decision. Frontiers in integrative neuroscience,6, 79.

@@ -39,6 +39,7 @@ Battery with following tasks:
 4. Rubin Face-Vase (312 datasets)
 5. Stream/Bounce Illusion (182 datasets)
 6. Structure from motion [[s_3_SFM]]
+
 #### Detailed description
 
  * Approximate duration: 90 min for all 6_BP tasks
