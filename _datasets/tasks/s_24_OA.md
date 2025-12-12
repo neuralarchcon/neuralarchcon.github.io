@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Lag of Consciousness (Onset of Awareness)
+title: Lag of Consciousness
 modality:
   - behavior
 domain:
@@ -19,7 +19,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: true
-summary: Participants see continuously changing stimuli and have to rate in which state the stimulus was when they first saw it.
+summary: "Participants see continuously changing stimuli and have to rate in which state the stimulus was when they first saw it. (old name: Onset of Awareness)"
 participants: 344
 cost_group: perception
 citation:
@@ -29,6 +29,7 @@ doi:
 {% include JB/setup %}
 
 Participants see continuously changing stimuli and have to rate in which state the stimulus was when they first saw it.
+
 #### Detailed description
 
 * (New task&work in progress)
@@ -36,11 +37,15 @@ Participants see continuously changing stimuli and have to rate in which state t
 * Answer 1: Participant has to press a button as soon as the line is visible for them on the screen.
 * Answer 2: the participant has to move the line back to how long it was when they first saw it. The line always has a different starting length and does not always start from zero. 
 * As a last step, participant rates how confident they were that they have indicated the starting length accurately.
+
 #### Behavioural Measures
+
 * Accuracy
 * RT
 	* Answer 1 RT
 	* Answer 2 RT
-* Confidence rating
+* Confidence ratings
+
 #### Related publications
+
 1. Work in progress

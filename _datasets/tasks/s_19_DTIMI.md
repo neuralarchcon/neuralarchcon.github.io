@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Dual Task Iconic Memory Illusion
+title: "Dual Task: iconic memory illusion"
 modality:
   - behavior
 domain:
@@ -22,7 +22,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: false
-summary: Main task is to judge if the orientation of two faces, presented left and right to the fixation cross, are oriented the same way. Secondary task (asked only at some trials) is to judge perceptual clarity of a faint central Landoldt stimulus.
+summary: Task is to judge if two presented faces are oriented the same way and at some trials also to judge perceptual clarity of a central landoldt stimulus.
 participants: 321
 cost_group: perception
 citation:
@@ -30,6 +30,8 @@ doi:
 ---
 
 {% include JB/setup %}
+
+Expectations create illusory perception in a dual-task. Main task is to judge if the orientation of two faces, presented left and right to the fixation cross, are oriented the same way. Secondary task (asked only at some trials) is to judge perceptual clarity of a faint central Landoldt stimulus.
 
 #### Detailed description
 
@@ -42,9 +44,11 @@ doi:
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_19_DTIMI_3.png)
 
 #### Behavioural Measures
+
 * Accuracy
 * RT
 * Perceptual clarity rating
 
 #### Related publications
+
 1. Aru, J., Tulver, K., & Bachmann, T. (2018). It’s all in your head: Expectations create illusory perception in a dual-task setup. Consciousness and cognition, 65, 197-208.

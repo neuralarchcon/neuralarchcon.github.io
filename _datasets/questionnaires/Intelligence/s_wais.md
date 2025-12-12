@@ -58,7 +58,5 @@ The WAIS consists of two main categories of subtests:
 - **Digit Symbol**: Measures psychomotor speed and coding ability by associating symbols with numbers
 
 #### Related publications
-
-Kramer, J. H. (1990). Guidelines for interpreting WAIS-R subtest scores. Psychological Assessment: A Journal of Consulting and Clinical Psychology, 2(2), 202–205. https://doi.org/10.1037/1040-3590.2.2.202
-
-Cullum, C. M. (1998). Neuropsychological Assessment of Adults. Comprehensive Clinical Psychology, 303–347. doi:10.1016/b0080-4270(73)00227-3
+* Kramer, J. H. (1990). Guidelines for interpreting WAIS-R subtest scores. Psychological Assessment: A Journal of Consulting and Clinical Psychology, 2(2), 202–205. https://doi.org/10.1037/1040-3590.2.2.202
+* Cullum, C. M. (1998). Neuropsychological Assessment of Adults. Comprehensive Clinical Psychology, 303–347. doi:10.1016/b0080-4270(73)00227-3

@@ -39,7 +39,9 @@ Participants are looking at a virtual model of their hand while performing a fin
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_10_SoA_1.png)
 
 #### Behavioural Measures 
+
 * Confidence
 
 #### Related publications
+
 1. Krugwasser, A. R., Harel, E. V., & Salomon, R. (2019). The boundaries of the self: The sense of agency across different sensorimotor aspects. Journal of Vision, 19(4), 14-14.

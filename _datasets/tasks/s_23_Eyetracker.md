@@ -35,6 +35,7 @@ doi:
 Observers viewed black and white two-tone images while their eye movements were recorded. Two-tone images are derived from photographs of natural scenes (“templates”). Each two-tone appears as meaningless patches on initial viewing. Once an observer has acquired relevant prior object knowledge by viewing the corresponding template, however, processes of perceptual organization in the visual system bind the patches of the two-tone image into a coherent percept of an object.
 
 #### Detailed description: 
+
 -	We used 30 pairs of images, where each pair consisted of a two-tone image and its template in grayscale. 
 -	The main objects depicted in the images were either animals (25 images), humans (three images), or animals and humans (two images). 
 -	The eye movements were recorded using an EyeLink 1000+ eye-tracker (with a 500 Hz sampling rate).
@@ -45,4 +46,5 @@ Observers viewed black and white two-tone images while their eye movements were 
 ![graphical overview]({{ BASE_PATH }}/assets/images/datasets/two-tone-images.png)
 
 #### Related publications
+
 1. Pedziwiatr, M. A., Von dem Hagen, E., & Teufel, C. (2023). Knowledge-driven perceptual organization reshapes information sampling via eye movements. Journal of Experimental Psychology: Human Perception and Performance, 49(3), 408. [https://doi.org/10.1037/xhp0001080](https://doi.org/10.1037/xhp0001080)

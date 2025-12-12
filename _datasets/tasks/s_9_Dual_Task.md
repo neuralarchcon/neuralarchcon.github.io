@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Action/decision contributions to awareness
+title: Dual Task
 modality:
   - behavior
 domain:
@@ -20,7 +20,7 @@ site:
 contact:
 email:
 ratings: false
-summary: Interactions between performed motor act and perceptual clarity.
+summary: Interactions between performed motor act and perceptual clarity. Action/decision contributions to awareness.
 participants: 267
 cost_group: metacognition
 citation:
@@ -46,10 +46,12 @@ the current trial.
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_9_Dual_Task_1.png)
 
 #### Behavioural Measures 
+
 * Accuracy
 * RT Answ
 * RT PAS
 * PAS
 
 #### Related publications
+
 1. Siedlecka, M., Hobot, J., Skóra, Z., Paulewicz, B., Timmermans, B., & Wierzchoń, M. (2019). Motor response influences perceptual awareness judgements. Consciousness and cognition, 75, 102804, doi: 10.1016/j.concog.2019.102804.

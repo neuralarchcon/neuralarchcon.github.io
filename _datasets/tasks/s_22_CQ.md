@@ -28,8 +28,10 @@ doi:
 {% include JB/setup %}
 
 New measure under development.
+
 #### Detailed description
 
 *  Work in progress
+
 #### Related publications
 1. In the future!

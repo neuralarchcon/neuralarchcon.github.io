@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Judgements of learning
+title: Metacognitive judgements of learning emotional words
 modality:
   - behavior
 domain:
@@ -39,9 +39,11 @@ Metacognitive judgments of learning (JOLs) in a 30-trial memory task with emotio
 * The list of words used in the memory task consisted of 10 neutral, 10 negative and 10 positive adjectives. The words were associated with mood and self-esteem (e.g., sad, useless, relaxed, happy). Because the Polish language has grammatical gender, we used masculine or feminine versions of the adjectives depending on the participant’s gender. Words of different emotional valence were matched for frequency, length and imageability.
 
 #### Behavioural Measures
+
 * Accuracy
 * Ratings
 * PAS
 
 #### Related publications
+
 1. Siedlecka, M., Blaut, A., & Paulewicz, B. (preprint; 2020) Metacognition and memory of emotional information: Judgments of learning predict the affectivity congruence effect in free recall. doi.org/10.1101/2020.01.07.897165

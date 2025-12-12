@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Shape of Visual Field Capacity
+title: Shape of visual field capacity
 modality:
   - behavior
 domain:
@@ -30,6 +30,7 @@ doi:
 
 Eight objects were each presented in a box arranged in a circular array. After the offset of the objects, the boxes remained on the screen; the frame of one of them turned red, and a line pointed to this box. The participants then had to select between two images or words, one corresponding to the target object and one corresponding to an object not presented in the array. Subsequently, participants reported their awareness of the object using the Perceptual Awareness Scale (PAS).
 
+
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_17_SWM_1.png)
 #### Detailed description
 
@@ -38,9 +39,11 @@ Eight objects were each presented in a box arranged in a circular array. After t
 * In total, the experiment consisted of 200 trials. Each condition consisted of 100 trials with regular breaks every 25 trials. The memory arrays were constructed so as to not duplicate any of the presented objects inside each of the 25 trials
 
 #### Behavioural Measures 
+
 * Accuracy
 * RT
-* PAS
+* Perceptual Awareness Scale (PAS)
 
 #### Related publications
+
 1. Del Pin, S. H., Skóra, Z., Sandberg, K., Overgaard, M., & Wierzchoń, M. (2020). Comparing theories of consciousness: Object position, not probe modality, reliably influences experience and accuracy in object recognition tasks. Consciousness and Cognition, 84, 102990.
