@@ -20,7 +20,7 @@ contact:
 email:
 ratings: true
 summary: Action/decision contributions to awareness with a virtual hand movement task with judging whether the movement was veridical and confidence ratings.
-participants:
+participants: 286
 cost_group: metacognition
 citation:
 doi:
@@ -39,7 +39,9 @@ Participants are looking at a virtual model of their hand while performing a fin
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_10_SoA_1.png)
 
 #### Behavioural Measures 
+
 * Confidence
 
 #### Related publications
+
 1. Krugwasser, A. R., Harel, E. V., & Salomon, R. (2019). The boundaries of the self: The sense of agency across different sensorimotor aspects. Journal of Vision, 19(4), 14-14.

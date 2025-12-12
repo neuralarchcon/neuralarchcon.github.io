@@ -42,4 +42,4 @@ Over repeat administrations, variability in scores on the Perceived Stress Scale
 
 #### Related publications
 
-Harris KM, Gaffey AE, Schwartz JE, Krantz DS, Burg MM. The Perceived Stress Scale as a Measure of Stress: Decomposing Score Variance in Longitudinal Behavioral Medicine Studies. Ann Behav Med. 2023 Sep 13;57(10):846-854. doi: 10.1093/abm/kaad015. PMID: 37084792; PMCID: PMC10498818.
+* *arris KM, Gaffey AE, Schwartz JE, Krantz DS, Burg MM. The Perceived Stress Scale as a Measure of Stress: Decomposing Score Variance in Longitudinal Behavioral Medicine Studies. Ann Behav Med. 2023 Sep 13;57(10):846-854. [https://doi.org/10.1093/abm/kaad015](https://doi.org/10.1093/abm/kaad015)

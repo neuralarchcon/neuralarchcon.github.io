@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Bistable perception battery
+title: "Bistable perception: battery of tasks"
 modality:
   - behavior
 domain:
@@ -45,6 +45,7 @@ Battery with following tasks:
  * Approximate duration: 90 min for all 6_BP tasks
  
 #### Behavioural Measures 
+
 * Switches
 * Keys Pressed
 	* Proportion of time with no key (0)

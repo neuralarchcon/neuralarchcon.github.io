@@ -19,8 +19,8 @@ contact:
 email:
 ratings: true
 summary: Pain metacognition task using painful electrical stimulation + confidence ratings. Part of multimodal metacognition battery across sensory domains (vision, audition, touch, pain).
-participants:
-cost_group:
+participants: 261
+cost_group: metacognition
 citation:
 doi:
 ---
@@ -44,6 +44,7 @@ This task follows the same experimental logic as the visual and auditory metacog
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_11_Multimod_Meta_pain_1.png)
 
 #### Behavioural Measures
+
 * Accuracy
 * RT1 (reaction time for perceptual decision)
 * RT2 (reaction time for confidence rating)
@@ -51,5 +52,6 @@ This task follows the same experimental logic as the visual and auditory metacog
 * Metacognitive sensitivity (meta-d')
 
 #### Related publications
+
 1. Morales, J., Lau, H., & Fleming, S. M. (2018). Domain-general and domain-specific patterns of activity supporting metacognition in human prefrontal cortex. Journal of Neuroscience, 38(14), 3534-3546. [https://doi.org/10.1523/JNEUROSCI.2360-17.2018](https://doi.org/10.1523/JNEUROSCI.2360-17.2018)
 2. Vaccaro, A., Fleming, S.M. (2018) Thinking about thinking: A coordinate-based meta-analysis of neuroimaging studies of metacognitive judgments. Brain and Neuroscience Advances, 2, 1-14.

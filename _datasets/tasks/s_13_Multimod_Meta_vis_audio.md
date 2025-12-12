@@ -21,8 +21,8 @@ contact:
 email:
 ratings: true
 summary: Simple 2-AFC tasks in visual and auditory modalities with confidence ratings. Part of multimodal metacognition battery across sensory domains.
-participants:
-cost_group:
+participants: 291
+cost_group: metacognition
 citation:
 doi:
 ---
@@ -33,5 +33,8 @@ Visual and auditory metacognition tasks. Simple 2-AFC (two-alternative forced ch
 
 #### Detailed description
 
+* Work in progress
+*
 #### Related publications
+
 1. Zylberberg, A., Bartfeld, P., & Signman, M. (2012). The construction of confidence in perceptual decision. Frontiers in integrative neuroscience,6, 79.

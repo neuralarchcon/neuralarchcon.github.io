@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: Motor Metacognition
+title: "Trackpad: motor metacognition"
 modality:
   - behavior
 domain:
@@ -16,7 +16,7 @@ contact:
 email:
 ratings: true
 summary: Visual movement tracking. Relative position judgement of self-performed finger movements on a stylus + confidence ratings.
-participants:
+participants: 286
 cost_group: metacognition
 citation:
 doi:
@@ -38,4 +38,5 @@ Each trial was divided into four intervals of different durations, during which 
 ![]({{ BASE_PATH }}/assets/images/datasets/i_s_7_Trackpad_1.png)
 
 #### Related publications
+
 1. Filevich, E., Koß, C., & Faivre, N. (2019). Response-related signals increase confidence but not metacognitive performance. BioRxiv, 735712.
