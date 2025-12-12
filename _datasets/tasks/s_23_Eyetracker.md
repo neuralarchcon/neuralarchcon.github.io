@@ -3,6 +3,7 @@ layout: dataset
 title: Eye tracking with two-tone images
 modality:
   - eye-tracking
+  - behavior
 domain: vision
 paradigm:
   - perceptual organization

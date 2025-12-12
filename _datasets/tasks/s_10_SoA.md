@@ -20,7 +20,7 @@ contact:
 email:
 ratings: true
 summary: Action/decision contributions to awareness with a virtual hand movement task with judging whether the movement was veridical and confidence ratings.
-participants:
+participants: 286
 cost_group: metacognition
 citation:
 doi:

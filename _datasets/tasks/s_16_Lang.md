@@ -21,7 +21,7 @@ contact:
 email:
 ratings: true
 summary: Metacognitive judgments of learning and free recall of emotional adjectives. Prospective confidence rating for memorizing emotional/neutral words.
-participants:
+participants: 290
 cost_group: memory
 citation:
 doi:

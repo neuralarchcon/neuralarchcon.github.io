@@ -27,7 +27,7 @@ doi:
 
 {% include JB/setup %}
 
-![]({{ BASE_PATH }}/assets/images/datasets/i_s_20_BR_1.png)
+
 #### Detailed description
 
 *  Each eye was presented with a 4.5 or 20 Hz sinusoidal flicker throughout 3 min blocks. Subjects reported their perceptual state through button-press. Crossmodal cues (also 4.5 or 20 Hz; 2, 3.1 or 4 s in duration) or visual-only periods (2.6 s in duration) were separated by inter-stimulus intervals of 7–10 s.
@@ -35,7 +35,11 @@ doi:
 * Across all sessions, subjects were told to focus on accurately reporting their dominant visual percept at all times via button-press. As the state of the button-press was sampled at 60 Hz, the same rate as the video refresh rate, we were able to estimate the probability and time-course of binocular rivalry dynamics over 16.7 ms intervals.
 * Over two sessions on separate days, subjects distributed attention between visual rivalry and crossmodal cues based on separate task instructions. On day 1 for _n_ = 18 or day 2 for _n_ = 16, subjects were instructed to ignore the crossmodal cues and to focus on reporting only visual rivalry. For the other session, subjects were instructed to distribute attention across both visual rivalry and crossmodal cues. To ensure their attention was on task, these alternate days included task instructions for subjects to silently tally the number of times the temporal frequency of an attended crossmodal cue matched that of their dominant visual percept at the time of crossmodal cue’s offset. Due to the varied duration of crossmodal cues, this task ensured that attention was allocated consistently throughout the presentation of crossmodal cues.
 
-#### Behavioural Measures
+![]({{ BASE_PATH }}/assets/images/datasets/i_s_20_BR_1.png)
 
+#### Behavioural Measures
+* Button-press
+* Accuracy
+* Perceptual switch index (PSI)
 #### Related publications
 1. Davidson, M. J., Alais, D., van Boxtel, J. J., & Tsuchiya, N. (2018). Attention periodically samples competing stimuli during binocular rivalry. Elife, 7, e40868. https://doi.org/10.7554/eLife.40868.002

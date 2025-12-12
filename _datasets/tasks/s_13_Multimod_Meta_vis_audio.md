@@ -21,7 +21,7 @@ contact:
 email:
 ratings: true
 summary: Simple 2-AFC tasks in visual and auditory modalities with confidence ratings. Part of multimodal metacognition battery across sensory domains.
-participants:
+participants: 291
 cost_group:
 citation:
 doi:

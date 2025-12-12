@@ -16,7 +16,7 @@ contact:
 email:
 ratings: true
 summary: Visual movement tracking. Relative position judgement of self-performed finger movements on a stylus + confidence ratings.
-participants:
+participants: 286
 cost_group: metacognition
 citation:
 doi:

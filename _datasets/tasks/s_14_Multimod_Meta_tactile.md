@@ -19,7 +19,7 @@ contact:
 email:
 ratings: true
 summary: Tactile detection and discrimination task using non-painful electric pulses + confidence ratings. Part of multimodal metacognition battery across sensory domains.
-participants:
+participants: 214
 cost_group:
 citation:
 doi:

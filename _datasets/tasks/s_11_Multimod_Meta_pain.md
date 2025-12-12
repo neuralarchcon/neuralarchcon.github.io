@@ -19,7 +19,7 @@ contact:
 email:
 ratings: true
 summary: Pain metacognition task using painful electrical stimulation + confidence ratings. Part of multimodal metacognition battery across sensory domains (vision, audition, touch, pain).
-participants:
+participants: 261
 cost_group:
 citation:
 doi:
