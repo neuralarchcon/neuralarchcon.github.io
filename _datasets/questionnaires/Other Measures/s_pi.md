@@ -2,9 +2,9 @@
 layout: dataset
 title: PI-WSUR – Padua Inventory, Washington State University Revision
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - mental health
+  - Mental health
 paradigm:
   - OCD symptoms
   - obsessions and compulsions

@@ -2,10 +2,10 @@
 layout: dataset
 title: LOT-R – Revised Life Orientation Test
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - personality
-  - mental health
+  - Personality
+  - Mental health
 paradigm:
   - optimism
   - pessimism

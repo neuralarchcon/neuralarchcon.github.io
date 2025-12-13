@@ -2,9 +2,9 @@
 layout: dataset
 title: IRI – Interpersonal Reactivity Index
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - social cognition
+  - Social cognition
 paradigm:
   - empathy assessment
   - interpersonal functioning

@@ -2,10 +2,10 @@
 layout: dataset
 title: SPQ-BR – Schizotypal Personality Questionnaire, Brief Revised (Updated)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - personality
-  - mental health
+  - Personality
+  - Mental health
 paradigm:
   - schizotypy
   - personality traits

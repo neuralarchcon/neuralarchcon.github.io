@@ -4,7 +4,7 @@ title: "Multimodal metacognition: non-painful electric pulses"
 modality:
   - behavior
 domain:
-  - somatosensory
+  - Somatosensory
 paradigm:
   - metacognition
   - confidence
@@ -18,7 +18,7 @@ contact:
   - Katarzyna Hat
 email:
 ratings: true
-summary: Tactile detection and discrimination task using non-painful electric pulses + confidence ratings. Part of multimodal metacognition battery across sensory domains.
+summary: Tactile metacognition task using non-painful electrical stimulation with confidence ratings. Participants detect or discriminate properties of electric pulses delivered to the skin and rate their confidence in perceptual decisions on a 6-point scale. Part of multimodal metacognition battery across sensory domains.
 participants: 214
 cost_group: metacognition
 citation:
@@ -26,8 +26,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Tactile metacognition task using non-painful electrical stimulation. Participants detect or discriminate properties of electric pulses delivered to the skin and rate their confidence in perceptual decisions on a 6-point scale.
 
 #### Detailed description
 

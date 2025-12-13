@@ -2,9 +2,9 @@
 layout: dataset
 title: NSS / WNSS – Noise Sensitivity Scale / Weinstein Noise Sensitivity Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - auditory
+  - Auditory
 paradigm:
   - noise sensitivity
   - auditory perception

@@ -4,8 +4,8 @@ title: Metacognitive judgements of learning emotional words
 modality:
   - behavior
 domain:
-  - emotion
-  - metacognition
+  - Emotion
+  - Metacognition
 paradigm:
   - metacognition
   - emotional recognition
@@ -20,7 +20,7 @@ site:
 contact:
 email:
 ratings: true
-summary: Metacognitive judgments of learning and free recall of emotional adjectives. Prospective confidence rating for memorizing emotional/neutral words.
+summary: Metacognitive judgments of learning (JOLs) in a 30-trial memory task with emotional words. Participants study emotional and neutral adjectives, provide prospective confidence ratings about recall difficulty, complete a distracting task, then recall as many words as possible.
 participants: 290
 cost_group: memory
 citation:
@@ -28,8 +28,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Metacognitive judgments of learning (JOLs) in a 30-trial memory task with emotional words.
 
 #### Detailed description:
 

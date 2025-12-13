@@ -4,7 +4,7 @@ title: Structure from motion
 modality:
   - behavior
 domain:
-  - vision
+  - Vision
 paradigm:
   - perception
   - motion awareness
@@ -18,7 +18,7 @@ contact:
   - Kristian Sandberg
 email: kristian.sandberg@cfin.au.dk
 ratings: false
-summary: Participants have to look at a small cloud of white dots. These dots are perceived as a rotating sphere. The task is to continuously report perceived rotation direction.
+summary: Structure from motion task where participants view a small cloud of white dots perceived as a rotating sphere and continuously report the perceived rotation direction. An ambiguous sphere, which could be perceived as rotating in one of two directions, is presented on each 60-second trial.
 participants: 842
 cost_group: perception
 citation:
@@ -26,8 +26,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-An ambiguous sphere, which could be perceived as rotating in one of two directions, was presented on each 60 sec trial. Participants reported the perceived direction of rotation continuously and the percept duration was examined.
 
 #### Detailed description
 

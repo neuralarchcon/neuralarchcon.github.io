@@ -2,10 +2,10 @@
 layout: dataset
 title: IDEA – Inventory for Déjà Vu Experiences Assessment
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
-  - consciousness states
+  - Memory
+  - States of consciousness
 paradigm:
   - déjà vu
   - anomalous experiences

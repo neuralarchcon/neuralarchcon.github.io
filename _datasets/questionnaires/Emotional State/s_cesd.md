@@ -2,9 +2,9 @@
 layout: dataset
 title: CES-D – Center for Epidemiologic Studies Depression Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - mental health
+  - Mental health
 paradigm:
   - depression
   - affective state

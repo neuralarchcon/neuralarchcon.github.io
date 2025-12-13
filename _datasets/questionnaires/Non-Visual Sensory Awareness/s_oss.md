@@ -2,9 +2,9 @@
 layout: dataset
 title: OSS – Olfaction Sensitivity Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - olfaction
+  - Olfaction
 paradigm:
   - olfactory sensitivity
   - sensory perception

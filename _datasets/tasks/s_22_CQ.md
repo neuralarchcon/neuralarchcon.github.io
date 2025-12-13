@@ -3,9 +3,8 @@ layout: dataset
 title: Consciousness Questionnaire
 modality:
   - behavior
-  - questionnaire
 domain:
-  - consciousness states
+  - Consciousness states
 paradigm:
   - subjective memory
   - everyday cognition
@@ -18,7 +17,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: false
-summary: A series of questions to assess the structure and properties of a person's conscious experience
+summary: Consciousness Questionnaire - a series of questions designed to assess the structure and properties of a person's conscious experience. New measure under development.
 participants:
 cost_group:
 citation:
@@ -26,8 +25,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-New measure under development.
 
 #### Detailed description
 

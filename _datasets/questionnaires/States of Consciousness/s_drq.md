@@ -2,9 +2,9 @@
 layout: dataset
 title: DRQ – Dream Recall Questionnaire
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - consciousness states
+  - States of consciousness
 paradigm:
   - dream recall
   - sleep experience

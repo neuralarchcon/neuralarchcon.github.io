@@ -2,9 +2,9 @@
 layout: dataset
 title: PSS – Perceived Stress Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - mental health
+  - Mental health
 paradigm:
   - stress perception
 site:

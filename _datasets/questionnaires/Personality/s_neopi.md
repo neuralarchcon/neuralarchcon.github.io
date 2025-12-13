@@ -2,9 +2,9 @@
 layout: dataset
 title: NEO-PI-R / NEO-FFI – NEO Personality Inventory
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - personality
+  - Personality
 paradigm:
   - Big Five personality
   - trait assessment

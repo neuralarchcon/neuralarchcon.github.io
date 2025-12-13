@@ -2,10 +2,10 @@
 layout: dataset
 title: MAIA-2 – Multidimensional Assessment of Interoceptive Awareness (Version 2)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - interoception
-  - emotion
+  - Interoception
+  - Emotion
 paradigm:
   - interoceptive awareness
 site:

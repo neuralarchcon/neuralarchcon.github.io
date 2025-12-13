@@ -2,11 +2,9 @@
 layout: dataset
 title: Structural and Functional MRI
 modality:
-  - MRI
+  - neurobiomarkers
 domain:
-  - brain structure
-  - functional connectivity
-  - anatomical connectivity
+  - MRI
 paradigm:
   - resting state
   - diffusion imaging

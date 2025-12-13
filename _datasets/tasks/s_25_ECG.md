@@ -1,15 +1,15 @@
 ---
 layout: dataset
-title: Interoceptive awareness in metacognitve judgements
+title: Interoceptive awareness in metacognitive judgements
 modality:
   - behavior
-  - ECG
-  - EEG
+  - neurobiomarkers
 domain:
-  - brain activity
-  - integration
-  - interoception
-  - metacognition
+  - EEG
+  - Brain activity
+  - Integration
+  - Interoception
+  - Metacognition
 paradigm:
   - decision
   - interoceptive awareness
@@ -25,7 +25,7 @@ contact:
   - Marta Łukowska
 email:
 ratings: false
-summary: Error-related interoceptive states (e.g. cardiac response) informing metacognitive judgements accuracy on visibility.
+summary: Visual discrimination task with ECG measurement where participants make orientation judgments and visibility ratings, examining how error-related cardiac responses inform metacognitive accuracy.
 participants:
 cost_group: metacognition
 citation:
@@ -33,8 +33,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Measures regarding how the accuracy-dependent difference in response-related cardiac activity might be used as a cue when making metacognitive judgments. Auditory feedback about cardiac activity (ECG) is delivered during the procedure and it's impact on visibility judgement and metacognitive accuracy is measured.
 
 #### Detailed description
 

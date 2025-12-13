@@ -2,10 +2,10 @@
 layout: dataset
 title: GAD-7 – Generalized Anxiety Disorder 7-item Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - emotion
-  - mental health
+  - Emotion
+  - Mental health
 paradigm:
   - anxiety assessment
   - mental health screening

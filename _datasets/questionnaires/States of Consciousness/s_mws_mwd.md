@@ -2,9 +2,9 @@
 layout: dataset
 title: MW-S / MW-D – Mind-Wandering Spontaneous and Deliberate
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - consciousness states
+  - States of consciousness
 paradigm:
   - mind wandering
   - spontaneous thought

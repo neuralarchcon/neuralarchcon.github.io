@@ -2,12 +2,9 @@
 layout: dataset
 title: Genetic Profiling
 modality:
-  - Genetics
+  - neurobiomarkers
 domain:
-  - genetics
-  - brain structure
-  - behavioral traits
-  - consciousness
+  - Genetics
 paradigm:
   - genome-wide association
   - polygenic risk scores

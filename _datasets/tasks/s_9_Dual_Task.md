@@ -4,8 +4,8 @@ title: Dual Task
 modality:
   - behavior
 domain:
-  - vision
-  - somatosensory
+  - Vision
+  - Somatosensory
 paradigm:
   - metacognition
   - perception
@@ -20,7 +20,7 @@ site:
 contact:
 email:
 ratings: false
-summary: Interactions between performed motor act and perceptual clarity. Action/decision contributions to awareness.
+summary: Perceptual discrimination task where participants rate stimulus clarity after responding to motor cues that are either neutral or overlapping with the stimulus-required response.
 participants: 267
 cost_group: metacognition
 citation:
@@ -28,11 +28,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Participants rated their stimuli awareness during a perceptual discrimination task. Before awareness ratings participants responded to the motor cue. Cued response could be neutral or overlapping with the stimulus-required response. Response overlapping with stimulus-required response increased stimulus awareness.
-
-Fig. 1. The outline of the experimental procedure. Please note that congruence of the cued response refers to the correct discrimination response in
-the current trial.
 
 #### Detailed description
 

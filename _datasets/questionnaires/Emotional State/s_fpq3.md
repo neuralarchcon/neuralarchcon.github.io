@@ -2,10 +2,10 @@
 layout: dataset
 title: FPQ-3 – Fear of Pain Questionnaire (Version 3)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - emotion
-  - somatosensory
+  - Emotion
+  - Somatosensory
 paradigm:
   - fear assessment
   - pain anticipation

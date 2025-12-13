@@ -2,9 +2,9 @@
 layout: dataset
 title: ARSQ-2 – Amsterdam Resting State Questionnaire (Version 2)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - consciousness states
+  - States of consciousness
 paradigm:
   - resting state
   - mind wandering

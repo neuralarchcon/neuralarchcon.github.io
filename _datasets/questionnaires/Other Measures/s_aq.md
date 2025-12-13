@@ -2,10 +2,10 @@
 layout: dataset
 title: AQ-Short – Autism-Spectrum Quotient (Abridged Version)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - personality
-  - social cognition
+  - Personality
+  - Social cognition
 paradigm:
   - autism traits
   - social behavior

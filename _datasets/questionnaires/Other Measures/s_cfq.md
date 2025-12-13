@@ -2,9 +2,9 @@
 layout: dataset
 title: CFQ – Cognitive Failures Questionnaire
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
+  - Memory
 paradigm:
   - cognitive failures
   - everyday cognition

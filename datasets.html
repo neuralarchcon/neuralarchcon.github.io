@@ -14,7 +14,7 @@ canonical:
 
 <style>
 .accordion .card {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
 }
@@ -32,12 +32,12 @@ canonical:
     color: #333;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.25rem;
-    padding: 1rem 1.25rem;
+    font-size: 1.1rem;
+    padding: 0.75rem 1rem;
 }
 
 .accordion .card-header .btn-link:hover {
-    color: #007bff;
+    color: #ff6b35;
     text-decoration: none;
 }
 
@@ -47,39 +47,90 @@ canonical:
 }
 
 .accordion .card-body {
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 .dataset-item {
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid #eee;
 }
 
 .dataset-item:last-child {
     border-bottom: none;
 }
+
+.dataset-item h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+
+.datasets-excerpt {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.dataset-meta {
+    font-size: 0.85rem;
+}
 </style>
 {% include JB/setup %}
 
 <div class="container">
-    <div class="page-header-title">
-        <h2 class="heading-title color-title text-left">Datasets</h2>
+    <div class="page-header-title" style="margin-bottom: 0;">
+        <h2 class="heading-title color-title text-left" style="margin-bottom: 0;">Datasets</h2>
     </div>
 </div>
 
+<!-- Database Overview Section -->
+<section class="database-overview" style="padding-top: 0.5rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="overview-card" style="background-color: #f8f9fa; padding: 1.25rem; border-radius: 0.25rem; margin-bottom: 1.5rem;">
+                    <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem;">
+                        The NeurArchCon database is a <strong>multi-site investigation of individual differences in consciousness</strong>, collected across Krakow, Aarhus, and Brno. The database adopts a multidimensional approach, investigating key dimensions through behavioral tasks, questionnaires, and neurobiological measurements: visual awareness, non-visual sensory awareness, memory, metacognition, integration, emotional state, personality, states of consciousness, and intelligence.
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="overview-item" style="margin-bottom: 0.75rem;">
+                                <h6 style="color: #ff6b35; font-weight: 600; margin-bottom: 0.5rem;">Behavioral Component</h6>
+                                <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0;">20+ experimental tasks measuring distinct aspects of consciousness through detection and discrimination paradigms, bistable perception tasks (binocular rivalry, structure from motion, Necker cube), metacognitive tasks with confidence ratings, and multisensory integration paradigms.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="overview-item" style="margin-bottom: 0.75rem;">
+                                <h6 style="color: #ff6b35; font-weight: 600; margin-bottom: 0.5rem;">Questionnaire Battery</h6>
+                                <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0;">Validated instruments including VVIQ-2 (visual imagery), MAIA-2 (interoceptive awareness), NEO-PI-R (personality), and measures of memory function, emotional states, mindfulness, and states of consciousness.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="overview-item" style="margin-bottom: 0.75rem;">
+                                <h6 style="color: #ff6b35; font-weight: 600; margin-bottom: 0.5rem;">Neurobiological Data</h6>
+                                <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0;"><strong>MRI:</strong> Resting-state fMRI, Multiparameter Mapping (MPM), diffusion-weighted imaging (DWI). <strong>EEG:</strong> High-density recordings during standard and naturalistic states. <strong>Genetics:</strong> Raw genetic data available for analysis. All data are BIDS-compliant with rigorous quality control.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Datasets content + sidebar -->
-<section class="datasets">
+<section class="datasets" style="padding-top: 1rem;">
     <div class="container">
         <div class="row">
 
             <!-- Selectors for datasets-->
-            <div class="col-sm-12 col-md-3">
-                <input type="text" id="datasetInput" placeholder="Search for a Dataset.." title="Type in a word"><br />
+            <div class="col-sm-12 col-md-3" style="font-size: 0.9rem;">
+                <input type="text" id="datasetInput" placeholder="Search for a Dataset.." title="Type in a word" style="margin-bottom: 0.75rem; padding: 0.375rem 0.75rem; font-size: 0.9rem;"><br />
 
-                <br>
                 <!-- Dynamically generate domain checkboxes -->
-                <span><strong>Domain:</strong></span><br>
+                <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Domain:</span>
                 {% assign all_domains = "" | split: "" %}
                 {% for dataset in site.datasets %}
                     {% for domain in dataset.domain %}
@@ -89,15 +140,18 @@ canonical:
                     {% endfor %}
                 {% endfor %}
                 {% assign sorted_domains = all_domains | sort %}
+                <div style="margin-bottom: 0.75rem;">
                 {% for domain in sorted_domains %}
-                <input type="checkbox" class="domainCheckbox" name="{{ domain | slugify }}Checkbox" value="{{ domain }}"> {{ domain | capitalize }}<br>
+                <input type="checkbox" class="domainCheckbox" name="{{ domain | slugify }}Checkbox" value="{{ domain }}"> {{ domain }}<br>
                 {% endfor %}
+                </div>
 
-                <br>
-                <span><strong>Site:</strong></span><br>
+                <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Site:</span>
+                <div>
                 <input type="checkbox" class="siteCheckbox" name="AarhusCheckbox" value="Aarhus"> Aarhus<br>
                 <input type="checkbox" class="siteCheckbox" name="BrnoCheckbox" value="Brno"> Brno<br>
                 <input type="checkbox" class="siteCheckbox" name="KrakowCheckbox" value="Krakow"> Krakow<br>
+                </div>
             </div>
 
             <div class="col-sm-12 col-md-9">
@@ -115,11 +169,17 @@ canonical:
                 <!-- Create accordion for each modality category -->
                 <div class="accordion" id="datasetAccordion">
                     {% for modality in sorted_modalities %}
+                    {% assign modality_count = 0 %}
+                    {% for dataset in site.datasets %}
+                        {% if dataset.modality contains modality %}
+                            {% assign modality_count = modality_count | plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
                     <div class="card modality-section" data-modality="{{ modality }}">
                         <div class="card-header" id="heading{{ modality | slugify }}">
                             <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{ modality | slugify }}" aria-expanded="true" aria-controls="collapse{{ modality | slugify }}">
-                                    {{ modality | capitalize }}
+                                    {{ modality }} <span class="modality-count" data-modality="{{ modality }}" style="color: #ff6b35; font-weight: 600;">({{ modality_count }})</span>
                                 </button>
                             </h2>
                         </div>
@@ -223,11 +283,27 @@ canonical:
             });
         };
 
+        function updateModalityCounts() {
+            const modalityCountElements = document.querySelectorAll('.modality-count');
+
+            modalityCountElements.forEach(countElement => {
+                const modality = countElement.getAttribute('data-modality');
+                const modalitySection = document.querySelector(`.modality-section[data-modality="${modality}"]`);
+
+                if (modalitySection) {
+                    const datasetsInSection = modalitySection.querySelectorAll('.dataset-item');
+                    const visibleCount = Array.from(datasetsInSection).filter(dataset => dataset.style.display !== 'none').length;
+                    countElement.textContent = `(${visibleCount})`;
+                }
+            });
+        };
+
         function filterDatasets() {
             datasets.forEach(dataset => {
                 decideVisibility(dataset);
             });
             updateSectionVisibility();
+            updateModalityCounts();
         };
 
         datasetInput.addEventListener('input', filterDatasets);

@@ -22,6 +22,11 @@
 <div class="mb-60"></div>
       <div class="datacon row">
         <div class="col-sm-12 col-md-9">
+          {% if page.summary %}
+          <div class="dataset-summary" style="background-color: #f8f9fa; padding: 1rem; border-left: 4px solid #ff6b35; margin-bottom: 2rem;">
+            <p style="margin-bottom: 0; font-size: 1rem; line-height: 1.6;">{{ page.summary }}</p>
+          </div>
+          {% endif %}
            {{ content }}
           <div class="mb-60"></div>
           <div class="mb-60"></div>

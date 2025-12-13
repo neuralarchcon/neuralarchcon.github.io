@@ -4,9 +4,9 @@ title: Sound Induced Flash Illusion
 modality:
   - behavior
 domain:
-  - auditory
-  - vision
-  - integration
+  - Auditory
+  - Vision
+  - Integration
 paradigm:
   - perception
   - multimodal integration
@@ -21,7 +21,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: false
-summary: The SIFI occurs when sounds influence the number of perceived visual events. During the task participant perceives one or two flashes of a central white disc, paired with no/one/two short beeps.
+summary: Sound-Induced Flash Illusion task where participants report the number of visual flashes (one or two) presented with accompanying beeps (none, one, or two), assessing crossmodal influences on visual perception.
 participants: 577
 cost_group: perception
 citation:
@@ -29,8 +29,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-In the Sound-Induced Flash Illusion (SIFI) sound alters visual perception. Presenting a single flash with two beeps results in the perception of two flashes. It is expected that the SIFI would be influenced by experience.
 
 #### Detailed description
 

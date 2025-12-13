@@ -4,7 +4,7 @@ title: "Trackpad: motor metacognition"
 modality:
   - behavior
 domain:
-  - vision
+  - Vision
 paradigm:
   - metacognition
   - motion awareness
@@ -15,7 +15,7 @@ site:
 contact:
 email:
 ratings: true
-summary: Visual movement tracking. Relative position judgement of self-performed finger movements on a stylus + confidence ratings.
+summary: Motor metacognition task where participants perform finger movements on a trackpad while observing drifting gratings, then judge the relative duration of visual stimuli and rate confidence in their decisions.
 participants: 286
 cost_group: metacognition
 citation:
@@ -23,8 +23,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Each trial was divided into four intervals of different durations, during which four red and green stimuli were presented in alternation. The total, summed duration of each pair of same-colored stimulus presentations corresponded to half the trial length (2.5 s) plus or minus a temporal difference determined by a staircase. Further, each single stimulus presentation interval corresponded to half of the sum of the stimulus pair length. The first-order 2AFC task consisted of a duration comparison, followed by a confidence rating.
 
 #### Detailed description
 

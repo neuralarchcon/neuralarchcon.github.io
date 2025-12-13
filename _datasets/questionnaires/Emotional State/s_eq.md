@@ -2,9 +2,9 @@
 layout: dataset
 title: EQ-Short – Empathy Quotient-Short
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - social cognition
+  - Social cognition
 paradigm:
   - social cognition
 site:

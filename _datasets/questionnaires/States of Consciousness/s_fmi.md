@@ -2,9 +2,9 @@
 layout: dataset
 title: FMI – Freiburg Mindfulness Inventory
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - consciousness states
+  - States of consciousness
 paradigm:
   - mindfulness
   - present-moment awareness

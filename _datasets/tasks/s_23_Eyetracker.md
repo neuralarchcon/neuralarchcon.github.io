@@ -2,9 +2,8 @@
 layout: dataset
 title: Eye tracking with two-tone images
 modality:
-  - eye-tracking
   - behavior
-domain: vision
+domain: Vision
 paradigm:
   - perceptual organization
   - visual awareness
@@ -23,7 +22,7 @@ email:
   - marek.pedziwiatr@uj.edu.pl
   - TeufelC@cardiff.ac.uk
 ratings: true
-summary: Observers viewed black and white two-tone images while their eye movements were recorded
+summary: Eye tracking task with two-tone (Mooney-type) images where observers view black and white ambiguous images before and after disambiguation while their eye movements are recorded to assess knowledge-driven perceptual reorganization.
 participants: 20
 cost_group:
 citation:
@@ -32,9 +31,9 @@ doi:
 
 {% include JB/setup %}
 
-Observers viewed black and white two-tone images while their eye movements were recorded. Two-tone images are derived from photographs of natural scenes (“templates”). Each two-tone appears as meaningless patches on initial viewing. Once an observer has acquired relevant prior object knowledge by viewing the corresponding template, however, processes of perceptual organization in the visual system bind the patches of the two-tone image into a coherent percept of an object.
+#### Detailed description:
 
-#### Detailed description: 
+Two-tone images are derived from photographs of natural scenes ("templates"). Each two-tone appears as meaningless patches on initial viewing. Once an observer has acquired relevant prior object knowledge by viewing the corresponding template, processes of perceptual organization in the visual system bind the patches of the two-tone image into a coherent percept of an object.
 
 -	We used 30 pairs of images, where each pair consisted of a two-tone image and its template in grayscale. 
 -	The main objects depicted in the images were either animals (25 images), humans (three images), or animals and humans (two images). 

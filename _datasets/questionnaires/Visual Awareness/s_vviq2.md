@@ -2,9 +2,9 @@
 layout: dataset
 title: VVIQ-2 – Vividness of Visual Imagery Questionnaire 2
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - vision
+  - Vision
 paradigm:
   - LIT
 site:

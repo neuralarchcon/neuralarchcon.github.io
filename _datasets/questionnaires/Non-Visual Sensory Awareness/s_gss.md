@@ -2,14 +2,13 @@
 layout: dataset
 title: GSS / GSQ – Glasgow Sensory Sensitivity Scale / Glasgow Sensory Questionnaire
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - vision
-  - olfaction
-  - somatosensory
-  - olfaction
-  - gustatory
-  - auditory
+  - Vision
+  - Olfaction
+  - Somatosensory
+  - Gustatory
+  - Auditory
 paradigm:
   - sensory sensitivity
   - sensory processing

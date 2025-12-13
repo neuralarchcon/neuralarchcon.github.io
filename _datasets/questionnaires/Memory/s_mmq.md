@@ -2,9 +2,9 @@
 layout: dataset
 title: MMQ – Multifactorial Memory Questionnaire (Ability Subscale)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
+  - Memory
 paradigm:
   - metacognition
 site:

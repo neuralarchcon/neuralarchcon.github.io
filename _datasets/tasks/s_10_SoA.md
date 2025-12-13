@@ -4,9 +4,9 @@ title: Sense of agency
 modality:
   - behavior
 domain:
-  - vision
-  - somatosensory
-  - auditory
+  - Vision
+  - Somatosensory
+  - Auditory
 paradigm:
   - metacognition
   - perceptual awareness
@@ -19,7 +19,7 @@ site:
 contact:
 email:
 ratings: true
-summary: Action/decision contributions to awareness with a virtual hand movement task with judging whether the movement was veridical and confidence ratings.
+summary: Virtual hand movement task where participants perform finger movements while viewing a virtual model that can be veridical or temporally/spatially distorted, then judge whether the movement was veridical and rate confidence.
 participants: 286
 cost_group: metacognition
 citation:
@@ -27,8 +27,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Participants are looking at a virtual model of their hand while performing a finger movement. The virtual movement can be veridical or temporally/spatially distorted. The task is to judge whether the movement was veridical or not, and to rate confidence.
 
 #### Detailed description
 

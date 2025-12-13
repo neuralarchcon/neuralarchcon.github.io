@@ -2,10 +2,10 @@
 layout: dataset
 title: IAMI – Involuntary Autobiographical Memory Inventory
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
-  - consciousness states
+  - Memory
+  - States of consciousness
 paradigm:
   - involuntary memory
   - spontaneous cognition

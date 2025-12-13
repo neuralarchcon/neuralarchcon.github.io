@@ -2,11 +2,10 @@
 layout: dataset
 title: High-Density EEG Resting State
 modality:
-  - EEG
+  - neurobiomarkers
 domain:
-  - brain activity
-  - resting state
-  - states of consciousness
+  - EEG
+  - States of consciousness
 paradigm:
   - resting state
   - eyes open

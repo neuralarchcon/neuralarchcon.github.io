@@ -2,9 +2,9 @@
 layout: dataset
 title: WAIS – Wechsler Adult Intelligence Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - intelligence
+  - Intelligence
 paradigm:
   - IQ assessment
   - cognitive abilities
