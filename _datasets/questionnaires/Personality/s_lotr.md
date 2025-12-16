@@ -14,16 +14,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 10-item scale that assesses individual differences in generalized optimism and pessimism, measuring dispositional optimism as a relatively stable trait.
+ratings: false
+summary: A 10-item scale that assesses individual differences in generalized optimism and pessimism, measuring dispositional optimism as a relatively stable trait. Uses a 5-point Likert scale with higher scores indicating greater optimism.
 participants:
 citation: Scheier, M. F., Carver, C. S., & Bridges, M. W. (1994). Distinguishing optimism from neuroticism (and trait anxiety, self-mastery, and self-esteem) - A reevaluation of the Life Orientation Test. Journal of Personality and Social Psychology, 67(6), 1063-1078.
 doi:
 ---
 
 {% include JB/setup %}
-
-The LOT-R is a 10-item scale designed to assess individual differences in generalized optimism and pessimism. The measure uses a 5-point Likert scale (0 = strongly disagree; 1 = disagree; 2 = neutral; 3 = agree; 4 = strongly agree).
 
 #### Detailed description
 

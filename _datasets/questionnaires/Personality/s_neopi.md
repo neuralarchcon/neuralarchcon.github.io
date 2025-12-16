@@ -15,8 +15,8 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A comprehensive personality assessment measuring the Big Five personality dimensions (Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness). Sites use either NEO-PI-R (240 items) or NEO-FFI (60 items minimum).
+ratings: false
+summary: A comprehensive personality assessment based on the Five-Factor Model measuring the Big Five personality dimensions (Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness). The NEO-PI-R consists of 240 items across 30 facet scales, while the NEO-FFI is a shorter 60-item version.
 participants:
 citation: Costa, P. T., Jr., & McCrae, R. R. (2008). The Revised NEO Personality Inventory (NEO-PI-R). In G. J. Boyle, G. Matthews, & D. H. Saklofske (Eds.), The SAGE handbook of personality theory and assessment, Vol. 2. Personality measurement and testing (pp. 179–198). Sage Publications, Inc.
 doi: 10.4135/9781849200479.n9
@@ -24,11 +24,9 @@ doi: 10.4135/9781849200479.n9
 
 {% include JB/setup %}
 
-A comprehensive personality assessment based on the Five-Factor Model (Big Five). The NEO-PI-R consists of 30 eight-item facet scales (240 questions total), with 6 facets for each of the five basic personality factors. The NEO-FFI is a shorter version with 60 items (12 items per factor). Respondents answer using a 5-point rating scale, ranging from "strongly disagree" to "strongly agree."
-
-**Note**: Different sites use different versions - Krakow uses NEO-PI-R (240 items), while other sites may use NEO-FFI (60 items minimum) or NEO-PI-3.
-
 #### Detailed description
+
+**Note**: Different sites use different versions - Krakow uses NEO-PI-R (240 items), while other sites may use NEO-FFI (60 items minimum) or NEO-PI-3. Respondents answer using a 5-point rating scale, ranging from "strongly disagree" to "strongly agree."
 
 A personality trait refers to differences among individuals in a typical tendency to behave, think, or feel in some conceptually related ways, across a variety of relevant situations and across some fairly long period of time.
 

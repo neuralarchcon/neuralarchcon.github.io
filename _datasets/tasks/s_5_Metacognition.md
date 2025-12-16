@@ -10,7 +10,7 @@ paradigm:
   - metacognition
   - confidence
   - perception
-authors:
+task_leaders:
   - Renate Rutiku
   - Elisa Filevich
 site:

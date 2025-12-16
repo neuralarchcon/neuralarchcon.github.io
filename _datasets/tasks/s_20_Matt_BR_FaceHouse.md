@@ -10,7 +10,7 @@ paradigm:
   - binocular rivarly
   - bistable perception
   - multimodal integration
-authors:
+task_leaders:
   - Matthew Davidson
 site:
   - Krakow

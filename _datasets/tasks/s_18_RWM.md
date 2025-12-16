@@ -11,7 +11,7 @@ paradigm:
   - metacognition
   - object awareness
   - change-detection
-authors:
+task_leaders:
   - Renate Rutiku
 site:
   - Krakow

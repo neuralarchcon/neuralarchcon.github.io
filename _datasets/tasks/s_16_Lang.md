@@ -5,13 +5,12 @@ modality:
   - behavior
 domain:
   - Emotion
-  - Metacognition
 paradigm:
   - metacognition
   - emotional recognition
   - metamemory
   - subjective memory
-authors:
+task_leaders:
   - Agata Blaut
   - Borysław Paulewicz
   - Marta Siedlecka

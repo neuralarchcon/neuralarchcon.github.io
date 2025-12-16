@@ -18,14 +18,12 @@ contact:
   - Michał Wierzchoń
 email:
 participants: ~300
-summary: High-density EEG recordings from various resting state conditions including standard paradigms (eyes open/closed) and naturalistic conditions (listening to music, watching videos). Over 1000 individual sessions (3-4 sessions per participant).
+summary: High-density EEG recordings from various resting state conditions including standard paradigms (eyes open/closed) and naturalistic conditions (listening to music, watching videos). The database comprises over 1000 individual sessions (3-4 sessions per participant) collected on a BioSemi system with 64 active Ag/AgCl scalp electrodes.
 citation:
 doi:
 ---
 
 {% include JB/setup %}
-
-The database comprises high-density EEG recordings from various resting state conditions. Currently, it includes data collected during over 1000 individual sessions (3-4 sessions per participant).
 
 #### Detailed description:
 

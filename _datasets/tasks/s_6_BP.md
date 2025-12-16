@@ -9,7 +9,7 @@ domain:
 paradigm:
   - perception
   - bistable perception
-authors:
+task_leaders:
   - Renate Rutiku
   - Matthew Davidson
   - Timo Kvamme

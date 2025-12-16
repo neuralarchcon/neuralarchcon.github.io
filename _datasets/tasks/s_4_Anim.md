@@ -9,7 +9,7 @@ domain:
 paradigm:
   - metacognition
   - implicit memory
-authors:
+task_leaders:
   - Jovana Bjekic
 site:
   - Aarhus

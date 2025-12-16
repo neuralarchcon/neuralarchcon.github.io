@@ -15,8 +15,8 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A comprehensive assessment of adult intelligence measuring verbal and performance abilities across multiple cognitive domains. Different sites use different versions (WAIS-R, WAIS-3, or WAIS-4).
+ratings: false
+summary: A comprehensive assessment of adult intelligence based on Wechsler's construct of "the general capacity to undertake purposeful actions, think rationally, and cope effectively with the environment." Consists of Verbal and Performance subtests measuring multiple cognitive domains, with different sites using different versions (WAIS-R, WAIS-3, or WAIS-4).
 participants:
 citation: Kramer, J. H. (1990). Guidelines for interpreting WAIS-R subtest scores. Psychological Assessment - A Journal of Consulting and Clinical Psychology, 2(2), 202–205.
 doi: 10.1037/1040-3590.2.2.202
@@ -24,14 +24,12 @@ doi: 10.1037/1040-3590.2.2.202
 
 {% include JB/setup %}
 
-A comprehensive assessment of adult intelligence based on Wechsler's construct of intelligence: "The general capacity of an individual to undertake purposeful actions, think rationally, and cope effectively with the environment."
+#### Detailed description
 
 **Important Note**: Different sites use different versions:
 - Aarhus: WAIS-4
 - Brno: WAIS-3
 - Krakow: WAIS-R
-
-#### Detailed description
 
 Wechsler's construct posits that intelligence consists of abilities that are qualitatively different but not entirely independent. Intelligence is conceived as a type of energy that manifests itself in various types of intellectual abilities.
 

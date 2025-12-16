@@ -5,6 +5,7 @@ modality:
   - questionnaires
 domain:
   - Memory
+  - Other
 paradigm:
   - cognitive failures
   - everyday cognition
@@ -15,16 +16,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 25-item self-report measure of failures in perception, memory, and motor function, assessing everyday cognitive slips and lapses.
+ratings: false
+summary: A 25-item self-report measure of failures in perception, memory, and motor function, assessing everyday cognitive slips and lapses. Responses correlate with other measures of self-reported deficit in memory, absent-mindedness, or slips of action.
 participants:
 citation: Broadbent DE, Cooper PF, FitzGerald P, Parkes KR. The Cognitive Failures Questionnaire (CFQ) and its correlates. Br J Clin Psychol. 1982 Feb;21(1):1-16.
 doi: 10.1111/j.2044-8260.1982.tb01421.x
 ---
 
 {% include JB/setup %}
-
-A measure of self-reported failures in perception, memory, and motor function. Responses to all questions tend to be positively correlated, and the whole questionnaire correlates with other measures of self-reported deficit in memory, absent-mindedness, or slips of action.
 
 #### Detailed description
 

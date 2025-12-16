@@ -5,7 +5,6 @@ modality:
   - behavior
 domain:
   - Vision
-  - Metacognition
 paradigm:
   - metacognition
   - motion awareness
@@ -16,7 +15,7 @@ authors:
   - Nathan Faivre
 site:
   - Krakow
-contact:
+task_leaders:
   - Michał Wierzchoń
   - Nathan Faivre
 email:

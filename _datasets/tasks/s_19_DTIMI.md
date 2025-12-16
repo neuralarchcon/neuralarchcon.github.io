@@ -13,7 +13,7 @@ paradigm:
   - object awareness
   - perception
   - expectations
-authors:
+task_leaders:
   - Kadi Tulver
 site:
   - Krakow

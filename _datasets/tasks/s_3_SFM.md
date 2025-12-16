@@ -8,7 +8,7 @@ domain:
 paradigm:
   - perception
   - motion awareness
-authors:
+task_leaders:
   - Kristian Sandberg
 site:
   - Aarhus

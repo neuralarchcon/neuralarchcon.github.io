@@ -9,7 +9,7 @@ paradigm:
   - placebo
   - observational learning
   - pain perception
-authors:
+task_leaders:
   - Katarzyna Hat
   - Przemyslaw Babel
 site:

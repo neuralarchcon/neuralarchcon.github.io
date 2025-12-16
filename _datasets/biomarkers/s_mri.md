@@ -17,14 +17,12 @@ contact:
   - Michal Wierzchoń
 email:
 participants: 303 (291 reconstructed with FreeSurfer)
-summary: Multi-sequence MRI acquisition including resting-state fMRI, Multiparameter Mapping (MPM), and diffusion-weighted imaging (DWI) for comprehensive structural and functional brain characterization.
+summary: Multi-sequence MRI acquisition including resting-state fMRI, Multiparameter Mapping (MPM), and diffusion-weighted imaging (DWI) for comprehensive structural and functional brain characterization. Each sequence enables specific analyses yielding detailed information about connectivity and structure of the brain.
 citation:
 doi:
 ---
 
 {% include JB/setup %}
-
-The imaging data were collected with three sequences: the resting-state fMRI, Multiparameter Mapping (MPM) and diffusion-weighted imaging (DWI). Each of these sequences enables for a more specific analyses yielding more detailed information about the aspects of connectivity and structure of the brain.
 
 #### Detailed description:
 

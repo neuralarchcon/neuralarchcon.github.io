@@ -26,8 +26,8 @@ email:
   - krystian.barzykowski@uj.edu.pl
   - kristian.sandberg@cfin.au.dk
   - Lenka.Jurkovicova@ceitec.muni.cz
-ratings: true
-summary: A psychological self-report tool used to measure how clearly and vividly a person can imagine visual scenes in their mind.
+ratings: false
+summary: A psychological self-report tool used to measure how clearly and vividly a person can imagine visual scenes in their mind. Participants visualize specific scenarios and rate the vividness of their mental images on a 5-point scale, with lower scores indicating more vivid imagery.
 participants: 298
 citation:
 doi:
@@ -35,9 +35,6 @@ doi:
 
 {% include JB/setup %}
 
-A psychological self-report tool used to measure how clearly and vividly a person can imagine visual scenes in their mind. Participants are asked to visualise specific scenarios and rate the vividness of their mental images on a 5-point scale, with lower scores indicating more vivid imagery. The VVIQ-2 is an updated version of the original VVIQ, offering slight modifications to improve reliability. It is widely used in research on mental imagery, memory, and individual differences in cognitive style.
-  
-  
 #### Detailed description
 Visual imagery refers to the ability to visualize, that is the ability to form mental pictures, or to "see in the mind's eye". Marked individual differences have been found in the strength and clarity of reported visual imagery and these differences are of considerable psychological interest.  
 The aim of this test is to determine the vividness of your visual imagery. The items of the test will possibly bring certain images to your mind.  

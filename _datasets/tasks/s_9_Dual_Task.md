@@ -11,7 +11,7 @@ paradigm:
   - perception
   - perceptual awareness
   - motion awareness
-authors:
+task_leaders:
   - Renate Rutiku
   - Michal Wierzchoń
   - Marta Siedlecka

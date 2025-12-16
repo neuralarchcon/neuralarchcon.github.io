@@ -8,7 +8,7 @@ domain:
 paradigm:
   - metacognition
   - motion awareness
-authors:
+task_leaders:
   - Elisa Filevich
 site:
   - Krakow

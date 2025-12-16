@@ -13,7 +13,7 @@ paradigm:
   - sensory processing
   - auditory perception
   - visual awareness
-authors:
+task_leaders:
   - Renate Rutiku
 site:
   - Krakow

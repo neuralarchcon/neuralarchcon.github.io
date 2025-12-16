@@ -5,13 +5,12 @@ modality:
   - behavior
 domain:
   - Vision
-  - Metacognition
   - Memory
 paradigm:
   - working memory
   - metacognition
   - object awareness
-authors:
+task_leaders:
   - Simon del Pin
 site:
   - Krakow

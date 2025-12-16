@@ -12,7 +12,7 @@ paradigm:
   - perceptual awareness
   - decision
   - multimodal integration
-authors:
+task_leaders:
   - Roy Salomon
 site:
   - Krakow

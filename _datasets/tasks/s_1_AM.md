@@ -16,6 +16,8 @@ site:
   - Aarhus
   - Krakow
   - Brno
+task_leaders:
+  - Jovana Bjekic
 contact:
   - Jovana Bjekic
   - Dunja Paunovic

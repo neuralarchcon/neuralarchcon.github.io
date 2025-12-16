@@ -9,7 +9,7 @@ paradigm:
   - visual awareness
 site:
   - Krakow
-authors:
+task_leaders:
   - Marek A. Pedziwiatr
   - Christoph Teufel
   - Kristian Sandberg

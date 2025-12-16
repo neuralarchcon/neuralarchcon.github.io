@@ -11,7 +11,7 @@ paradigm:
   - perceptual awareness
   - visual awareness
   - perception
-authors:
+task_leaders:
   - Renate Rutiku
 site:
   - Krakow
@@ -19,7 +19,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: true
-summary: Lag of Consciousness task where participants view a continuously growing line appearing in different directions and report when they first saw it by pressing a button and adjusting the line back to its initial length, then rate confidence. (Previously: Onset of Awareness)
+summary: "Lag of Consciousness task where participants view a continuously growing line appearing in different directions and report when they first saw it by pressing a button and adjusting the line back to its initial length, then rate confidence. (Previously: Onset of Awareness)"
 participants: 344
 cost_group: perception
 citation:

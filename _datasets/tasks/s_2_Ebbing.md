@@ -8,7 +8,7 @@ domain:
 paradigm:
   - bistable perception
   - perception
-authors:
+task_leaders:
   - Kristian Sandberg
 site:
   - Aarhus
