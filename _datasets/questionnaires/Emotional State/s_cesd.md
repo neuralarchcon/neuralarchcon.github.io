@@ -2,9 +2,9 @@
 layout: dataset
 title: CES-D – Center for Epidemiologic Studies Depression Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - mental health
+  - Mental health
 paradigm:
   - depression
   - affective state
@@ -15,16 +15,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 20-item self-report measure that assesses the frequency of depressive symptoms experienced over the past week using a 4-point Likert scale.
+ratings: false
+summary: A 20-item self-report measure that assesses the frequency of depressive symptoms experienced over the past week using a 4-point Likert scale. Scores range from 0 to 60, with higher scores indicating more depressive symptomatology.
 participants:
 citation: Lewinsohn, P.M., Seeley, J.R., Roberts, R.E., & Allen, N.B. (1997). Center for Epidemiological Studies-Depression Scale (CES-D) as a screening instrument for depression among community-residing older adults. Psychology and Aging, 12, 277-287.
 doi:
 ---
 
 {% include JB/setup %}
-
-A 20-item self-report measure that asks respondents to rate how often over the past week they experienced symptoms associated with depression. The scale uses a 4-point Likert format with some items using reversed scoring.
 
 #### Detailed description
 

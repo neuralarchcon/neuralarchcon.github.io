@@ -2,9 +2,9 @@
 layout: dataset
 title: IRI – Interpersonal Reactivity Index
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - social cognition
+  - Social cognition
 paradigm:
   - empathy assessment
   - interpersonal functioning
@@ -13,16 +13,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 28-item self-report measure designed to assess empathy as a set of constructs, measuring reactions of one individual to the observed experiences of another.
+ratings: false
+summary: A 28-item self-report measure designed to assess empathy as a set of constructs, measuring reactions of one individual to the observed experiences of another. Includes four subscales - Perspective Taking, Fantasy, Empathic Concern, and Personal Distress.
 participants:
 citation: Davis, M. H. (1980). A multidimensional approach to individual differences in empathy. JSAS Catalog of Selected Documents in Psychology, 10, 85.
 doi:
 ---
 
 {% include JB/setup %}
-
-The IRI is designed to measure empathy as a set of constructs in addition to a unitary concept. Davis (1983) defines empathy as the "reactions of one individual to the observed experiences of another." The measure consists of 28 items answered on a 5-point Likert scale ranging from "Does not describe me well" to "Describes me very well."
 
 #### Detailed description
 

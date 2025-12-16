@@ -4,8 +4,8 @@ title: "Dual Task: iconic memory illusion"
 modality:
   - behavior
 domain:
-  - vision
-  - memory
+  - Vision
+  - Memory
 paradigm:
   - perceptual awareness
   - perceptual organization
@@ -13,7 +13,7 @@ paradigm:
   - object awareness
   - perception
   - expectations
-authors:
+task_leaders:
   - Kadi Tulver
 site:
   - Krakow
@@ -22,7 +22,7 @@ contact:
   - Renate Rutiku
 email:
 ratings: false
-summary: Task is to judge if two presented faces are oriented the same way and at some trials also to judge perceptual clarity of a central landoldt stimulus.
+summary: Dual-task paradigm where participants judge whether two presented faces have the same orientation and, on some trials, also rate the perceptual clarity of a faint central Landolt stimulus.
 participants: 321
 cost_group: perception
 citation:
@@ -30,8 +30,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Expectations create illusory perception in a dual-task. Main task is to judge if the orientation of two faces, presented left and right to the fixation cross, are oriented the same way. Secondary task (asked only at some trials) is to judge perceptual clarity of a faint central Landoldt stimulus.
 
 #### Detailed description
 

@@ -2,9 +2,9 @@
 layout: dataset
 title: PSS – Perceived Stress Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - mental health
+  - Mental health
 paradigm:
   - stress perception
 site:
@@ -14,16 +14,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 10-item self-report questionnaire designed to assess perceptions of recent stress, measuring the degree to which individuals find circumstances in their life unpredictable, uncontrollable, and/or overwhelming.
+ratings: false
+summary: A 10-item self-report questionnaire designed to assess perceptions of recent stress, measuring the degree to which individuals find circumstances in their life unpredictable, uncontrollable, and/or overwhelming. Informed by Lazarus and Folkman's transactional model of stress, it focuses on subjective appraisal rather than environmental exposures.
 participants:
 citation: Harris KM, Gaffey AE, Schwartz JE, Krantz DS, Burg MM. The Perceived Stress Scale as a Measure of Stress - Decomposing Score Variance in Longitudinal Behavioral Medicine Studies. Ann Behav Med. 2023 Sep 13;57(10):846-854.
 doi: 10.1093/abm/kaad015
 ---
 
 {% include JB/setup %}
-
-The Perceived Stress Scale (PSS) is a widely used measure designed to assess perceptions of recent stress. Informed by Lazarus and Folkman's transactional model of stress, this self-report questionnaire is used to assess the degree to which a respondent finds circumstances in their life to be unpredictable, uncontrollable, and/or overwhelming. In contrast to measures that assess environmental stress exposures, the PSS focuses on subjective appraisal of stress.
 
 #### Detailed description
 

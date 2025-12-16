@@ -2,9 +2,9 @@
 layout: dataset
 title: MMQ – Multifactorial Memory Questionnaire (Ability Subscale)
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
+  - Memory
 paradigm:
   - metacognition
 site:
@@ -14,16 +14,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 20-item self-report questionnaire measuring self-perception of everyday memory ability, assessing how often individuals experience common memory mistakes.
+ratings: false
+summary: A 20-item self-report questionnaire measuring self-perception of everyday memory ability, assessing how often individuals experience common memory mistakes. The MMQ consists of three scales (Ability, Satisfaction, Strategy) measuring separate aspects of metamemory, though only Ability and Satisfaction subscales were administered in this study.
 participants:
 citation:
 doi:
 ---
 
 {% include JB/setup %}
-
-The Multifactorial Memory Questionnaire (MMQ) consists of three scales measuring separate aspects of metamemory. Items are rated on a 5-point Likert scale based on the test taker's experiences over the previous two weeks. In this study, only the Ability and Satisfaction subscales were administered.
 
 #### Detailed description
 

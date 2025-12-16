@@ -15,10 +15,12 @@
   <p>{{ page.paradigm | join: ", " }}</p>
   {% endif %}
 
+  {% comment %}
   {% if page.participants %}
   <h4>Participants:</h4>
   <p>{{ page.participants }}</p>
   {% endif %}
+  {% endcomment %}
 
   {% if page.site and page.site.size > 0 %}
   <h4>Site:</h4>

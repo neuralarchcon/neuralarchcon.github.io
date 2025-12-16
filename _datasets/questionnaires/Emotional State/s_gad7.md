@@ -2,10 +2,10 @@
 layout: dataset
 title: GAD-7 – Generalized Anxiety Disorder 7-item Scale
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - emotion
-  - mental health
+  - Emotion
+  - Mental health
 paradigm:
   - anxiety assessment
   - mental health screening
@@ -14,16 +14,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 7-item screening test for anxiety disorders, especially Generalized Anxiety Disorder, measuring anxiety severity over the past two weeks.
+ratings: false
+summary: A 7-item screening test for anxiety disorders, especially Generalized Anxiety Disorder, measuring anxiety severity over the past two weeks. Measures how often individuals have been bothered by anxiety symptoms, with total scores ranging from 0 to 21.
 participants:
 citation: Primary Care Evaluation of Mental Disorders Patient Health Questionnaire (PRIME-MD-PHQ). Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke, and colleagues.
 doi:
 ---
 
 {% include JB/setup %}
-
-A screening test for anxiety disorders, especially Generalized Anxiety Disorder. The GAD-7 measures anxiety severity by assessing how often over the past two weeks an individual has been bothered by various anxiety symptoms.
 
 #### Detailed description
 

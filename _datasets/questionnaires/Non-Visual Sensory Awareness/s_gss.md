@@ -2,14 +2,13 @@
 layout: dataset
 title: GSS / GSQ – Glasgow Sensory Sensitivity Scale / Glasgow Sensory Questionnaire
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - vision
-  - olfaction
-  - somatosensory
-  - olfaction
-  - gustatory
-  - auditory
+  - Vision
+  - Olfaction
+  - Somatosensory
+  - Gustatory
+  - Auditory
 paradigm:
   - sensory sensitivity
   - sensory processing
@@ -19,16 +18,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 42-item self-report measure assessing both hyper- and hypo-sensitivity across seven sensory modalities in adults.
+ratings: false
+summary: A 42-item self-report measure assessing both hyper- and hypo-sensitivity across seven sensory modalities (vision, audition, taste, olfaction, touch, vestibular, proprioception) in adults. Appropriate for measuring sensory processing differences in individuals with and without ASD.
 participants:
 citation: Robertson, A. E., & Simmons, D. (2025, February 28). Glasgow Sensory Questionnaire.
 doi: 10.17605/OSF.IO/H95N4
 ---
 
 {% include JB/setup %}
-
-A self-report measure that assesses people's perception of sensory stimulation. It measures both hyper- and hypo-sensitivity across seven sensory modalities (vision, audition, taste, olfaction, touch, vestibular, and proprioception) in adults.
 
 #### Detailed description
 

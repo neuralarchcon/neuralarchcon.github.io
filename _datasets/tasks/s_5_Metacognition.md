@@ -4,13 +4,13 @@ title: Visual and auditory metacognition
 modality:
   - behavior
 domain:
-  - vision
-  - auditory
+  - Vision
+  - Auditory
 paradigm:
   - metacognition
   - confidence
   - perception
-authors:
+task_leaders:
   - Renate Rutiku
   - Elisa Filevich
 site:
@@ -22,7 +22,7 @@ contact:
   - Elisa Filevich
 email:
 ratings: true
-summary: Four blocks of visual/auditory detection/discrimination tasks + confidence ratings. Visual stimuli are tilted Gabor patches in noise. Auditory stimuli are low/high pitched beeps in noise. Task difficulty is controlled by a continuous staircase.
+summary: Four blocks of visual/auditory detection/discrimination tasks with confidence ratings. Visual stimuli are tilted Gabor patches in noise; auditory stimuli are low/high pitched beeps in noise. Task difficulty is controlled by a continuous staircase.
 participants: 364
 cost_group: metacognition
 citation:
@@ -30,9 +30,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Small package: visual and an auditory discrimination task. Full package: the same tasks (vision + audition) but also with a detection first-order task instead of discrimination.
-(orientation) discrimination task: _‘was the grating tilted clockwise or anticlockwise?‘_+ detection task: _‘was any grating presented at all?'_. At the end of each trial, participants rated their confidence in the accuracy of their decision on a 6-point scale.
 
 #### Detailed description
 

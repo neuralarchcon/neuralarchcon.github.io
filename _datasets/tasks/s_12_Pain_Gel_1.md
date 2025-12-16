@@ -4,12 +4,12 @@ title: "Pain Lab Task part 1: thermal stimulation"
 modality:
   - behavior
 domain:
-  - somatosensory
+  - Somatosensory
 paradigm:
   - placebo
   - observational learning
   - pain perception
-authors:
+task_leaders:
   - Katarzyna Hat
   - Przemyslaw Babel
 site:
@@ -18,7 +18,7 @@ contact:
   - Katarzyna Hat
 email:
 ratings: true
-summary: Pain study examining placebo hypoalgesia and nocebo hyperalgesia effects induced through observational learning, using inactive cream application.
+summary: Thermal pain stimulation task where participants observe a model demonstrating pain reduction or intensification after cream application, then receive thermal stimuli themselves and rate pain intensity.
 participants:
 cost_group: metacognition
 citation:
@@ -26,8 +26,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-placebo/nocebo effects in pain induced by observational learning.
 
 #### Detailed description
 

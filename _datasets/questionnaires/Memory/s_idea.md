@@ -2,10 +2,10 @@
 layout: dataset
 title: IDEA – Inventory for Déjà Vu Experiences Assessment
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - memory
-  - consciousness states
+  - Memory
+  - States of consciousness
 paradigm:
   - déjà vu
   - anomalous experiences
@@ -15,16 +15,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A 23-item questionnaire assessing quantitative and qualitative characteristics of déjà vu experiences.
+ratings: false
+summary: A 23-item questionnaire assessing quantitative and qualitative characteristics of déjà vu experiences. Déjà vu is defined as a dissociative phenomenon characterized by a subjectively inappropriate impression of familiarity of the present with an undefined past.
 participants:
 citation: Sno, H. N., Schalken, H. F. A., de Jonghe, F., & Koeter, M. W. J. (1994). The Inventory for Déjà vu Experiences Assessment - Development, utility, reliability, and validity. Journal of Nervous and Mental Disease, 182(1), 27–33.
 doi: 10.1097/00005053-199401000-00006
 ---
 
 {% include JB/setup %}
-
-The IDEA permits the study of quantitative and qualitative characteristics of déjà vu experiences. A déjà vu experience is a dissociative phenomenon, which can be characterized as a subjectively inappropriate impression of familiarity of the present with an undefined past.
 
 #### Detailed description
 

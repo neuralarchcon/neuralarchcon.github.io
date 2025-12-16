@@ -4,12 +4,12 @@ title: "Multimodal metacognition: painful electric pulses"
 modality:
   - behavior
 domain:
-  - somatosensory
+  - Somatosensory
 paradigm:
   - metacognition
   - confidence
   - perception
-authors:
+task_leaders:
   - Katarzyna Hat
   - Przemyslaw Babel
 site:
@@ -18,7 +18,7 @@ contact:
   - Katarzyna Hat
 email:
 ratings: true
-summary: Pain metacognition task using painful electrical stimulation + confidence ratings. Part of multimodal metacognition battery across sensory domains (vision, audition, touch, pain).
+summary: Pain metacognition task using painful electrical stimulation with confidence ratings. Participants detect or discriminate properties of painful electric pulses and rate their confidence in perceptual decisions on a 6-point scale. Part of multimodal metacognition battery across sensory domains.
 participants: 261
 cost_group: metacognition
 citation:
@@ -26,8 +26,6 @@ doi:
 ---
 
 {% include JB/setup %}
-
-Pain metacognition task using painful electrical stimulation. Participants detect or discriminate properties of painful electric pulses and rate their confidence in perceptual decisions on a 6-point scale.
 
 #### Detailed description
 

@@ -2,9 +2,9 @@
 layout: dataset
 title: DRQ – Dream Recall Questionnaire
 modality:
-  - questionnaire
+  - questionnaires
 domain:
-  - consciousness states
+  - States of consciousness
 paradigm:
   - dream recall
   - sleep experience
@@ -15,16 +15,14 @@ site:
 authors:
 contact:
 email:
-ratings: true
-summary: A brief self-report questionnaire assessing the frequency and vividness of dream recall.
+ratings: false
+summary: A brief self-report questionnaire assessing the frequency and vividness of dream recall. Consists of 4 items measuring individual differences in dream recall frequency and related dream experiences.
 participants:
 citation:
 doi:
 ---
 
 {% include JB/setup %}
-
-A brief self-report questionnaire designed to assess individual differences in dream recall frequency and related dream experiences.
 
 #### Detailed description
 
