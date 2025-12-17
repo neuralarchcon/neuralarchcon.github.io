@@ -4,7 +4,7 @@ title: CHi-II – Cortical Hyperexcitability Index (Version 2)
 modality:
   - questionnaires
 domain:
-  - Visual
+  - Vision
   - Other
 paradigm:
   - cortical hyperexcitability

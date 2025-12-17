@@ -4,7 +4,7 @@ title: VDS – Visual Discomfort Scale
 modality:
   - questionnaires
 domain:
-  - Visual
+  - Vision
 paradigm:
   - visual stress
   - pattern sensitivity
