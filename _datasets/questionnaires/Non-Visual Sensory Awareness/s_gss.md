@@ -5,9 +5,7 @@ modality:
   - questionnaires
 domain:
   - Vision
-  - Olfaction
   - Somatosensory
-  - Gustatory
   - Auditory
 paradigm:
   - sensory sensitivity
