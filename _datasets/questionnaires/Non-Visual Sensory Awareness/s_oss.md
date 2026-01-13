@@ -4,10 +4,10 @@ title: OSS – Olfaction Sensitivity Scale
 modality:
   - questionnaires
 domain:
-  - Olfaction
+  - Somatosensory
 paradigm:
-  - olfactory sensitivity
-  - sensory perception
+  - sensory processing
+  - sensory sensitivity
 site:
   - Krakow
   - Aarhus
