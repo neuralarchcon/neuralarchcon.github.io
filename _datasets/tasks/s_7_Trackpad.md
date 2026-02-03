@@ -3,23 +3,13 @@ layout: dataset
 title: "Trackpad: motor metacognition"
 modality:
   - behavior
-domain:
+keywords:
   - Vision
-paradigm:
-  - metacognition
-  - motion awareness
-task_leaders:
-  - Elisa Filevich
 site:
   - Krakow
 contact:
-email:
-ratings: true
 summary: Motor metacognition task where participants perform finger movements on a trackpad while observing drifting gratings, then judge the relative duration of visual stimuli and rate confidence in their decisions.
 participants: 286
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

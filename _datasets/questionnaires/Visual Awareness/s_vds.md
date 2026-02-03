@@ -3,17 +3,11 @@ layout: dataset
 title: VDS – Visual Discomfort Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Vision
-paradigm:
-  - visual stress
-  - pattern sensitivity
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire measuring visual discomfort and visual stress, particularly sensitivity to pattern glare and visual stimuli. The VDS assesses difficulties with reading, viewing patterns, and tolerance of visual environments. Developed using Rasch Rating Scale modeling.
 participants:
 citation: Conlon, E. G., Lovegrove, W. J., Chekaluk, E., & Pattison, P. E. (1999). Measuring visual discomfort. Visual Cognition, 6(6), 637-663.

@@ -3,18 +3,12 @@ layout: dataset
 title: BPS – Boredom Proneness Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Emotion
   - Mental health
-paradigm:
-  - trait assessment
-  - boredom susceptibility
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire measuring individual differences in the tendency to experience boredom. The original scale contains 28 items rated on a 7-point Likert scale, though shorter versions also exist. The BPS assesses both internal and external stimulation deficits.
 participants:
 citation: "Farmer, R., & Sundberg, N. D. (1986). Boredom proneness: The development and correlates of a new scale. Journal of Personality Assessment, 50(1), 4-17."

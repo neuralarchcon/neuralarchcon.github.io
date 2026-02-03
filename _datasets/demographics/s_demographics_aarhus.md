@@ -3,21 +3,13 @@ layout: dataset
 title: Demographic and Screening Measures - Aarhus
 modality:
   - questionnaires
-domain:
+keywords:
   - Demographics
-paradigm:
-  - demographic assessment
-  - olfactory assessment
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: Demographic questionnaires and screening measures specific to the Aarhus site. Includes standard demographics, anthropometric measurements, smoking history, handedness, olfactory perception testing, and neuroimaging-derived variables (FLICA components).
 participants:
-citation:
-doi:
 ---
 
 {% include JB/setup %}

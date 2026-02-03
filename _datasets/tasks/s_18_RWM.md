@@ -3,27 +3,15 @@ layout: dataset
 title: Visual short-term memory
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Memory
-paradigm:
-  - working memory
-  - metacognition
-  - object awareness
-  - change-detection
-task_leaders:
-  - Renate Rutiku
 site:
   - Krakow
 contact:
   - Renate Rutiku
-email:
-ratings: false
 summary: Visual short-term memory task with change detection for circular arrays of oriented rectangles. Participants detect changes between memory and probe arrays with varying set sizes (up to 32 items) and cue timing (iconic-cue, retro-cue, or post-cue), then rate perceptual clarity.
 participants:
-cost_group: working memory
-citation:
-doi:
 ---
 
 {% include JB/setup %}

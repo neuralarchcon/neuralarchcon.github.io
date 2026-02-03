@@ -3,17 +3,11 @@ layout: dataset
 title: GQ – Gaming Questions
 modality:
   - questionnaires
-domain:
+keywords:
   - Other
-paradigm:
-  - gaming behavior assessment
-  - gaming habits
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A brief questionnaire assessing gaming behavior and habits, including self-identification as a gamer, gaming platforms used, weekly gaming hours, and reasons for not gaming (if applicable). Provides descriptive information about gaming engagement.
 participants:
 citation:

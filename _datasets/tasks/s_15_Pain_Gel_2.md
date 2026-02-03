@@ -3,26 +3,14 @@ layout: dataset
 title: "Pain Lab Task part 2: thermal stimulation"
 modality:
   - behavior
-domain:
+keywords:
   - Somatosensory
-paradigm:
-  - placebo
-  - observational learning
-  - pain perception
-task_leaders:
-  - Katarzyna Hat
-  - Przemyslaw Babel
 site:
   - Krakow
 contact:
   - Katarzyna Hat
-email:
-ratings: true
 summary: Thermal pain stimulation task (part 2) where participants receive additional thermal stimuli and rate pain intensity following the observational learning phase.
 participants:
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

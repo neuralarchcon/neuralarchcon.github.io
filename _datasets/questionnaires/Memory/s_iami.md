@@ -3,18 +3,12 @@ layout: dataset
 title: IAMI – Involuntary Autobiographical Memory Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - Memory
   - States of consciousness
-paradigm:
-  - involuntary memory
-  - spontaneous cognition
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: A 20-item questionnaire measuring the frequency of involuntary autobiographical memories and future thoughts in everyday life. These spontaneous cognitions typically come to mind in response to identifiable cues and in situations with diffuse attention.
 participants:
 citation: Berntsen D, Rubin DC, Salgado S. The frequency of involuntary autobiographical memories and future thoughts in relation to daydreaming, emotional distress, and age. Conscious Cogn. 2015 Nov;36:352-72.

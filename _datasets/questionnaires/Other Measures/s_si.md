@@ -3,17 +3,11 @@ layout: dataset
 title: SI – Superiority Illusion
 modality:
   - questionnaires
-domain:
+keywords:
   - Personality
-paradigm:
-  - self-assessment bias
-  - metacognition
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report measure assessing the tendency to rate oneself as better than average across various personality traits and abilities. Participants rate how personality trait words describe them compared to an average peer, typically using a sliding scale or Likert-type rating.
 participants:
 citation: Takahashi, H., Takahata, K., Higuchi, M., & Suhara, T. (2013). Superiority illusion arises from resting-state brain networks modulated by dopamine. Proceedings of the National Academy of Sciences, 110(11), 4363-4367.

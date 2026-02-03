@@ -3,27 +3,15 @@ layout: dataset
 title: Sense of agency
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Somatosensory
   - Auditory
-paradigm:
-  - metacognition
-  - perceptual awareness
-  - decision
-  - multimodal integration
-task_leaders:
-  - Roy Salomon
 site:
   - Krakow
 contact:
-email:
-ratings: true
 summary: Virtual hand movement task where participants perform finger movements while viewing a virtual model that can be veridical or temporally/spatially distorted, then judge whether the movement was veridical and rate confidence.
 participants: 286
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

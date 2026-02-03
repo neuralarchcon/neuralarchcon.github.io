@@ -3,16 +3,11 @@ layout: dataset
 title: EQ-Short – Empathy Quotient-Short
 modality:
   - questionnaires
-domain:
+keywords:
   - Social cognition
-paradigm:
-  - social cognition
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: A 22-item short-form questionnaire measuring individual differences in tendency to empathize, assessing the ability to recognize and respond appropriately to others' emotional states and thoughts. Empathizing involves identifying another person's emotional state to understand and respond with appropriate pro-social behavior.
 participants:
 citation: Wakabayashi, A., Baron-Cohen, S., Wheelwright, S., Goldenfeld, N., Delaney, J., Fine, D., … Weil, L. (2006). Development of short forms of the Empathy Quotient (EQ-Short) and the Systemizing Quotient (SQ-Short). Personality and Individual Differences, 41(5), 929–940.

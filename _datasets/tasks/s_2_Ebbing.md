@@ -3,26 +3,16 @@ layout: dataset
 title: Ebbinghaus Illusion
 modality:
   - behavior
-domain:
+keywords:
   - Vision
-paradigm:
-  - bistable perception
-  - perception
-task_leaders:
-  - Kristian Sandberg
 site:
   - Aarhus
   - Krakow
   - Brno
 contact:
   - Kristian Sandberg
-email: kristian.sandberg@cfin.au.dk
-ratings: false
 summary: Perceptual size discrimination task using the classical Ebbinghaus illusion. Two physically identical central circles appear to have different perceived sizes as a result of the surrounding context of either smaller or larger circles.
 participants: 304
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

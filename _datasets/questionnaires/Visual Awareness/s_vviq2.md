@@ -3,15 +3,12 @@ layout: dataset
 title: VVIQ-2 – Vividness of Visual Imagery Questionnaire 2
 modality:
   - questionnaires
-domain:
+keywords:
   - Vision
-paradigm:
-  - LIT
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
   - Krystian Barzykowski
   - Kristian Sandberg
   - Lenka Jurkovičová
@@ -22,11 +19,9 @@ contact:
   - Krystian Barzykowski
   - Kristian Sandberg
   - Lenka Jurkovičová
-email:
   - krystian.barzykowski@uj.edu.pl
   - kristian.sandberg@cfin.au.dk
   - Lenka.Jurkovicova@ceitec.muni.cz
-ratings: false
 summary: A psychological self-report tool used to measure how clearly and vividly a person can imagine visual scenes in their mind. Participants visualize specific scenarios and rate the vividness of their mental images on a 5-point scale, with lower scores indicating more vivid imagery.
 participants: 298
 citation:

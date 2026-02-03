@@ -3,28 +3,12 @@ layout: dataset
 title: "Dotclouds: non-perceptual information accumulation"
 modality:
   - behavior
-domain:
+keywords:
   - Vision
-paradigm:
-  - metacognition
-  - motion awareness
-  - perceptual organization
-  - visual awareness
-authors:
-  - Michał Wierzchoń
-  - Nathan Faivre
 site:
   - Krakow
-task_leaders:
-  - Michał Wierzchoń
-  - Nathan Faivre
-email:
-ratings: true
 summary: Motion direction judgment task with random-dot kinetogram where participants indicate the mean motion direction by clicking within a circular frame and then report confidence on a visual analog scale (0-100%).
 participants: 270
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

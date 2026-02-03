@@ -3,28 +3,16 @@ layout: dataset
 title: "Multimodal metacognition: visual and auditory"
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Auditory
-paradigm:
-  - metacognition
-  - confidence
-  - perception
-task_leaders:
-  - Katarzyna Hat
-  - Renate Rutiku
 site:
   - Krakow
 contact:
   - Katarzyna Hat
   - Renate Rutiku
-email:
-ratings: true
 summary: Visual and auditory metacognition tasks with simple 2-AFC (two-alternative forced choice) discrimination and confidence ratings. Participants discriminate properties of visual and auditory stimuli at calibrated difficulty levels. Part of multimodal metacognition battery across sensory domains.
 participants: 291
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

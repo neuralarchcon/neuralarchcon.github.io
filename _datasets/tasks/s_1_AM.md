@@ -3,35 +3,17 @@ layout: dataset
 title: Associative memory task
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Memory
-paradigm:
-  - paired associate learning
-  - PAL
-  - confidence
-  - metacognition
-  - implicit memory
 site:
   - Aarhus
   - Krakow
   - Brno
-task_leaders:
-  - Jovana Bjekic
 contact:
   - Jovana Bjekic
-  - Dunja Paunovic
-  - Kristian Sandberg
-email:
-  - jovana.bjekic@imi.bg.ac.rs
-  - dunja.paunovic@imi.bg.ac.rs
-  - kristian.sandberg@cfin.au.dk
-ratings: true
 summary: Scene-item (landscape photographs and objects) paired associative memory task with confidence rating after recognition of old or new pairs. Additionally, there is a repeated encoding of the pairs, followed by recognition of single scenes and a cued recall.
 participants: 265
-cost_group: memory
-citation:
-doi:
 ---
 
 {% include JB/setup %}

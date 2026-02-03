@@ -3,20 +3,14 @@ layout: dataset
 title: CFQ – Cognitive Failures Questionnaire
 modality:
   - questionnaires
-domain:
+keywords:
   - Memory
   - Other
-paradigm:
-  - cognitive failures
-  - everyday cognition
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 25-item self-report measure of failures in perception, memory, and motor function, assessing everyday cognitive slips and lapses. Responses correlate with other measures of self-reported deficit in memory, absent-mindedness, or slips of action.
 participants:
 citation: Broadbent DE, Cooper PF, FitzGerald P, Parkes KR. The Cognitive Failures Questionnaire (CFQ) and its correlates. Br J Clin Psychol. 1982 Feb;21(1):1-16.

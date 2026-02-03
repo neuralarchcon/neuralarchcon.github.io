@@ -3,19 +3,13 @@ layout: dataset
 title: NYC-Q – New York Cognition Questionnaire
 modality:
   - questionnaires
-domain:
+keywords:
   - Social cognition
   - Emotion
   - Interoception
-paradigm:
-  - self-generated thought
-  - resting-state experience
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 31-item self-report questionnaire assessing the content and form of self-generated thoughts during resting-state fMRI. Measures multiple dimensions of thought including social cognition, temporal focus (future/past), emotional valence, and modality (words/images). Designed to characterize individual differences in resting-state mentation.
 participants:
 citation: Gorgolewski, K. J., Lurie, D., Urchs, S., Kipping, J. A., Craddock, R. C., Milham, M. P., Margulies, D. S., & Smallwood, J. (2014). A correspondence between individual differences in the brain's intrinsic functional architecture and the content and form of self-generated thoughts. PLoS ONE, 9(5), e97176.

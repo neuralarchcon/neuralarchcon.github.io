@@ -3,17 +3,11 @@ layout: dataset
 title: GAMS / GMS – Gaming Motivation Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Other
-paradigm:
-  - self-determination theory
-  - gaming motivation
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: An 18-item self-report questionnaire measuring why people play video games, based on Self-Determination Theory. Uses a 7-point Likert scale. Assesses six types of motivation - from autonomous intrinsic motivation to amotivation - providing a comprehensive profile of gaming motivation.
 participants:
 citation: Lafrenière, M. A., Verner-Filion, J., & Vallerand, R. J. (2012). Development and validation of the Gaming Motivation Scale (GAMS). Personality and Individual Differences, 53(7), 827-831.

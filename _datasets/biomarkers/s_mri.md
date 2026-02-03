@@ -3,23 +3,16 @@ layout: dataset
 title: Structural and Functional MRI
 modality:
   - neurobiomarkers
-domain:
+keywords:
   - MRI
-paradigm:
-  - resting state
-  - diffusion imaging
-  - quantitative MRI
 site:
   - Krakow
   - Aarhus
   - Brno
 contact:
   - Michal Wierzchoń
-email:
 participants: 303 (291 reconstructed with FreeSurfer)
 summary: Multi-sequence MRI acquisition including resting-state fMRI, Multiparameter Mapping (MPM), and diffusion-weighted imaging (DWI) for comprehensive structural and functional brain characterization. Each sequence enables specific analyses yielding detailed information about connectivity and structure of the brain.
-citation:
-doi:
 ---
 
 {% include JB/setup %}

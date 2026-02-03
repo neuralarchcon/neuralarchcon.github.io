@@ -3,17 +3,11 @@ layout: dataset
 title: MW-S / MW-D – Mind-Wandering Spontaneous and Deliberate (SDMWS)
 modality:
   - questionnaires
-domain:
+keywords:
   - States of consciousness
-paradigm:
-  - mind wandering
-  - spontaneous thought
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: Two 4-item self-report scales (8 items total) measuring trait-level tendencies for spontaneous (unintentional) and deliberate (intentional) mind wandering. Uses a 7-point Likert scale. Distinguishes between different types of mind wandering based on intentionality.
 participants:
 citation: Carriere, J. S. A., Seli, P., & Smilek, D. (2013). Wandering in both mind and body - Individual differences in mind wandering and inattention predict fidgeting. Canadian Journal of Experimental Psychology, 67(1), 19-31.

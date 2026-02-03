@@ -3,28 +3,14 @@ layout: dataset
 title: Dual Task
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Somatosensory
-paradigm:
-  - metacognition
-  - perception
-  - perceptual awareness
-  - motion awareness
-task_leaders:
-  - Renate Rutiku
-  - Michal Wierzchoń
-  - Marta Siedlecka
 site:
   - Krakow
 contact:
-email:
-ratings: false
 summary: Perceptual discrimination task where participants rate stimulus clarity after responding to motor cues that are either neutral or overlapping with the stimulus-required response.
 participants: 267
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

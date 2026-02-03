@@ -110,7 +110,7 @@ canonical:
                         <div class="col-md-4">
                             <div class="overview-item" style="margin-bottom: 0.75rem;">
                                 <h6 style="color: #ff6b35; font-weight: 600; margin-bottom: 0.5rem;">Neurobiological Data</h6>
-                                <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0;"><strong>MRI:</strong> Resting-state fMRI, Multiparameter Mapping (MPM), diffusion-weighted imaging (DWI). <strong>EEG:</strong> High-density recordings during standard and naturalistic states. <strong>Genetics:</strong> Raw genetic data available for analysis. All data are BIDS-compliant with rigorous quality control.</p>
+                                <p style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 0;"><strong>MRI:</strong> Resting-state fMRI, Multiparameter Mapping (MPM), diffusion-weighted imaging (DWI). <strong>EEG:</strong> High-density recordings during resting state and 4 behavioral tasks. <strong>Genetics:</strong> Raw genetic data available for analysis. All data are BIDS-compliant with rigorous quality control.</p>
                             </div>
                         </div>
                     </div>
@@ -127,22 +127,22 @@ canonical:
 
             <!-- Selectors for datasets-->
             <div class="col-sm-12 col-md-3" style="font-size: 0.9rem;">
-                <input type="text" id="datasetInput" placeholder="Search for a Dataset.." title="Type in a word" style="margin-bottom: 0.75rem; padding: 0.375rem 0.75rem; font-size: 0.9rem;"><br />
+                <input type="text" id="datasetInput" placeholder="Search datasets..." title="Search in titles and descriptions" style="margin-bottom: 0.75rem; padding: 0.375rem 0.75rem; font-size: 0.9rem;"><br />
 
-                <!-- Dynamically generate domain checkboxes -->
-                <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Domain:</span>
-                {% assign all_domains = "" | split: "" %}
+                <!-- Dynamically generate keywords checkboxes -->
+                <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Keywords:</span>
+                {% assign all_keywords = "" | split: "" %}
                 {% for dataset in site.datasets %}
-                    {% for domain in dataset.domain %}
-                        {% unless all_domains contains domain %}
-                            {% assign all_domains = all_domains | push: domain %}
+                    {% for keyword in dataset.keywords %}
+                        {% unless all_keywords contains keyword %}
+                            {% assign all_keywords = all_keywords | push: keyword %}
                         {% endunless %}
                     {% endfor %}
                 {% endfor %}
-                {% assign sorted_domains = all_domains | sort %}
+                {% assign sorted_keywords = all_keywords | sort %}
                 <div style="margin-bottom: 0.75rem;">
-                {% for domain in sorted_domains %}
-                <input type="checkbox" class="domainCheckbox" name="{{ domain | slugify }}Checkbox" value="{{ domain }}"> {{ domain }}<br>
+                {% for keyword in sorted_keywords %}
+                <input type="checkbox" class="keywordCheckbox" name="{{ keyword | slugify }}Checkbox" value="{{ keyword }}"> {{ keyword }}<br>
                 {% endfor %}
                 </div>
 
@@ -195,8 +195,8 @@ canonical:
                                                 <p class="datasets-excerpt">{{ dataset.summary | strip_html }}</p>
                                             </div>
                                             <div class="dataset-meta">
-                                                <span class="metadata" id="domain-display"><strong>Domain:</strong> {{ dataset.domain | join: ", " }}</span>
-                                                <span class="metadata" id="domain" style="display: none;">{{ dataset.domain | join: ", " }}</span>
+                                                <span class="metadata" id="keywords-display"><strong>Keywords:</strong> {{ dataset.keywords | join: ", " }}</span>
+                                                <span class="metadata" id="keywords" style="display: none;">{{ dataset.keywords | join: ", " }}</span>
                                                 <span class="metadata" id="site"><strong>Site:</strong> {{ dataset.site | join: ", " }}</span>
                                             </div>
                                         </div>
@@ -213,12 +213,11 @@ canonical:
 </section>
 
 <script>
-    function findTextInTitle(text, element) {
+    function findTextInContent(text, element) {
         var title = element.querySelector('h3').textContent.toLowerCase() || '';
-        if (title.includes(text.toLowerCase())) {
-            return true;
-        }
-        return false;
+        var description = element.querySelector('.datasets-excerpt').textContent.toLowerCase() || '';
+        var searchText = text.toLowerCase();
+        return title.includes(searchText) || description.includes(searchText);
     };
 
     function checkSite(site, element) {
@@ -226,9 +225,9 @@ canonical:
         return datasetSite.includes(site.toLowerCase());
     };
 
-    function checkDomain(domain, element) {
-        var datasetDomain = element.querySelector('#domain').textContent.toLowerCase() || '';
-        return datasetDomain.includes(domain.toLowerCase());
+    function checkKeyword(keyword, element) {
+        var datasetKeywords = element.querySelector('#keywords').textContent.toLowerCase() || '';
+        return datasetKeywords.includes(keyword.toLowerCase());
     };
 
     document.addEventListener('DOMContentLoaded', function () {
@@ -236,12 +235,12 @@ canonical:
         const datasets = document.querySelectorAll('.dataset-item');
         const siteCheckboxes = document.querySelectorAll('.siteCheckbox');
         const siteCheckboxesArray = Array.from(siteCheckboxes);
-        const domainCheckboxes = document.querySelectorAll('.domainCheckbox');
-        const domainCheckboxesArray = Array.from(domainCheckboxes);
+        const keywordCheckboxes = document.querySelectorAll('.keywordCheckbox');
+        const keywordCheckboxesArray = Array.from(keywordCheckboxes);
         const modalitySections = document.querySelectorAll('.modality-section');
 
         function decideVisibility(element) {
-            const matchesTitle = findTextInTitle(datasetInput.value, element);
+            const matchesContent = findTextInContent(datasetInput.value, element);
 
             var meetsSiteCriteria = siteCheckboxesArray.some(checkbox => checkbox.checked && checkSite(checkbox.value, element));
             // If no site checkboxes are checked, consider it as meeting the criteria
@@ -249,16 +248,16 @@ canonical:
                 meetsSiteCriteria = true;
             }
 
-            var meetsDomainCriteria = domainCheckboxesArray.some(checkbox => checkbox.checked && checkDomain(checkbox.value, element));
-            // If no domain checkboxes are checked, consider it as meeting the criteria
-            if (domainCheckboxesArray.every(checkbox => !checkbox.checked)) {
-                meetsDomainCriteria = true;
+            var meetsKeywordsCriteria = keywordCheckboxesArray.some(checkbox => checkbox.checked && checkKeyword(checkbox.value, element));
+            // If no keyword checkboxes are checked, consider it as meeting the criteria
+            if (keywordCheckboxesArray.every(checkbox => !checkbox.checked)) {
+                meetsKeywordsCriteria = true;
             }
 
             const valueVector = [
-                matchesTitle,
+                matchesContent,
                 meetsSiteCriteria,
-                meetsDomainCriteria
+                meetsKeywordsCriteria
             ];
 
             if (valueVector.every(Boolean)) {
@@ -312,7 +311,7 @@ canonical:
             checkbox.addEventListener('change', filterDatasets);
         });
 
-        domainCheckboxes.forEach(checkbox => {
+        keywordCheckboxes.forEach(checkbox => {
             checkbox.addEventListener('change', filterDatasets);
         });
     });

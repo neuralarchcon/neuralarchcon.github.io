@@ -3,16 +3,9 @@ layout: dataset
 title: Visual and auditory metacognition
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Auditory
-paradigm:
-  - metacognition
-  - confidence
-  - perception
-task_leaders:
-  - Renate Rutiku
-  - Elisa Filevich
 site:
   - Aarhus
   - Krakow
@@ -20,13 +13,8 @@ site:
 contact:
   - Renate Rutiku
   - Elisa Filevich
-email:
-ratings: true
 summary: Four blocks of visual/auditory detection/discrimination tasks with confidence ratings. Visual stimuli are tilted Gabor patches in noise; auditory stimuli are low/high pitched beeps in noise. Task difficulty is controlled by a continuous staircase.
 participants: 364
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

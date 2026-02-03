@@ -3,18 +3,12 @@ layout: dataset
 title: Gold-MSI – Goldsmiths Musical Sophistication Index
 modality:
   - questionnaires
-domain:
+keywords:
   - Other
   - Personality
-paradigm:
-  - musical abilities
-  - musical engagement
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 38-item self-report questionnaire measuring musical sophistication in the general population across five dimensions. Uses a 7-point Likert scale. The Gold-MSI provides a comprehensive assessment of musical behaviors, skills, and training suitable for both musicians and non-musicians.
 participants:
 citation: Müllensiefen, D., Gingras, B., Musil, J., & Stewart, L. (2014). The musicality of non-musicians - An index for assessing musical sophistication in the general population. PLoS ONE, 9(2), e89642.

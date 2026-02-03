@@ -3,29 +3,15 @@ layout: dataset
 title: "Bistable perception: battery of tasks"
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Auditory
-paradigm:
-  - perception
-  - bistable perception
-task_leaders:
-  - Renate Rutiku
-  - Matthew Davidson
-  - Timo Kvamme
-  - Michal Wierzchoń
-  - Kristian Sandberg
 site:
   - Krakow
 contact:
   - Renate Rutiku
-email:
-ratings: false
 summary: Battery of bistable perception tasks including Motion-induced blindness, Necker cube, Rubin Face-Vase, Auditory Streaming, Stream/Bounce Illusion, and Structure from motion. These constitute the most typical paradigms for multistable perception in both auditory and visual modalities.
 participants:
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

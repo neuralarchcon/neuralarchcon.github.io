@@ -3,26 +3,16 @@ layout: dataset
 title: Binocular rivarly tasks
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Integration
-paradigm:
-  - binocular rivarly
-  - bistable perception
-  - multimodal integration
 task_leaders:
   - Matthew Davidson
 site:
   - Krakow
 contact:
-  - Matthew Davidson
-email:
-ratings: false
 summary: Binocular rivalry task with flickering green/red gratings presented at two different frequencies (4.5 or 20 Hz). Participants report dominant visual percept while receiving occasional crossmodal cues (auditory, tactile, or simultaneous) matching one of the flickering frequencies.
 participants:
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

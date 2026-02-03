@@ -3,29 +3,17 @@ layout: dataset
 title: Sound Induced Flash Illusion
 modality:
   - behavior
-domain:
+keywords:
   - Auditory
   - Vision
   - Integration
-paradigm:
-  - perception
-  - multimodal integration
-  - sensory processing
-  - auditory perception
-  - visual awareness
 task_leaders:
   - Renate Rutiku
 site:
   - Krakow
 contact:
-  - Renate Rutiku
-email:
-ratings: false
 summary: Sound-Induced Flash Illusion task where participants report the number of visual flashes (one or two) presented with accompanying beeps (none, one, or two), assessing crossmodal influences on visual perception.
 participants: 577
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

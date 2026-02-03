@@ -3,23 +3,13 @@ layout: dataset
 title: Demographic and Screening Measures - Brno
 modality:
   - questionnaires
-domain:
+keywords:
   - Demographics
-paradigm:
-  - demographic assessment
-  - medical screening
-  - substance use assessment
-  - trauma assessment
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: Demographic questionnaires and screening measures specific to the Brno site (2021 and 2023 cohorts). Includes comprehensive drug use questionnaire (DUQ), neurological questionnaire (NQ), maltreatment and abuse chronology (MACE), detailed health screening, and demographic variables.
 participants:
-citation:
-doi:
 ---
 
 {% include JB/setup %}
