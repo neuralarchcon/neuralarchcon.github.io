@@ -3,17 +3,11 @@ layout: dataset
 title: CAPS – Cardiff Anomalous Perceptions Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Mental health
-paradigm:
-  - perceptual anomalies
-  - psychotic-like experiences
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 32-item self-report questionnaire measuring anomalous perceptual experiences using neutral, non-stigmatizing language. The CAPS assesses frequency, distress, and intrusiveness of unusual perceptual experiences across sensory modalities. Designed for use in both clinical and non-clinical populations.
 participants:
 citation: Bell, V., Halligan, P. W., & Ellis, H. D. (2006). The Cardiff Anomalous Perceptions Scale (CAPS) - A new validated measure of anomalous perceptual experience. Schizophrenia Bulletin, 32(2), 366-377.

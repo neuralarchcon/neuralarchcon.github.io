@@ -5,9 +5,9 @@
   <p>{{ page.modality | join: ", " }}</p>
   {% endif %}
 
-  {% if page.domain and page.domain.size > 0 %}
-  <h4>Domain:</h4>
-  <p>{{ page.domain | join: ", " }}</p>
+  {% if page.keywords and page.keywords.size > 0 %}
+  <h4>Keywords:</h4>
+  <p>{{ page.keywords | join: ", " }}</p>
   {% endif %}
 
   {% if page.paradigm and page.paradigm.size > 0 %}
@@ -40,7 +40,7 @@
   {% endif %}
 
   {% if page.doi %}
-  <h4>How to cite:</h4>
+  <h4>Citation:</h4>
   <p><a href="{{ page.doi }}">{{ page.citation }}</a></p>
   {% endif %}
 </div>

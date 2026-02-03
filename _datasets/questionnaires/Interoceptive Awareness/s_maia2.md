@@ -3,21 +3,14 @@ layout: dataset
 title: MAIA-2 – Multidimensional Assessment of Interoceptive Awareness (Version 2)
 modality:
   - questionnaires
-domain:
+keywords:
   - Interoception
   - Emotion
-paradigm:
-  - interoceptive awareness
-  - alexithymia
-  - emotional awareness
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 37-item self-report questionnaire that measures multiple dimensions of interoceptive awareness, including the conscious perception of body sensations and their regulation. Uses a 5-point Likert scale to assess eight dimensions of interoception potentially accessible to self-report.
 participants:
 citation: Mehling WE, Acree M, Stewart A, Silas J, Jones A. The Multidimensional Assessment of Interoceptive Awareness, Version 2 (MAIA-2). PLoS One. 2018 Dec 4;13(12):e0208034.

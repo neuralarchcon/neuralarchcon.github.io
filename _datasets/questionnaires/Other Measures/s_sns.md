@@ -3,18 +3,12 @@ layout: dataset
 title: SNS – Social Network Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Social cognition
   - Other
-paradigm:
-  - social network assessment
-  - social relationships
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A brief questionnaire assessing the size and composition of an individual's social network through 9 questions about social connections, friendships, and communication patterns. Provides quantitative estimates of social network breadth and engagement.
 participants:
 citation:

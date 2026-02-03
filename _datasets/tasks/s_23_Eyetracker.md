@@ -3,10 +3,7 @@ layout: dataset
 title: Eye tracking with two-tone images
 modality:
   - behavior
-domain: Vision
-paradigm:
-  - perceptual organization
-  - visual awareness
+keywords: Vision
 site:
   - Krakow
 task_leaders:
@@ -16,17 +13,8 @@ task_leaders:
   - Michal Wierzchoń
   - Renate Rutiku
 contact:
-  - Marek A. Pedziwiatr
-  - Christoph Teufel
-email:
-  - marek.pedziwiatr@uj.edu.pl
-  - TeufelC@cardiff.ac.uk
-ratings: true
 summary: Eye tracking task with two-tone (Mooney-type) images where observers view black and white ambiguous images before and after disambiguation while their eye movements are recorded to assess knowledge-driven perceptual reorganization.
 participants: 20
-cost_group:
-citation:
-doi:
 ---
 
 {% include JB/setup %}

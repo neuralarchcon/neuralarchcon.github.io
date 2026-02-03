@@ -3,21 +3,15 @@ layout: dataset
 title: Genetic Profiling
 modality:
   - neurobiomarkers
-domain:
+keywords:
   - Genetics
-paradigm:
-  - genome-wide association
-  - polygenic risk scores
-  - genetic correlates
 site:
   - Krakow
 contact:
   - Michal Wierzchoń
-email:
 participants: ~300
 summary: Genetic profiling to support multidimensional neuroarchitectural mapping by examining biological correlates of behavioural and neuronal characteristics. Genetics play a role in the formation of the brain and its functions, down to the governance of activity of individual neurons. Focus on genetic correlates of consciousness-related cognitive functions.
 citation:
-doi:
 ---
 
 {% include JB/setup %}

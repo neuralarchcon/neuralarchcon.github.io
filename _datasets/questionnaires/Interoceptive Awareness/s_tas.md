@@ -3,17 +3,11 @@ layout: dataset
 title: TAS-20 – Toronto Alexithymia Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Interoception
-paradigm:
-  - alexithymia
-  - emotional awareness
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 20-item self-report questionnaire measuring alexithymia, the inability to identify and describe emotions in the self. Items are rated on a 5-point Likert scale. The TAS-20 assesses three key dimensions of alexithymia and is the most widely used measure of this construct.
 participants:
 citation: Bagby, R. M., Parker, J. D. A., & Taylor, G. J. (1994). The twenty-item Toronto Alexithymia Scale-I. Item selection and cross-validation of the factor structure. Journal of Psychosomatic Research, 38(1), 23-32.

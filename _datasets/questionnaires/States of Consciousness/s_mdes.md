@@ -3,17 +3,11 @@ layout: dataset
 title: MDES – Multi-Dimensional Experience Sampling
 modality:
   - questionnaires
-domain:
+keywords:
   - States of consciousness
-paradigm:
-  - experience sampling
-  - subjective experience
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire assessing multiple dimensions of subjective experience during resting state. Measures various aspects of consciousness including thoughts, emotions, sensory awareness, and meta-awareness. Used to characterize phenomenological states during unconstrained rest or meditation.
 participants:
 citation:

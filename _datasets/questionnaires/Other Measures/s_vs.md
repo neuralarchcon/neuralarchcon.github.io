@@ -3,17 +3,11 @@ layout: dataset
 title: VS – Visual Snow Symptoms Questionnaire
 modality:
   - questionnaires
-domain:
+keywords:
   - Other
-paradigm:
-  - visual snow assessment
-  - persistent visual phenomena
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire designed to assess symptoms of visual snow syndrome (VSS), a neurological condition characterized by persistent visual disturbances resembling television static across the entire visual field, along with additional visual and non-visual symptoms.
 participants:
 citation: Schankin, C. J., Maniyar, F. H., Digre, K. B., & Goadsby, P. J. (2014). 'Visual snow' - A disorder distinct from persistent migraine aura. Brain, 137(5), 1419-1428.

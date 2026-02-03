@@ -3,27 +3,17 @@ layout: dataset
 title: Animate reaction task
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Memory
-paradigm:
-  - metacognition
-  - implicit memory
-task_leaders:
-  - Jovana Bjekic
 site:
   - Aarhus
   - Krakow
   - Brno
 contact:
   - Jovana Bjekic
-email:
-ratings: true
 summary: Speeded animate/inanimate categorization task where participants categorize objects and scenes as animate or inanimate using rapid key presses. This task uses the same stimuli as the associative memory task (s_1_AM) to assess implicit memory effects.
 participants: 263
-cost_group: memory
-citation:
-doi:
 ---
 
 {% include JB/setup %}

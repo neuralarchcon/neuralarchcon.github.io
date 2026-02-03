@@ -3,18 +3,12 @@ layout: dataset
 title: BIS – Barratt Impulsiveness Scale (Version 11)
 modality:
   - questionnaires
-domain:
+keywords:
   - Personality
   - Emotion
-paradigm:
-  - impulsivity assessment
-  - trait assessment
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 30-item self-report questionnaire measuring impulsivity across behavioral, cognitive, and motivational dimensions. Items are rated on a 4-point scale (1=rarely/never to 4=almost always/always). The BIS-11 is one of the most widely used measures of impulsivity in both clinical and research settings.
 participants:
 citation: Patton, J. H., Stanford, M. S., & Barratt, E. S. (1995). Factor structure of the Barratt Impulsiveness Scale. Journal of Clinical Psychology, 51(6), 768-774.

@@ -3,18 +3,13 @@ layout: dataset
 title: AQ / ASQ – Autism-Spectrum Quotient
 modality:
   - questionnaires
-domain:
+keywords:
   - Social cognition
   - Other
-paradigm:
-  - Autism
 site:
   - Krakow
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire measuring autistic traits in adults with average or above-average intelligence. Available in both short (28-item) and full (50-item) versions. Krakow administers the AQ-Short (28 items), while Brno_2023 administers the full AQ (50 items). Not a diagnostic instrument but assesses the distribution of autism-related characteristics across the population.
 participants:
 citation: Baron-Cohen, S., Wheelwright, S., Skinner, R., Martin, J., & Clubley, E. (2001). The Autism-Spectrum Quotient (AQ) - Evidence from Asperger Syndrome/High-Functioning Autism, males and females, scientists and mathematicians. Journal of Autism and Developmental Disorders, 31(1), 5-17.

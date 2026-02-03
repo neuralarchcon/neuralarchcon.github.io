@@ -3,21 +3,15 @@ layout: dataset
 title: SGI – Sensory Gating Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - Mental health
   - Vision
   - Somatosensory
   - Auditory
   - Interoception
-paradigm:
-  - sensory gating
-  - perceptual modulation
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: "A 36-item self-report questionnaire measuring subjective ability to modulate, filter, and tolerate sensory stimuli. Assesses four dimensions of sensory gating: perceptual modulation, over-inclusion, distractibility, and fatigue/stress vulnerability. Commonly used in schizophrenia, ADHD, and sensory processing research."
 participants:
 citation: Hetrick, W. P., Erickson, M. A., & Smith, D. A. (2012). Phenomenological dimensions of sensory gating. Schizophrenia Bulletin, 38(1), 178-191.

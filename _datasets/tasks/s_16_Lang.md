@@ -3,27 +3,13 @@ layout: dataset
 title: Metacognitive judgements of learning emotional words
 modality:
   - behavior
-domain:
+keywords:
   - Emotion
-paradigm:
-  - metacognition
-  - emotional recognition
-  - metamemory
-  - subjective memory
-task_leaders:
-  - Agata Blaut
-  - Borysław Paulewicz
-  - Marta Siedlecka
 site:
   - Krakow
 contact:
-email:
-ratings: true
 summary: Metacognitive judgments of learning (JOLs) in a 30-trial memory task with emotional words. Participants study emotional and neutral adjectives, provide prospective confidence ratings about recall difficulty, complete a distracting task, then recall as many words as possible.
 participants: 290
-cost_group: memory
-citation:
-doi:
 ---
 
 {% include JB/setup %}

@@ -3,18 +3,12 @@ layout: dataset
 title: SPQ-BR – Schizotypal Personality Questionnaire, Brief Revised (Updated)
 modality:
   - questionnaires
-domain:
+keywords:
   - Personality
   - Mental health
-paradigm:
-  - schizotypy
-  - personality traits
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: A 32-item self-report scale measuring schizotypy traits across cognitive-perceptual, interpersonal, and disorganized dimensions. Uses a five-point ordinal response format with higher scores indicating greater schizotypy.
 participants:
 citation: Davidson CA, Hoffman L, Spaulding WD. Schizotypal personality questionnaire--brief revised (updated) - An update of norms, factor structure, and item content in a large non-clinical young adult sample. Psychiatry Res. 2016 Apr 30;238:345-355.

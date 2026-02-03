@@ -3,30 +3,16 @@ layout: dataset
 title: "Dual Task: iconic memory illusion"
 modality:
   - behavior
-domain:
+keywords:
   - Vision
   - Memory
-paradigm:
-  - perceptual awareness
-  - perceptual organization
-  - decision
-  - object awareness
-  - perception
-  - expectations
-task_leaders:
-  - Kadi Tulver
 site:
   - Krakow
 contact:
   - Kadi Tulver
   - Renate Rutiku
-email:
-ratings: false
 summary: Dual-task paradigm where participants judge whether two presented faces have the same orientation and, on some trials, also rate the perceptual clarity of a faint central Landolt stimulus.
 participants: 321
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

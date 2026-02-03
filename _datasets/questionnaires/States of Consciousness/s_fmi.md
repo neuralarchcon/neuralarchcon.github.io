@@ -3,19 +3,13 @@ layout: dataset
 title: FMI – Freiburg Mindfulness Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - States of consciousness
-paradigm:
-  - mindfulness
-  - present-moment awareness
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 14-item self-report questionnaire for measuring mindfulness, suitable for generalized contexts where knowledge of Buddhist background is not expected. Covers all aspects of mindfulness including present-moment awareness, non-judgmental acceptance, and openness to experience.
 participants:
 citation: Walach, H., Buchheld, N., Buttenmuller, V., Kleinknecht, N., Schmidt, S. (2006). Measuring Mindfulness--The Freiburg Mindfulness Inventory (FMI). Personality and Individual Differences, 40, 1543-1555.

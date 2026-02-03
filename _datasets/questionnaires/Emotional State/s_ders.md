@@ -3,18 +3,12 @@ layout: dataset
 title: DERS – Difficulties in Emotion Regulation Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Emotion
   - Mental health
-paradigm:
-  - emotion regulation assessment
-  - affective control
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 36-item self-report questionnaire assessing individuals' typical levels of emotion dysregulation across six dimensions. Items are rated on a 5-point scale (1=almost never to 5=almost always). The DERS is one of the most widely used measures of emotion regulation difficulties.
 participants:
 citation: Gratz, K. L., & Roemer, L. (2004). Multidimensional assessment of emotion regulation and dysregulation - Development, factor structure, and initial validation of the difficulties in emotion regulation scale. Journal of Psychopathology and Behavioral Assessment, 26(1), 41-54.

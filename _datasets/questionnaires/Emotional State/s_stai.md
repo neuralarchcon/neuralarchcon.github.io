@@ -3,18 +3,12 @@ layout: dataset
 title: STAI – State-Trait Anxiety Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - Mental health
   - Emotion
-paradigm:
-  - anxiety assessment
-  - state-trait distinction
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A widely used self-report questionnaire measuring two distinct anxiety dimensions - state anxiety (temporary, situational feelings) and trait anxiety (stable personality characteristic). Each scale contains 20 items rated on a 4-point scale. The STAI is the most frequently used measure of anxiety in research.
 participants:
 citation: Spielberger, C. D., Gorsuch, R. L., Lushene, R., Vagg, P. R., & Jacobs, G. A. (1983). Manual for the State-Trait Anxiety Inventory. Palo Alto, CA - Consulting Psychologists Press.

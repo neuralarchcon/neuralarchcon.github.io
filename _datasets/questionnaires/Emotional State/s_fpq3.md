@@ -3,18 +3,12 @@ layout: dataset
 title: FPQ-3 – Fear of Pain Questionnaire (Version 3)
 modality:
   - questionnaires
-domain:
+keywords:
   - Emotion
   - Somatosensory
-paradigm:
-  - fear assessment
-  - pain anticipation
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: A 30-item questionnaire using a 5-point Likert scale to assess the extent of fear in response to various pain scenarios across three distinct domains. Participants rate their fear of different pain experiences, with total scores ranging from 30 to 150.
 participants:
 citation: McNeil, D.W., Rainwater, A.J. Development of the Fear of Pain Questionnaire-III. J Behav Med 21, 389–410 (1998).

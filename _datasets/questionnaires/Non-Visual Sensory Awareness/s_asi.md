@@ -3,17 +3,11 @@ layout: dataset
 title: ASI – Aberrant Salience Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - Mental health
-paradigm:
-  - aberrant salience assessment
-  - psychosis screening
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 29-item self-report questionnaire measuring aberrant salience, the unusual or incorrect assignment of salience to otherwise neutral stimuli. Uses a dichotomous true/false response format. The ASI assesses five dimensions of aberrant salience associated with psychosis proneness.
 participants:
 citation: Cicero, D. C., Kerns, J. G., & McCarthy, D. M. (2010). The Aberrant Salience Inventory - A new measure of psychosis proneness. Psychological Assessment, 22(3), 688-701.

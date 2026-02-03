@@ -3,19 +3,13 @@ layout: dataset
 title: NEO-PI-R / NEO-FFI – NEO Personality Inventory
 modality:
   - questionnaires
-domain:
+keywords:
   - Personality
-paradigm:
-  - Big Five personality
-  - trait assessment
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A comprehensive personality assessment based on the Five-Factor Model measuring the Big Five personality dimensions (Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness). The NEO-PI-R consists of 240 items across 30 facet scales, while the NEO-FFI is a shorter 60-item version.
 participants:
 citation: Costa, P. T., Jr., & McCrae, R. R. (2008). The Revised NEO Personality Inventory (NEO-PI-R). In G. J. Boyle, G. Matthews, & D. H. Saklofske (Eds.), The SAGE handbook of personality theory and assessment, Vol. 2. Personality measurement and testing (pp. 179–198). Sage Publications, Inc.

@@ -3,19 +3,13 @@ layout: dataset
 title: WAIS – Wechsler Adult Intelligence Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Intelligence
-paradigm:
-  - IQ assessment
-  - cognitive abilities
 site:
   - Krakow
   - Aarhus
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A comprehensive assessment of adult intelligence based on Wechsler's construct of "the general capacity to undertake purposeful actions, think rationally, and cope effectively with the environment." Consists of Verbal and Performance subtests measuring multiple cognitive domains, with different sites using different versions (WAIS-R, WAIS-3, or WAIS-4).
 participants:
 citation: Kramer, J. H. (1990). Guidelines for interpreting WAIS-R subtest scores. Psychological Assessment - A Journal of Consulting and Clinical Psychology, 2(2), 202–205.

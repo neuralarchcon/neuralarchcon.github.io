@@ -3,18 +3,12 @@ layout: dataset
 title: SHAPS – Snaith-Hamilton Pleasure Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - Emotion
   - Mental health
-paradigm:
-  - hedonic capacity assessment
-  - anhedonia screening
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: A 14-item self-report questionnaire designed to assess hedonic tone and anhedonia, the reduced capacity to experience pleasure. Each item describes a pleasurable experience, and respondents indicate their agreement on a 4-point scale. The SHAPS is widely used in depression research and clinical practice.
 participants:
 citation: "Snaith, R. P., Hamilton, M., Morley, S., Humayan, A., Hargreaves, D., & Trigwell, P. (1995). A scale for the assessment of hedonic tone: The Snaith-Hamilton Pleasure Scale. British Journal of Psychiatry, 167(1), 99-103."

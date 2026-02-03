@@ -3,18 +3,12 @@ layout: dataset
 title: CHi-II – Cortical Hyperexcitability Index (Version 2)
 modality:
   - questionnaires
-domain:
+keywords:
   - Vision
   - Other
-paradigm:
-  - cortical hyperexcitability
-  - visual sensitivity
 site:
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A self-report questionnaire designed to measure correlates of visually driven cortical hyperexcitability. The CHi-II is a revised version with a stable 3-factor structure assessing visual sensitivity, aura-like experiences, and distorted visual perception. Commonly used in migraine and visual snow research.
 participants:
 citation: Braithwaite, J. J., Marchant, R., Takahashi, C., Dewe, H., & Watson, D. G. (2015). The Cortical Hyperexcitability Index (CHi) - A new measure for quantifying correlates of visually driven cortical hyperexcitability. Cognitive Neuropsychiatry, 20(4), 330-348.

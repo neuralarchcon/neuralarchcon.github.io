@@ -3,17 +3,12 @@ layout: dataset
 title: ESS – Epworth Sleepiness Scale
 modality:
   - questionnaires
-domain:
+keywords:
   - States of consciousness
   - Mental health
-paradigm:
-  - daytime sleepiness assessment
 site:
   - Aarhus
-authors:
 contact:
-email:
-ratings: false
 summary: An 8-item self-report questionnaire measuring daytime sleepiness. Respondents rate their likelihood of dozing off or falling asleep in eight different situations on a 4-point scale (0-3). Widely used as a screening tool for sleep disorders including obstructive sleep apnea.
 participants:
 citation: "Johns, M. W. (1991). A new method for measuring daytime sleepiness: The Epworth sleepiness scale. Sleep, 14(6), 540-545."

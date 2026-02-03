@@ -3,26 +3,16 @@ layout: dataset
 title: Structure from motion
 modality:
   - behavior
-domain:
+keywords:
   - Vision
-paradigm:
-  - perception
-  - motion awareness
-task_leaders:
-  - Kristian Sandberg
 site:
   - Aarhus
   - Krakow
   - Brno
 contact:
   - Kristian Sandberg
-email: kristian.sandberg@cfin.au.dk
-ratings: false
 summary: Structure from motion task where participants view a small cloud of white dots perceived as a rotating sphere and continuously report the perceived rotation direction. An ambiguous sphere, which could be perceived as rotating in one of two directions, is presented on each 60-second trial.
 participants: 842
-cost_group: perception
-citation:
-doi:
 ---
 
 {% include JB/setup %}

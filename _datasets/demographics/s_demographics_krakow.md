@@ -3,21 +3,13 @@ layout: dataset
 title: Demographic and Screening Measures - Krakow
 modality:
   - questionnaires
-domain:
+keywords:
   - Demographics
-paradigm:
-  - demographic assessment
-  - handedness assessment
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: Demographic questionnaires and screening measures specific to the Krakow site. Includes standard demographics, detailed handedness assessment (15 activities), parental education, anthropometric measurements, smoking history, alcohol consumption, and migraine screening.
 participants:
-citation:
-doi:
 ---
 
 {% include JB/setup %}

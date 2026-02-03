@@ -3,26 +3,14 @@ layout: dataset
 title: "Multimodal metacognition: non-painful electric pulses"
 modality:
   - behavior
-domain:
+keywords:
   - Somatosensory
-paradigm:
-  - metacognition
-  - confidence
-  - perception
-task_leaders:
-  - Katarzyna Hat
-  - Przemyslaw Babel
 site:
   - Krakow
 contact:
   - Katarzyna Hat
-email:
-ratings: true
 summary: Tactile metacognition task using non-painful electrical stimulation with confidence ratings. Participants detect or discriminate properties of electric pulses delivered to the skin and rate their confidence in perceptual decisions on a 6-point scale. Part of multimodal metacognition battery across sensory domains.
 participants: 214
-cost_group: metacognition
-citation:
-doi:
 ---
 
 {% include JB/setup %}

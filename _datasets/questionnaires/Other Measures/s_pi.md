@@ -3,17 +3,12 @@ layout: dataset
 title: PI-WSUR – Padua Inventory-Washington State University Revision
 modality:
   - questionnaires
-domain:
+keywords:
   - Mental health
   - Other
-paradigm:
-  - OCD
 site:
   - Krakow
-authors:
 contact:
-email:
-ratings: false
 summary: A 39-item self-report questionnaire measuring obsessive-compulsive symptoms across five dimensions administered at Krakow. Uses a 5-point distress rating scale. The PI-WSUR provides improved distinction between obsessions, compulsions, and worry compared to the original Padua Inventory.
 participants:
 citation: Burns, G. L., Keortge, S. G., Formea, G. M., & Sternberger, L. G. (1996). Revision of the Padua Inventory of obsessive compulsive disorder symptoms - Distinctions between worry, obsessions, and compulsions. Behaviour Research and Therapy, 34(2), 163-173.

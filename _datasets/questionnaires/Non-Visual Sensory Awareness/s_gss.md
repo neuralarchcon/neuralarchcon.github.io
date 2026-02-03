@@ -3,20 +3,14 @@ layout: dataset
 title: GSS / GSQ – Glasgow Sensory Sensitivity Scale / Glasgow Sensory Questionnaire
 modality:
   - questionnaires
-domain:
+keywords:
   - Vision
   - Somatosensory
   - Auditory
-paradigm:
-  - sensory sensitivity
-  - sensory processing
 site:
   - Krakow
   - Brno
-authors:
 contact:
-email:
-ratings: false
 summary: A 42-item self-report measure assessing both hyper- and hypo-sensitivity across seven sensory modalities (vision, audition, taste, olfaction, touch, vestibular, proprioception) in adults. Appropriate for measuring sensory processing differences in individuals with and without ASD.
 participants:
 citation: Robertson, A. E., & Simmons, D. (2025, February 28). Glasgow Sensory Questionnaire.
