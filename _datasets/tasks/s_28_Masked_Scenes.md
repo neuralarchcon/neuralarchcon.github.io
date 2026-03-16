@@ -47,6 +47,19 @@ Participants performed training (16 trials at 100 ms display) and the main proce
 
  EEG was recorded using a 64-channel BioSemi ActiveTwo system at 2048 Hz sampling rate. Behavioral responses were collected via Cedrus Button Box (RB-840).
 
+#### Graphical overview
+
+![Example scene stimulus — natural object in natural background]({{ BASE_PATH }}/assets/images/datasets/s_28_1.png)
+
+#### Number of participants (raw)
+
+Krakow: 96
+
+#### Conditions and number of trials
+
+* 2 (task: background, object) × 2 (congruency) × 3 (display time: 8, 16, 32 ms)
+* Training (16 trials per task) + main (600 trials total, 300 per task)
+
 #### Behavioural Measures
 
 * Background classification accuracy (2AFC)

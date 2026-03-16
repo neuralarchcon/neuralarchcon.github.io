@@ -35,6 +35,19 @@ Participants performed training (16 trials), staircase calibration (70 trials), 
 
 EEG was recorded using a 64-channel BioSemi ActiveTwo system at 2048 Hz sampling rate. Behavioral responses were collected via Cedrus Button Box (RB-840).
 
+#### Graphical overview
+
+![Peripheral Gabor stimulus locations]({{ BASE_PATH }}/assets/images/datasets/s_25_1.png)
+
+#### Number of participants (raw)
+
+Krakow: 117
+
+#### Conditions and number of trials
+
+* 4 (location) × 4 (orientation)
+* Training (16 trials) + staircase (70 trials) + main (400 trials in 25 blocks of 16)
+
 #### Behavioural Measures
 
 * Localisation accuracy (4AFC)

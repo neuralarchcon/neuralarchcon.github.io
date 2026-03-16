@@ -64,10 +64,13 @@ lantoniotrento@gmail.com
 </head>
 
 <body>
+  <a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
   <div class="wrapper">
     <!--Home page style-->
     {% include themes/bootstrap/main-nav-bar.html %}
+    <main id="main-content">
     {{ content }}
+    </main>
     <br />
     {% include themes/bootstrap/footer.html %}
   </div>

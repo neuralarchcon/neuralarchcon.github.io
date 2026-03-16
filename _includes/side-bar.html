@@ -38,7 +38,7 @@
     {% assign eml = page.email[forloop.index0] %}
     {% if eml and eml != "" %}
       {% assign parts = eml | split: "@" %}
-      <p><a class="eml" data-u="{{ parts[0] }}" data-d="{{ parts[1] }}">{{ contact }}</a></p>
+      <p><a class="eml" href="#" data-u="{{ parts[0] }}" data-d="{{ parts[1] }}">{{ contact }}</a></p>
     {% else %}
       <p>{{ contact }}</p>
     {% endif %}
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {% else %}
 <div class="blog-block about-sidebar-widget">
-  <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}">
+  <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}">
   <h4><a href="{{ site.author.site }}">{{ site.author.name }}</a></h4>
   <p>{{ site.author.description }}</p>
   {% include social-block.html %}

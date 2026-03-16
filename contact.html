@@ -28,7 +28,8 @@ canonical:
           <div class="row">
             <div class="col-sm-4">
               <div class="form-group">
-                <i class="contact-icon fa fa-user"></i>
+                <label for="name" class="sr-only">Full Name</label>
+                <i class="contact-icon fa fa-user" aria-hidden="true"></i>
                 <input type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
                 <p>Full Name</p>
                 <div class="help-block with-errors"></div>
@@ -36,7 +37,8 @@ canonical:
             </div>
             <div class="col-sm-4">
               <div class="form-group">
-                <i class="contact-icon fa fa-envelope-o"></i>
+                <label for="email" class="sr-only">Email</label>
+                <i class="contact-icon fa fa-envelope-o" aria-hidden="true"></i>
                 <input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
                 <p>Email</p>
                 <div class="help-block with-errors"></div>
@@ -44,7 +46,8 @@ canonical:
             </div>
             <div class="col-sm-4">
               <div class="form-group">
-                <i class="contact-icon fa fa-pencil-square-o"></i>
+                <label for="subject" class="sr-only">Subject</label>
+                <i class="contact-icon fa fa-pencil-square-o" aria-hidden="true"></i>
                 <input type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
                 <p>Subject</p>
                 <div class="help-block with-errors"></div>
@@ -52,6 +55,7 @@ canonical:
             </div>
             <div class="col-sm-12">
               <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
                 <textarea id="message" rows="8" placeholder="Message" required data-error="Please enter your message"></textarea>
                 <div class="help-block with-errors"></div>
               </div>
@@ -77,19 +81,7 @@ canonical:
           <a href="http://pure.au.dk/portal/en/persons/id(c3f61c86-7954-4726-87ed-813942f07dbb).html"><i class="fa fa-tablet icons cyan-color contact-info-icon"></i>Personal website</a>
           <ul class="social-links">
             <li>
-              <a href="#" class="fa fa-facebook"></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/con_arch" class="fa fa-twitter"></a>
-            </li>
-            <li>
-              <a href="#" class="fa fa-instagram"></a>
-            </li>
-            <li>
-              <a href="#" class="fa fa-linkedin"></a>
-            </li>
-            <li>
-              <a href="#" class="fa fa-skype"></a>
+              <a href="https://twitter.com/con_arch" class="fa fa-twitter" aria-label="Twitter"><span class="sr-only">Twitter</span></a>
             </li>
           </ul>
         </div>
@@ -99,7 +91,7 @@ canonical:
         <h4 class="contact-info-title">Media Officer</h4>
         <div class="contact-info">
           <h5 class="contact-name">Samuel Nowak</h5>
-          <a href="samuel.nowak@uj.edu.pl"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>samuel.nowak@uj.edu.pl</a>
+          <a href="mailto:samuel.nowak@uj.edu.pl"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>samuel.nowak@uj.edu.pl</a>
         </div>
 
       </div>
