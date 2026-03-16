@@ -4,28 +4,46 @@ title: Shape of visual field capacity
 modality:
   - behavior
 keywords:
-  - Vision
-  - Memory
+  - vision
+  - memory
+  - visual field
+  - working memory
+  - 2AFC
 site:
   - Krakow
 contact:
-summary: Working memory task where participants encode a circular array of eight objects, then recall one item indicated by a retrocue. Participants select between two images or words (target vs. lure) and report awareness using the Perceptual Awareness Scale (PAS).
-participants: 276
+  - Simon Del Pin
+  - Renate Rutiku
+summary: Working memory task measuring variability of recognition capacity across the visual field. 8 objects are presented in a circular array, one location is retro-cued. Participants judge whether the centrally presented probe matches cued object. The eccentricity of each location is independently adjusted with QUEST staircase to equate individual performance.
+participants: 292
 ---
 
 {% include JB/setup %}
 #### Detailed description
 
-* . Each trial started with a fixation cross (plus sign; font type, “Times”; font size, 32) that appeared for 1 s. Thereafter, 8 objects were presented arranged in an imaginary circle around the fixation cross (radius of the imaginary circle, 4.82°; size of each object, 2.41 ° x 2.41° of visual angles). Each object was placed inside a thin, black, square frame and was visible for 250 ms. After that time, only the empty frames remained on the screen; after 100 ms they were accompanied by a cue in the form of a red line pointing towards one of the frames (the cued frame also turned red). The cue and the red frame remained on the screen for 500 ms. There was a 1400 ms time interval between the cue and the frame’s disappearance and the onset of the test display.
-* The manipulation was introduced at the stage of the test display. In the Image condition, participants were presented with two objects: the target object (cued in this trial) and a lure (did not appear in the memory array of a given trial). The objects were placed on the right and left sides of the display; the target position was chosen randomly for each trial. The task was to decide, by pressing the left or right arrow on the keyboard, which of the objects was the target. The Word condition differed in only one aspect: instead of presenting objects, participants were shown two labels describing the target and the lure. After the participant made the decision, they were asked to rate the visibility of the target object at the moment of its presentation in the memory array on a 4-point Perceptual Awareness Scale (PAS is a standardised way of comparing visual experiences across subjects and conditions. Before the experiment, participants were instructed on the usage of this scale. After the response, there was a 1-second blank screen before the start of the next trial. The conditions were introduced as a within-subject manipulation in separate blocks (order counterbalanced across participants). 
-* In total, the experiment consisted of 200 trials. Each condition consisted of 100 trials with regular breaks every 25 trials. The memory arrays were constructed so as to not duplicate any of the presented objects inside each of the 25 trials
-![]({{ BASE_PATH }}/assets/images/datasets/i_s_17_SWM_1.png)
+This task estimates the spatial profile of visual working memory capacity across eight locations in the visual field, building on the paradigm of Del Pin et al. (2020).
+
+Stimuli. A set of 200 object images (approximately 60% man-made, 40% natural) was drawn from the Snodgrass & Vanderwart–like repository (Rossion & Pourtois, 2004), selected for ease of naming in Polish. Each image was displayed inside a black-outlined square (3.3° × 3.3°) arranged in a circular array of eight positions at 0°, 45°, 90°, 135°, 180°, 225°, 270°, and 315° of polar angle.
+
+Trial structure. Each trial begins with a fixation cross (1 s), followed by the eight-object array for 1 s. After a 100 ms blank (empty frames remain on screen), a red line cue points to one of the eight locations for 500 ms. Following a 1400 ms retention interval, a single probe object appears centrally and participants judge whether it is identical to the cued item (right arrow) or a different object (left arrow).
+
+Adaptive eccentricity. Each of the 8 locations has its own independent QUEST staircase controlling the distance of that location from fixation. All locations start at 6.8° eccentricity, and the staircase targets approximately 63% correct (above a 50% guess rate). Correct responses push the stimulus further from fixation; incorrect responses bring it closer. Over 256 trials, this converges on the eccentricity at which each location reaches threshold performance — locations where a participant performs better end up farther from fixation.
+
+Training. A short practice block precedes the main experiment, with objects displayed at fixed starting eccentricity and no staircase adjustment.
+#### Graphical overview
+![Visual field working memory retro-cue paradigm]({{ BASE_PATH }}/assets/images/datasets/s_17_1.png)
+#### Number of participants (raw)
+Krakow: 292
+#### Conditions and number of trials
+256 trials total (8 locations × 32 repetitions). 
+2AFC recognition (target vs. lure) at each cued location. 
+
 #### Behavioural Measures 
-
-* Accuracy
+* Objective choice
+* Accuracy (recognition)
+* Per-location QUEST eccentricity estimates
 * RT
-* Perceptual Awareness Scale (PAS)
-
 #### Related publications
 
-1. Del Pin, S. H., Skóra, Z., Sandberg, K., Overgaard, M., & Wierzchoń, M. (2020). Comparing theories of consciousness: Object position, not probe modality, reliably influences experience and accuracy in object recognition tasks. Consciousness and Cognition, 84, 102990.
+1. 1. Papiernik-Kłodzińska, J., Del Pin, S. H., Wierzchoń, M., Carrasco, M., & Rutiku, R. (2025). Visual field inhomogeneities shape visual working memory. bioRxiv. doi: 10.1101/2025.05.13.653695
+2. Del Pin, S. H., Skóra, Z., Sandberg, K., Overgaard, M., & Wierzchoń, M. (2020). Comparing theories of consciousness: Object position, not probe modality, reliably influences experience and accuracy in object recognition tasks. Consciousness and Cognition, 84, 102990.
