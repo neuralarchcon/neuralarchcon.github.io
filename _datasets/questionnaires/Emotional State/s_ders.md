@@ -51,13 +51,6 @@ Respondents rate the extent to which each item applies to them on a 5-point scal
 
 **Interpretation**: Higher scores reflect greater problems with emotion regulation. The DERS has been extensively validated across clinical and non-clinical populations.
 
-#### Shortened Versions
-
-Several brief versions have been developed:
-- DERS-16 (Bjureberg et al., 2016)
-- DERS-18 (Victor & Klonsky, 2016)
-- DERS-SF (Kaufman et al., 2016)
-
 #### Related publications
 
 Gratz, K. L., & Roemer, L. (2004). Multidimensional assessment of emotion regulation and dysregulation: Development, factor structure, and initial validation of the difficulties in emotion regulation scale. Journal of Psychopathology and Behavioral Assessment, 26(1), 41-54. https://doi.org/10.1023/B:JOBA.0000007455.08539.94

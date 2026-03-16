@@ -38,6 +38,19 @@ Participants performed training (16 trials), staircase calibration (64 trials), 
 
 EEG was recorded using a 64-channel BioSemi ActiveTwo system at 2048 Hz sampling rate. Behavioral responses were collected via Cedrus Button Box (RB-840).
 
+#### Graphical overview
+
+![Example fearful face stimulus (NimStim)]({{ BASE_PATH }}/assets/images/datasets/s_27_1.png)
+
+#### Number of participants (raw)
+
+Krakow: 98
+
+#### Conditions and number of trials
+
+* 2 (emotion: fearful/neutral) × 16 (models)
+* Training (16 trials) + staircase (64 trials) + main (384 trials in 12 blocks of 32)
+
 #### Behavioural Measures
 
 * Emotion identification accuracy (2AFC)

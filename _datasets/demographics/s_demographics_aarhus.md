@@ -23,69 +23,69 @@ This document describes demographic and screening measures collected at the **Aa
 ### Core Variables
 
 **Age and Identification**
-- `age`: Age at time of sampling
-- `DoB`: Date of Birth
-- `ID`: Subject ID (previously `sona_id`)
-- `dataset`: Specifies sampling site (Aarhus)
+- Age at time of sampling
+- Date of Birth
+- Subject ID
+- Specifies sampling site (Aarhus)
 
 **Gender**
-- `gender`: Participant's gender
+- Participant's gender
 
 **Student Status**
-- `student`: Is the participant currently a student (Yes/No)
-- `student_semester`: Current semester if student
-- `student_subject`: Study subject if student (e.g., Psychology, Medicine)
-- `student_time`: Full-time, part-time, or on leave status
+- Is the participant currently a student (Yes/No)
+- Current semester if student
+- Study subject if student (e.g., Psychology, Medicine)
+- Full-time, part-time, or on leave status
 
 **Employment**
-- `job`: Employment/occupation status
+- Employment/occupation status
 - Note: Some students may have filled part-time or unemployed, so totals may not match
 
 **Relationship Status**
-- `marital_status`: Marital/relationship/civil status
+- Marital/relationship/civil status
 
 ## Physical Health and Measurements
 
 ### Anthropometric Measurements
 
 **Body Measurements**
-- `bmi`: Body Mass Index
-- `height_cm`: Height in centimeters
-- `weight`: Weight in kilograms
+- Body Mass Index
+- Height in centimeters
+- Weight in kilograms
 
 ### Self-Rated Health
 
 **General Health**
-- `health_self_rated`: Self-rated health on 0-10 scale
+- Self-rated health on 0-10 scale
   - 0 = dead
   - 10 = best possible health
 
 **Sensory Health**
-- `health_vision_self_rated`: Vision with glasses/contacts
+- Vision with glasses/contacts
   - 0 = worst possible/blind
   - 10 = best possible vision
-- `health_hearing_self_rated`: Hearing with aids if used
+- Hearing with aids if used
   - 0 = worst possible/deaf
   - 10 = best possible hearing
 
 ### Handedness
 
 **Edinburgh Handedness Inventory**
-- `hand_pref`: Preferred hand (general assessment)
+- Preferred hand (general assessment)
 
 ## Substance Use
 
 ### Smoking History
 
 **Current Status**
-- `smoker_currently`: Are you a smoker? (Yes/No)
-- `smoker_smoked_last_24_hours`: Have you smoked in last 24 hours?
-- `smoker_cigarettes_smoked_last_24_hours`: How many cigarettes in last 24 hours (0 if none)
+- Are you a smoker? (Yes/No)
+- Have you smoked in last 24 hours?
+- How many cigarettes in last 24 hours (0 if none)
 
 **Smoking History**
-- `smoker_age_first_cigarette`: Age when smoked first cigarette (0 if never smoked)
-- `smoker_days_smoked_last_month`: How many days within last month have you smoked
-- `smoker_cigarettes_per_day_last_month`: Typical cigarettes per day on days smoked in last month
+- Age when smoked first cigarette (0 if never smoked)
+- How many days within last month have you smoked
+- Typical cigarettes per day on days smoked in last month
 
 ## Olfactory Perception
 
@@ -94,12 +94,12 @@ This document describes demographic and screening measures collected at the **Aa
 Objective olfactory function assessment using standardized testing:
 
 **Component Scores:**
-- `Identification`: Olfactory identification score (ability to identify odors)
-- `Threshold`: Olfactory threshold (sensitivity to detect odors)
-- `Discrimination`: Olfactory discrimination (ability to differentiate odors)
+- Olfactory identification score (ability to identify odors)
+- Olfactory threshold (sensitivity to detect odors)
+- Olfactory discrimination (ability to differentiate odors)
 
 **Composite Score:**
-- `TDI`: Combined Threshold-Discrimination-Identification score
+- Combined Threshold-Discrimination-Identification (TDI) score
   - Total olfactory function index
   - Sum of all three component scores
 

@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {% else %}
 <div class="blog-block about-sidebar-widget">
-  <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}">
+  <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}">
   <h4><a href="{{ site.author.site }}">{{ site.author.name }}</a></h4>
   <p>{{ site.author.description }}</p>
   {% include social-block.html %}
