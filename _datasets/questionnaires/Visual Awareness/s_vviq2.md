@@ -44,6 +44,4 @@ Before you turn to the items below, familiarize yourself with the different cate
 Complete all items for images obtained with your eyes closed.  
 In answering items 1 to 4, think of some relative or friend whom you frequently see and consider the picture that comes before your mind's eye.  
 
-![graphical overview]({{ BASE_PATH }}/assets/images/datasets/vviq.png)
-
 #### Related publications

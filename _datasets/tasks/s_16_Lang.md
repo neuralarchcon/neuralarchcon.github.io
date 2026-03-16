@@ -4,11 +4,18 @@ title: Metacognitive judgements of learning emotional words
 modality:
   - behavior
 keywords:
-  - Emotion
+  - metacognition
+  - emotion
+  - memory
+  - judgments of learning
+  - emotional words
 site:
   - Krakow
 contact:
-summary: Metacognitive judgments of learning (JOLs) in a 30-trial memory task with emotional words. Participants study emotional and neutral adjectives, provide prospective confidence ratings about recall difficulty, complete a distracting task, then recall as many words as possible.
+  - Marta Siedlecka
+  - Agata Blaut
+  - Renate Rutiku
+summary: Metacognitive judgments of learning (JOLs) in a memory task with emotional words. Participants study 30 adjectives (positive, negative, neutral), provide prospective JOL ratings, complete a speeded distractor task, then freely recall as many words as possible and rate confidence in each recalled item.
 participants: 290
 ---
 
@@ -16,17 +23,28 @@ participants: 290
 
 #### Detailed description:
 
-* Each trial began with a 500-millisecond fixation point, which was followed by a 5-second presentation of a word and a JOL scale. Participants studied theword for 5 seconds and had to give JOLs before proceeding to the next item. The JOL scale was presented alongside with a question about how easy it would be to recall the presented word later. The scale was continuous but had 5 main sections: “Very Hard”, “Hard”,“Moderate”, “Easy”, and “Very Easy”. Participants were informed that they could choose different points within each scale category (with a mouse click). The study phase wasfollowed by the distracting task, which lasted 3 minutes. 
-* Each trial of the distracting task began with a 1000 ms waiting period followed by a 500 ms presentation of fixation point. Then the words “right” or “left” were present ed in the centre of the computer screen and participants were instructed to press the arrow key indicated by the word. Immediately afterthe distracting task, participants were asked to write down as many words from the memory task as possible within 3 minutes. 
-* At the end of the session, participants were questioned about what they thought was the goal of the study. No participants correctly guessed theexact hypotheses, although many noted that the items had different emotional values. At the end, participants were fully debriefed. The experimental session took approximately 20minutes.
-* The list of words used in the memory task consisted of 10 neutral, 10 negative and 10 positive adjectives. The words were associated with mood and self-esteem (e.g., sad, useless, relaxed, happy). Because the Polish language has grammatical gender, we used masculine or feminine versions of the adjectives depending on the participant’s gender. Words of different emotional valence were matched for frequency, length and imageability.
+This task investigates how emotional valence influences prospective metacognitive judgments (JOLs) and subsequent recall. The session lasts approximately 20 minutes and proceeds in the following phases:
 
+Mood assessment. Two questionnaires are administered at the start of the session: a positive/negative affect scale and a depression symptom scale. These provide baseline mood measures to examine potential mood-congruency effects on memory and JOLs.
+
+Study phase with JOLs. Participants study 30 adjectives — 10 positive (e.g., happy, valuable), 10 negative (e.g., sad, useless), and 10 neutral — presented one at a time for 5 seconds each, preceded by a 500 ms fixation point. During each word's presentation, participants rate how easy it will be to recall later on a continuous JOL scale with five labeled sections: "Very Hard," "Hard," "Moderate," "Easy," and "Very Easy." Because Polish has grammatical gender, masculine or feminine word forms are selected based on the participant's gender. Words across valence categories are matched for frequency, length, and imageability.
+
+Distractor phase. A 3-minute speeded left/right arrow-key task serves as a filled delay between encoding and recall.
+
+Free recall. Participants have 3 minutes to type as many studied words as they can remember, one per line, in any order. After recall, participants rate their confidence that each recalled word was indeed in the studied set, on a 4-point scale (guessing / not sure / almost sure / sure).
+
+Debriefing questions. Participants report whether they used any memorisation strategies, whether those strategies varied with perceived word difficulty, and whether they noticed differences in recall across emotional categories. A brief self-report memory questionnaire is also administered. At the end of the session, participants are asked what they thought the goal of the study was. No participant correctly guessed the exact hypotheses, though many noted the emotional variation among items.
+#### Graphical overview
+TBA!
+#### Number of participants (raw)
+Krakow: 290
+#### Conditions and number of trials
+30 words (10 positive, 10 negative, 10 neutral adjectives), each drawn from a pool of 60 per valence category. Study phase with JOL ratings, 3-minute distractor task, 3-minute free recall, followed by confidence ratings on recalled items.
 #### Behavioural Measures
-
-* Accuracy
-* Ratings
-* PAS
-
+* JOL ratings (continuous, 5-point labeled scale)
+* Accuracy (free recall)
+* Confidence (4-point scale)
+* RT (distractor task)
 #### Related publications
 
-1. Siedlecka, M., Blaut, A., & Paulewicz, B. (preprint; 2020) Metacognition and memory of emotional information: Judgments of learning predict the affectivity congruence effect in free recall. doi.org/10.1101/2020.01.07.897165
+1. Siedlecka, M., Blaut, A., & Paulewicz, B. (2020). Metacognition and memory of emotional information: Judgments of learning predict the affectivity congruence effect in free recall. Preprint. doi: 10.1101/2020.01.07.897165

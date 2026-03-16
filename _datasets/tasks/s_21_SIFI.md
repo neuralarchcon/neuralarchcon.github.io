@@ -4,35 +4,38 @@ title: Sound Induced Flash Illusion
 modality:
   - behavior
 keywords:
-  - Auditory
-  - Vision
-  - Integration
-task_leaders:
-  - Renate Rutiku
+  - auditory
+  - vision
+  - integration
+  - multisensory integration
+  - crossmodal stimuli
 site:
   - Krakow
 contact:
-summary: Sound-Induced Flash Illusion task where participants report the number of visual flashes (one or two) presented with accompanying beeps (none, one, or two), assessing crossmodal influences on visual perception.
-participants: 577
+  - Renate Rutiku
+summary: Sound-Induced Flash Illusion is a task where participants report the number of visual flashes (one or two) presented with accompanying beeps (none, one, or two), assessing crossmodal influences on visual perception. The task includes an individual calibration of the critical flicker fusion (CFF) threshold.
+participants: 314
 ---
 
 {% include JB/setup %}
 
 #### Detailed description
 
-* Across studies, the most commonly used parameters include a 2° white disk presented 5° below fixation for 10 ms, accompanied by two 80 dB, 3500 Hz tones presented for 10 ms each. The first tone is usually presented at the same time as the visual stimulus, or ∼23 ms prior to the visual stimulus 
-* the Stimulus Onset Asynchrony between the first and the second tone systematically alters the strength of the illusion, therefore the selection of these parameters has important consequences for performance. It has recently been shown that performing the SIFI task with a confederate present can enhance the illusion: the confederate was asked to judge the number of beeps, whilst the participant judged the number of flashes. The authors attribute enhanced illusion susceptibility to the presence of a visual distractor (another person). Researchers might therefore want to consider if the experimenter or other individuals are in view at the time of SIFI assessment.
-* The SIFI appears robust to spatial discrepancy between visual and auditory stimuli. SIFI effects have been observed with cross-modal separations as large as 20° and 50°.
-* The SIFI has also been found, albeit with a reduced potency, using complex stimuli such as block patterns, familiar faces and buildings. Relatively less focus has been given to the effect of auditory stimulus complexity in the SIFI, therefore a consensus on this parameter has yet to be reached. For example, presenting two beeps at different frequencies has been shown to both enhance and abolish the illusion. Nevertheless, the current findings indicate that, in most cases, the SIFI persists despite changes in stimulus complexity and is therefore not bound to the simple flash and beep stimuli most commonly reported in the literature.
+This task is designed to measure susceptibility to the sound-induced flash illusion (SIFI), in which concurrent auditory beeps alter the perceived number of visual flashes. The procedure consisted of two phases (both preceded by brief practice blocks):
 
+**Phase 1** — Critical Flicker Fusion (CFF). An adaptive staircase determines each participant's individual flicker fusion threshold. On each trial, either one continuous disc or two brief discs separated by a variable inter-stimulus interval (ISI) are presented. Participants judge whether they saw one or two flashes. A 1-up/3-down staircase adjusts the ISI, converging on the temporal gap at which two flashes become perceptually indistinguishable from one. The staircase terminates after 10 reversals (minimum 100 trials) or a maximum of 200 trials. This individually calibrated ISI is then used in Phase 2 to create a perceptually ambiguous two-flash condition.
 
-![]({{ BASE_PATH }}/assets/images/datasets/i_s_21_SIFI_1.png)
-
+**Phase 2** — Double-Flash Illusion. Participants view visual flashes accompanied by 0, 1, or 2 auditory beeps and report whether they perceived one or two flashes (ignoring the beeps). There are 12 conditions crossing 4 flash types with 3 beep types. The flash types are: one short flash, one long flash (duration-matched to the two-flash conditions), two clearly separated flashes, and two flashes at the CFF-calibrated ISI (perceptually ambiguous). Each condition is repeated 30 times, yielding 360 trials with breaks every 90 trials. Pre-stimulus jitter ranges from 750 to 1250 ms.
+#### Graphical overview
+![Sound-induced flash illusion flash and beep conditions]({{ BASE_PATH }}/assets/images/datasets/s_21_1.png)
+#### Number of participants (raw)
+Krakow: 314
+#### Conditions and number of trials
+* Phase 1 (CFF): 1-up/3-down staircase, up to 200 trials; 2 stimulus conditions (1 or 2 flashes). 
+* Phase 2 (DFI): 12 conditions (4 flash types × 3 beep types) × 30 repetitions = 360 trials. Pre-stimulus jitter: 750–1250 ms.
 #### Behavioural Measures
-
-* Accuracy
+* Accuracy (one/two flash judgment)
 * RT
-
 #### Related publications
 
 1. Hirst, R. J., McGovern, D. P., Setti, A., Shams, L., & Newell, F. N. (2020). What you see is what you hear: Twenty years of research using the Sound-Induced Flash Illusion. Neuroscience & Biobehavioral Reviews.
