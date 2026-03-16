@@ -15,6 +15,12 @@ site:
   - Brno
 contact:
   - Kristian Sandberg
+email:
+  - kristian.sandberg@cfin.au.dk
+cc:
+  - Michał Wierzchoń
+cc_email:
+  - michal.wierzchon@uj.edu.pl
 summary: Perceptual size discrimination task using the classical Ebbinghaus illusion. Two physically identical central circles appear to have different perceived sizes as a result of the presence or absence of surrounding larger circles.
 participants:
 ---
@@ -42,6 +48,7 @@ Krakow: 312
 * 2AFC without inducers (control)
 * 2AFC with inducers surrounding one of the targets (illusion). 
 * 
+
 #### Behavioural Measures
 
 * objective choice (which circle appeared larger)

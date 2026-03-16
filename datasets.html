@@ -129,23 +129,6 @@ canonical:
             <div class="col-sm-12 col-md-3" style="font-size: 0.9rem;">
                 <input type="text" id="datasetInput" placeholder="Search datasets..." title="Search in titles and descriptions" style="margin-bottom: 0.75rem; padding: 0.375rem 0.75rem; font-size: 0.9rem;"><br />
 
-                <!-- Dynamically generate keywords checkboxes -->
-                <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Keywords:</span>
-                {% assign all_keywords = "" | split: "" %}
-                {% for dataset in site.datasets %}
-                    {% for keyword in dataset.keywords %}
-                        {% unless all_keywords contains keyword %}
-                            {% assign all_keywords = all_keywords | push: keyword %}
-                        {% endunless %}
-                    {% endfor %}
-                {% endfor %}
-                {% assign sorted_keywords = all_keywords | sort %}
-                <div style="margin-bottom: 0.75rem;">
-                {% for keyword in sorted_keywords %}
-                <input type="checkbox" class="keywordCheckbox" name="{{ keyword | slugify }}Checkbox" value="{{ keyword }}"> {{ keyword }}<br>
-                {% endfor %}
-                </div>
-
                 <span style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Site:</span>
                 <div>
                 <input type="checkbox" class="siteCheckbox" name="AarhusCheckbox" value="Aarhus"> Aarhus<br>

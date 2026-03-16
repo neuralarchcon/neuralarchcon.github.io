@@ -35,8 +35,29 @@
   {% if page.contact and page.contact.size > 0 %}
   <h4>Contact:</h4>
   {% for contact in page.contact %}
-    <p><a href="mailto:{{ page.email[forloop.index0] }}">{{ contact }}</a></p>
+    {% assign eml = page.email[forloop.index0] %}
+    {% if eml and eml != "" %}
+      {% assign parts = eml | split: "@" %}
+      <p><a class="eml" data-u="{{ parts[0] }}" data-d="{{ parts[1] }}">{{ contact }}</a></p>
+    {% else %}
+      <p>{{ contact }}</p>
+    {% endif %}
   {% endfor %}
+  {% endif %}
+
+  {% if page.cc and page.cc.size > 0 %}
+  <h4>CC:</h4>
+  {% for person in page.cc %}
+    <p>{{ person }}</p>
+  {% endfor %}
+  <span id="cc-data" style="display:none">
+    {% for eml in page.cc_email %}
+      {% if eml and eml != "" %}
+        {% assign parts = eml | split: "@" %}
+        <span data-u="{{ parts[0] }}" data-d="{{ parts[1] }}"></span>
+      {% endif %}
+    {% endfor %}
+  </span>
   {% endif %}
 
   {% if page.doi %}
@@ -44,6 +65,19 @@
   <p><a href="{{ page.doi }}">{{ page.citation }}</a></p>
   {% endif %}
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var ccAddrs = [];
+  document.querySelectorAll('#cc-data span[data-u]').forEach(function(el) {
+    ccAddrs.push(el.dataset.u + '@' + el.dataset.d);
+  });
+  var ccParam = ccAddrs.length ? '?cc=' + ccAddrs.join(',') : '';
+  document.querySelectorAll('a.eml').forEach(function(el) {
+    var addr = el.dataset.u + '@' + el.dataset.d;
+    el.href = 'mailto:' + addr + ccParam;
+  });
+});
+</script>
 {% else %}
 <div class="blog-block about-sidebar-widget">
   <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}">

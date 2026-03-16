@@ -18,6 +18,16 @@ site:
   - Krakow
 contact:
   - Katarzyna Hat
+  - Renate Rutiku
+email:
+  - hat.kasia@gmail.com
+  - renate.rutiku@uj.edu.pl
+cc:
+  - Michał Wierzchoń
+  - Kristian Sandberg
+cc_email:
+  - michal.wierzchon@uj.edu.pl
+  - kristian.sandberg@cfin.au.dk
 summary: "Battery of tasks spanning four sensory domains: vision, audition, non-painful touch, and pain. In each modality, participants perform detection or discrimination judgments at individually calibrated difficulty levels and rate their confidence. The battery is designed to assess domain-general and domain-specific aspects of metacognitive ability."
 participants: 261
 ---
@@ -35,7 +45,9 @@ This battery was used to measure metacognitive sensitivity across sensory modali
 2. **Tactile task (non-painful electric pulses).** Participants receive non-painful electrical stimulation through electrodes placed on the skin. The task includes both detection blocks (pulse present vs. absent) and discrimination blocks (comparing intensity or temporal properties of pulses). Stimulus intensity is individually calibrated via staircase.
 
 3. **Pain task (painful electric pulses).** This task follows the same logic as the tactile task, but uses stimulation intensities in the painful range. It likewise includes detection and discrimination blocks with staircase-calibrated intensity.
+
 #### Graphical overview
+
 ![Multimodal metacognition visual 2AFC paradigm]({{ BASE_PATH }}/assets/images/datasets/s_11_1.png)
 ![Multimodal metacognition auditory 2AFC paradigm]({{ BASE_PATH }}/assets/images/datasets/s_11_2.png)
 ![Multimodal metacognition tactile stimulation paradigm]({{ BASE_PATH }}/assets/images/datasets/s_11_3.png)
@@ -48,7 +60,9 @@ This battery was used to measure metacognitive sensitivity across sensory modali
 | Auditory              | 212        |
 | Tactile (non-painful) | 212        |
 | Pain (painful)        | 213        |
+
 #### Conditions and number of trials
+
 All four tasks use staircase-calibrated difficulty and a 6-point confidence rating after each trial.
 
 | Modality              | Design                     | Approx. rows per participant |
@@ -57,12 +71,14 @@ All four tasks use staircase-calibrated difficulty and a 6-point confidence rati
 | Auditory              | 2AFC discrimination        | 226–240                      |
 | Tactile (non-painful) | Detection + discrimination | 225–240                      |
 | Pain (painful)        | Detection + discrimination | 177–190                      |
+
 #### Behavioural measures
 * Objective choice (perceptual decision)
 * Accuracy
 * RT1 (objective choice)
 * RT2 (confidence rating)
 * Confidence (6-point scale)
+
 #### Related publications
 
 1. Morales, J., Lau, H., & Fleming, S. M. (2018). Domain-general and domain-specific patterns of activity supporting metacognition in human prefrontal cortex. Journal of Neuroscience, 38(14), 3534-3546.

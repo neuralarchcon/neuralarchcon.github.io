@@ -11,7 +11,13 @@ keywords:
 site:
   - Krakow
 contact:
+  - Renate Rutiku
+email:
+  - renate.rutiku@uj.edu.pl
+cc:
   - Michał Wierzchoń
+cc_email:
+  - michal.wierzchon@uj.edu.pl
 summary: Perceptual detection task where participants rate stimulus clarity after responding to motor cues that are either neutral or overlapping with the stimulus-required response.
 participants: 257
 ---
@@ -29,10 +35,15 @@ Perceptual task. The target stimulus was a brief, faint noise patch that either 
 Calibration and experimental blocks. The session began with a staircase block (128 trials) that adjusted the signal-to-noise ratio of the grating to approximate each participant's 50% detection threshold. This was followed by four experimental blocks (256 trials total), in which participants performed the full dual-task procedure. The entire session lasted approximately 30 minutes.
 
 #### Graphical overview
+
 TBA!
+
 #### Number of participants (raw)
+
 Krakow: 257
+
 #### Conditions and number of trials
+
 Total of 5 blocks (384 trials): 1 staircase (128 trials) + 4 experimental (256 trials).
 Staircase adjusts contrast to ~75% threshold.
 
