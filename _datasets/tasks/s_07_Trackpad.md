@@ -11,6 +11,14 @@ site:
   - Krakow
 contact:
   - Elisa Filevich
+  - Renate Rutiku
+email:
+  - ""
+  - renate.rutiku@uj.edu.pl
+cc:
+  - Michał Wierzchoń
+cc_email:
+  - michal.wierzchon@uj.edu.pl
 summary: Motor metacognition task where participants perform finger movements on a trackpad while observing drifting gratings, then judge the relative duration of visual stimuli and rate confidence in their decisions.
 participants: 286
 ---
@@ -30,17 +38,22 @@ Calibration. The duration difference between the two stimuli was controlled by t
 Procedure. After the staircases, each participant completed 240 trials (60 per condition), with trial types interleaved in randomized order. Trials were self-paced. The experiment took approximately 50 minutes.
 
 #### Graphical overview
+
 ![Trackpad motor metacognition trial structure]({{ BASE_PATH }}/assets/images/datasets/s_07_1.png)
 
 #### Number of participants (raw)
+
 Krakow: 286 (260 complete, 26 incomplete)
+
 #### Conditions and number of trials
+
 2 conditions (Active hand movements, Visual replay). Per condition: 
 * Training (10 trials), 
 * Staircase (40 trials), 
 * VAS training (10 trials), 
 * Main experiment (4 blocks × 50 trials = 200 trials). 
 Total: 260 trials per condition.
+
 #### Related publications
 
 1. Filevich, E., Koß, C., & Faivre, N. (2019). Response-related signals increase confidence but not metacognitive performance. BioRxiv, 735712.

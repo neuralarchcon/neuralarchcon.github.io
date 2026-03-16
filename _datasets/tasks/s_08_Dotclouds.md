@@ -12,10 +12,18 @@ keywords:
   - metacognition
 site:
   - Krakow
-contact person: Nathan Faivre
+contact:
+  - Nathan Faivre
+  - Renate Rutiku
+email:
+  - nathan.faivre@univ-grenoble-alpes.fr
+  - renate.rutiku@uj.edu.pl
 summary: Observers used a computer mouse to respond to a two-alternative forced-choice visual discrimination task, followed by a confidence rating task. Kinematic analyses of mouse trajectories allow us to infer both decision times (i.e. when observers started to move the mouse to respond) and changes of mind (i.e. when patients modified their trajectory to respond). Decisions, decision times, changes of mind, and confidence ratings can be reproduced with a computational model of evidence accumulation, introduced by Faivre et al (2021) and extended by Goueytes et al (2025).
 participants: 290
-cc: Michal Wierzchoń, Renate Rutiku, Kristian Sandberg
+cc:
+  - Michał Wierzchoń
+cc_email:
+  - michal.wierzchon@uj.edu.pl
 ---
 
 {% include JB/setup %}
@@ -30,10 +38,15 @@ The model instantiates two anticorrelated accumulators, one for each possible de
 ![Dotclouds motion discrimination with mouse tracking and diffusion model]({{ BASE_PATH }}/assets/images/datasets/s_08_1.png)
 
 A Behavioural paradigm. Participants observed the random dot kinetogram and reported its motion direction using the mouse while it remained on screen. Confidence was rated on a continuous scale ranging from 0 to 100. B Schematic description of the race diffusion model used to fit data. A decision was defined when one of two accumulators coding for each possible motion direction crossed a threshold. Confidence was computed as a read-out of evidence accumulated up to 1 s after decision time (confidence read-out window, in blue).
+
 #### Number of participants (raw)
+
 Krakow: 290
+
 #### Conditions and number of trials
+
 Staircase calibration (80 trials), then main experiment in 5 blocks. Left/right motion direction 2AFC with mouse tracking, followed by confidence rating on each trial.
+
 #### Behavioural Measures 
 * Objective choice
 * Accuracy
@@ -41,6 +54,7 @@ Staircase calibration (80 trials), then main experiment in 5 blocks. Left/right 
 * RT1 (objective choice)
 * RT2 (confidence)
 * Mouse movement tracking
+
 #### Related publications
 
 1. Faivre N, Roger M, Pereira M, de Gardelle V, Vergnaud JC, Passerieux C, Roux P. Confidence in visual motion discrimination is preserved in individuals with schizophrenia. J Psychiatry Neurosci. 2021 Jan 4;46(1):E65-E73. doi: 10.1503/jpn.200022. PMID: 33009905; PMCID: PMC7955841.

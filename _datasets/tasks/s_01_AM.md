@@ -14,6 +14,14 @@ site:
   - Brno
 contact:
   - Jovana Bjekic
+email:
+  - ""
+cc:
+  - Michał Wierzchoń
+  - Kristian Sandberg
+cc_email:
+  - michal.wierzchon@uj.edu.pl
+  - kristian.sandberg@cfin.au.dk
 summary: Scene-item (landscape photographs and objects) paired associative memory task with confidence rating after recognition of old or new pairs. Additionally, there is a repeated encoding of the pairs, followed by recognition of single scenes and a cued recall.
 participants:
 ---
@@ -33,6 +41,7 @@ In the second block (happening immediately after the first one) participants are
 ![Detailed associative memory paradigm with timeline]({{ BASE_PATH }}/assets/images/datasets/s_01_2.png)
 
 #### Number of participants (raw)
+
 Krakow: 295
 
 #### Conditions and number of trials

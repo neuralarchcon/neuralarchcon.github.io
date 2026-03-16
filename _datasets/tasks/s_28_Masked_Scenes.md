@@ -46,6 +46,7 @@ Design: 2 (task: background, object) Ã— 2 (congruency: congruent, incongruent) Ã
 Participants performed training (16 trials at 100 ms display) and the main procedure (600 trials divided into 10 blocks of 30 trials). The entire session lasted approximately 2 hours.
 
  EEG was recorded using a 64-channel BioSemi ActiveTwo system at 2048 Hz sampling rate. Behavioral responses were collected via Cedrus Button Box (RB-840).
+
 #### Behavioural Measures
 
 * Background classification accuracy (2AFC)
