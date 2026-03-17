@@ -221,18 +221,6 @@ Can be computed using various formulas, e.g.:
 - ID used for MRI scanner
 - Used to track and control for scanner-specific effects
 
-## Data Quality Notes
-
-**Data Completeness:**
-- Krakow has comprehensive demographic data
-- Unique detailed handedness assessment
-- Parental education tracking
-- Income data (site-specific)
-
-## Related Measures
-
-For psychometric questionnaires administered at Krakow (e.g., NEO-PI, VVIQ-2, MAIA-2, FPQ-3, GAD-7, SPQ-BR, PI-WSUR, ASQ-short, etc.), see the main questionnaires documentation in _datasets/questionnaires/ and _datasets/questionnaires_new/.
-
 ## Site-Specific Notes
 
 **Krakow Unique Features:**
@@ -242,15 +230,3 @@ For psychometric questionnaires administered at Krakow (e.g., NEO-PI, VVIQ-2, MA
 - Comprehensive lifestyle factors (smoking, alcohol, physical activity)
 
 **Contact:** For questions about Krakow-specific data, contact the site PI or data manager.
-
-## Comparison with Other Sites
-
-| Feature | Aarhus | Brno | Krakow |
-|---------|--------|------|--------|
-| Handedness detail | Basic (1 item) | Basic (1 item) | Extensive (15 activities) |
-| Substance use | Smoking only | Comprehensive DUQ | Smoking + alcohol |
-| Medical screening | Basic | Extensive NQ | Migraine only |
-| Trauma assessment | No | MACE | No |
-| Olfactory testing | Yes (Sniffin' Sticks) | No | No |
-| Parental education | No | Yes (2023) | Yes (detailed) |
-| Income | No | No | Yes (PLN) |

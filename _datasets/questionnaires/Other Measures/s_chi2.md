@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Vision
-  - Other
+  - Miscellaneous
 site:
   - Brno
 contact:
