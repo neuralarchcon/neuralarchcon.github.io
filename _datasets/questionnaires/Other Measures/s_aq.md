@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Social cognition
-  - Other
+  - Miscellaneous
 site:
   - Krakow
   - Brno

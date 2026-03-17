@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Mental health
-  - Other
+  - Miscellaneous
 site:
   - Krakow
 contact:

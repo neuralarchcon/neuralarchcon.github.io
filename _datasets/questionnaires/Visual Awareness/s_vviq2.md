@@ -9,12 +9,6 @@ site:
   - Krakow
   - Aarhus
   - Brno
-  - Krystian Barzykowski
-  - Kristian Sandberg
-  - Lenka Jurkovičová
-  - Michal Wierzchoń
-  - Milan Brázdil
-  - Justyna Hobot
 contact:
   - Krystian Barzykowski
   - Kristian Sandberg

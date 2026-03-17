@@ -4,7 +4,7 @@ title: GAMS / GMS – Gaming Motivation Scale
 modality:
   - questionnaires
 keywords:
-  - Other
+  - Miscellaneous
 site:
   - Aarhus
 contact:

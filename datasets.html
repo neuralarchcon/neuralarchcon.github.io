@@ -237,11 +237,9 @@ canonical:
         function decideVisibility(element) {
             const matchesContent = findTextInContent(datasetInput.value, element);
 
-            var meetsSiteCriteria = siteCheckboxesArray.some(checkbox => checkbox.checked && checkSite(checkbox.value, element));
-            // If no site checkboxes are checked, consider it as meeting the criteria
-            if (siteCheckboxesArray.every(checkbox => !checkbox.checked)) {
-                meetsSiteCriteria = true;
-            }
+            // Intersection: dataset must be present at ALL checked sites
+            const checkedSites = siteCheckboxesArray.filter(checkbox => checkbox.checked);
+            var meetsSiteCriteria = checkedSites.length === 0 || checkedSites.every(checkbox => checkSite(checkbox.value, element));
 
             var meetsKeywordsCriteria = keywordCheckboxesArray.some(checkbox => checkbox.checked && checkKeyword(checkbox.value, element));
             // If no keyword checkboxes are checked, consider it as meeting the criteria
