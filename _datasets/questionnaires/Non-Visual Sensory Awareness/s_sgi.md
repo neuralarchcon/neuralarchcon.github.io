@@ -4,7 +4,7 @@ title: SGI – Sensory Gating Inventory
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
   - Vision
   - Somatosensory
   - Auditory

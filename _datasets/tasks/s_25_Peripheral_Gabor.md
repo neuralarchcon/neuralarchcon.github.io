@@ -3,10 +3,12 @@ layout: dataset
 title: Peripheral Gabor orientation discrimination with awareness rating
 modality:
   - behavior
-  - neurobiomarkers
 keywords:
   - EEG
-  - vision
+  - Vision
+  - Discrimination
+  - Threshold Perception
+  - PAS
 site:
   - Krakow
 contact:

@@ -4,7 +4,7 @@ title: ARSQ-2 – Amsterdam Resting State Questionnaire (Version 2)
 modality:
   - questionnaires
 keywords:
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Krakow
   - Aarhus

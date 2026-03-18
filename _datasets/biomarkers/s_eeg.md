@@ -5,7 +5,7 @@ modality:
   - neurobiomarkers
 keywords:
   - EEG
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Krakow
 contact:

@@ -4,8 +4,8 @@ title: ESS – Epworth Sleepiness Scale
 modality:
   - questionnaires
 keywords:
-  - States of consciousness
-  - Mental health
+  - States Of Consciousness
+  - Mental Health
 site:
   - Aarhus
 contact:

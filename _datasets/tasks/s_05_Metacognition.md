@@ -4,14 +4,12 @@ title: Visual and auditory metacognition
 modality:
   - behavior
 keywords:
-  - vision
-  - auditory
-  - metacognition
-  - discrimination
-  - detection
-  - multisite
-  - 2AFC
-  - 2IFC
+  - Vision
+  - Auditory
+  - Metacognition
+  - Discrimination
+  - Detection
+  - Multisite
 site:
   - Aarhus
   - Krakow

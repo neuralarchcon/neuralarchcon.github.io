@@ -4,10 +4,10 @@ title: Shape of visual field capacity
 modality:
   - behavior
 keywords:
-  - vision
-  - memory
-  - visual field
-  - working memory
+  - Vision
+  - Memory
+  - Awareness
+  - PAS
 site:
   - Krakow
 contact:

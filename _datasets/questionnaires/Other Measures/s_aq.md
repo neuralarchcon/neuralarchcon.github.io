@@ -4,8 +4,7 @@ title: AQ / ASQ – Autism-Spectrum Quotient
 modality:
   - questionnaires
 keywords:
-  - Social cognition
-  - Miscellaneous
+  - Social Cognition
 site:
   - Krakow
   - Brno

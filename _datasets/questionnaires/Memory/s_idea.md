@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Memory
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Krakow
   - Brno

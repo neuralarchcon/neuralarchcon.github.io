@@ -4,7 +4,7 @@ title: FMI – Freiburg Mindfulness Inventory
 modality:
   - questionnaires
 keywords:
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Krakow
   - Aarhus

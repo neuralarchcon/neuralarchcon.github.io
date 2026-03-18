@@ -4,7 +4,7 @@ title: VS – Visual Snow Symptoms Questionnaire
 modality:
   - questionnaires
 keywords:
-  - Miscellaneous
+  - Vision
 site:
   - Brno
 contact:

@@ -4,7 +4,7 @@ title: IRI – Interpersonal Reactivity Index
 modality:
   - questionnaires
 keywords:
-  - Social cognition
+  - Social Cognition
 site:
   - Krakow
 contact:

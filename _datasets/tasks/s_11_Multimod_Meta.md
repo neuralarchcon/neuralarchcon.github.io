@@ -4,16 +4,12 @@ title: "Multimodal metacognition: battery of tasks"
 modality:
   - behavior
 keywords:
-  - metacognition
-  - multimodal
-  - 2AFC
-  - detection
-  - discrimination
-  - vision
-  - auditory
-  - somatosensory
-  - tactile
-  - pain
+  - Metacognition
+  - Detection
+  - Discrimination
+  - Vision
+  - Auditory
+  - Somatosensory
 site:
   - Krakow
 contact:

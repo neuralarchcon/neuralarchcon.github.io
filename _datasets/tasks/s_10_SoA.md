@@ -4,13 +4,10 @@ title: Sense of agency
 modality:
   - behavior
 keywords:
-  - vision
-  - auditory
-  - metacognition
-  - hand motion
-  - distortion
-  - virtual hand
-  - somatosensory
+  - Vision
+  - Auditory
+  - Metacognition
+  - Somatosensory
 site:
   - Krakow
 contact:

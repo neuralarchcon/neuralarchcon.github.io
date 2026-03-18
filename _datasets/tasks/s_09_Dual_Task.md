@@ -4,10 +4,11 @@ title: Dual Task
 modality:
   - behavior
 keywords:
-  - vision
-  - metacognition
-  - motor metacognition
-  - detection
+  - Vision
+  - Metacognition
+  - Detection
+  - Awareness
+  - PAS
 site:
   - Krakow
 contact:

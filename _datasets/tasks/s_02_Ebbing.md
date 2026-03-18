@@ -4,11 +4,10 @@ title: Ebbinghaus Illusion
 modality:
   - behavior
 keywords:
-  - vision
-  - illusion
-  - discrimination
-  - 2AFC
-  - multisite
+  - Vision
+  - Illusion
+  - Discrimination
+  - Multisite
 site:
   - Aarhus
   - Krakow

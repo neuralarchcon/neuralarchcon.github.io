@@ -4,7 +4,7 @@ title: WAIS – Wechsler Adult Intelligence Scale
 modality:
   - questionnaires
 keywords:
-  - Intelligence
+  - Memory
 site:
   - Krakow
   - Aarhus

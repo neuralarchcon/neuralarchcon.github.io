@@ -4,7 +4,7 @@ title: STAI – State-Trait Anxiety Inventory
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
   - Emotion
 site:
   - Brno

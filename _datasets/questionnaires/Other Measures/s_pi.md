@@ -4,8 +4,7 @@ title: PI-WSUR – Padua Inventory-Washington State University Revision
 modality:
   - questionnaires
 keywords:
-  - Mental health
-  - Miscellaneous
+  - Mental Health
 site:
   - Krakow
 contact:

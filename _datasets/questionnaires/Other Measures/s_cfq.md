@@ -5,7 +5,6 @@ modality:
   - questionnaires
 keywords:
   - Memory
-  - Miscellaneous
 site:
   - Krakow
   - Aarhus

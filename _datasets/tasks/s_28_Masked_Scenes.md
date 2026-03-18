@@ -3,10 +3,12 @@ layout: dataset
 title: Backward masked scene perception with awareness rating
 modality:
   - behavior
-  - neurobiomarkers
 keywords:
   - EEG
   - Vision
+  - Discrimination
+  - Threshold Perception
+  - PAS
 site:
   - Krakow
 contact:

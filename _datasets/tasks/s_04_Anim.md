@@ -4,11 +4,9 @@ title: Animate reaction task
 modality:
   - behavior
 keywords:
-  - vision
-  - memory
-  - associative memory
-  - implicit memory
-  - multisite
+  - Vision
+  - Memory
+  - Multisite
 site:
   - Aarhus
   - Krakow

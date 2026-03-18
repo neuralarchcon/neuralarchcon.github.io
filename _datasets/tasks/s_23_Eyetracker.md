@@ -3,13 +3,8 @@ layout: dataset
 title: Eye tracking with two-tone images
 modality:
   - behavior
-  - neurobiomarkers
 keywords:
-  - vision
-  - eye movements
-  - eye-tracking
-  - perceptual organization
-  - two-tone images
+  - Vision
 site:
   - Krakow
 contact:

@@ -4,11 +4,9 @@ title: Metacognitive judgements of learning emotional words
 modality:
   - behavior
 keywords:
-  - metacognition
-  - emotion
-  - memory
-  - judgments of learning
-  - emotional words
+  - Metacognition
+  - Emotion
+  - Memory
 site:
   - Krakow
 contact:

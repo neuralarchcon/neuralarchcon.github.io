@@ -4,12 +4,9 @@ title: Visual discrimination task with mouse-tracking and confidence judgements
 modality:
   - behavior
 keywords:
-  - vision
-  - mouse tracking
-  - evidence accumulation
-  - discrimination
-  - 2AFC
-  - metacognition
+  - Vision
+  - Discrimination
+  - Metacognition
 site:
   - Krakow
 contact:

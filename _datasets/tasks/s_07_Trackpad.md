@@ -4,9 +4,8 @@ title: "Trackpad: motor metacognition"
 modality:
   - behavior
 keywords:
-  - vision
-  - metacognition
-  - motor metacognition
+  - Vision
+  - Metacognition
 site:
   - Krakow
 contact:
