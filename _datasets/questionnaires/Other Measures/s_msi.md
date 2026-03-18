@@ -4,7 +4,6 @@ title: Gold-MSI – Goldsmiths Musical Sophistication Index
 modality:
   - questionnaires
 keywords:
-  - Miscellaneous
   - Personality
 site:
   - Aarhus

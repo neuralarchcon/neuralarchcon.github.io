@@ -4,7 +4,6 @@ title: Structural and Functional MRI
 modality:
   - neurobiomarkers
 keywords:
-  - MRI
 site:
   - Krakow
   - Aarhus

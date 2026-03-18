@@ -4,7 +4,7 @@ title: CAPS – Cardiff Anomalous Perceptions Scale
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
 site:
   - Brno
 contact:

@@ -4,7 +4,7 @@ title: ASI – Aberrant Salience Inventory
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
 site:
   - Brno
 contact:

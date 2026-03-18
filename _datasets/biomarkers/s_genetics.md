@@ -4,7 +4,6 @@ title: Genetic Profiling
 modality:
   - neurobiomarkers
 keywords:
-  - Genetics
 site:
   - Krakow
 contact:

@@ -4,10 +4,9 @@ title: Associative memory task
 modality:
   - behavior
 keywords:
-  - vision
-  - memory
-  - associative memory
-  - multisite
+  - Vision
+  - Memory
+  - Multisite
 site:
   - Aarhus
   - Krakow

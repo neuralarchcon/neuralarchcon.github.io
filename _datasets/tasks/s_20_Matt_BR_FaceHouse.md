@@ -4,12 +4,10 @@ title: Binocular rivarly tasks
 modality:
   - behavior
 keywords:
-  - vision
-  - integration
-  - binocular rivarly
-  - attention 
-  - multisensory integration
-  - crossmodal stimuli
+  - Vision
+  - Bistable Perception
+  - Attention
+  - Multisensory Integration
 site:
   - Krakow
 contact:

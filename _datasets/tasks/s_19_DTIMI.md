@@ -4,11 +4,10 @@ title: "Dual Task: iconic memory illusion"
 modality:
   - behavior
 keywords:
-  - vision
-  - memory
-  - inattention
-  - illusion
-  - Landolt
+  - Vision
+  - Memory
+  - Attention
+  - Illusion
 site:
   - Krakow
 contact:

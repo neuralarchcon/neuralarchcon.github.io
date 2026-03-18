@@ -4,7 +4,7 @@ title: GQ – Gaming Questions
 modality:
   - questionnaires
 keywords:
-  - Miscellaneous
+  - Personality
 site:
   - Aarhus
 contact:

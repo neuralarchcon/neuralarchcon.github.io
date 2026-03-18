@@ -4,7 +4,7 @@ title: MDES – Multi-Dimensional Experience Sampling
 modality:
   - questionnaires
 keywords:
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Aarhus
 contact:

@@ -4,8 +4,7 @@ title: SNS – Social Network Scale
 modality:
   - questionnaires
 keywords:
-  - Social cognition
-  - Miscellaneous
+  - Social Cognition
 site:
   - Aarhus
 contact:

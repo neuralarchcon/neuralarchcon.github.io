@@ -4,7 +4,7 @@ title: NYC-Q – New York Cognition Questionnaire
 modality:
   - questionnaires
 keywords:
-  - Social cognition
+  - Social Cognition
   - Emotion
   - Interoception
 site:

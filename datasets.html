@@ -145,6 +145,25 @@ canonical:
                     <label><input type="checkbox" class="siteCheckbox" name="KrakowCheckbox" value="Krakow"> Krakow</label><br>
                     </div>
                 </fieldset>
+
+                <fieldset style="margin-top: 0.75rem;">
+                    <legend style="font-weight: 600; margin-bottom: 0.5rem; font-size: 0.9rem;">Keywords:</legend>
+                    <div>
+                    {% assign all_keywords = "" | split: "" %}
+                    {% for dataset in site.datasets %}
+                        {% for keyword in dataset.keywords %}
+                            {% unless all_keywords contains keyword %}
+                                {% assign all_keywords = all_keywords | push: keyword %}
+                            {% endunless %}
+                        {% endfor %}
+                    {% endfor %}
+                    {% assign sorted_keywords = all_keywords | sort %}
+                    {% for keyword in sorted_keywords %}
+                    <label><input type="checkbox" class="keywordCheckbox" value="{{ keyword }}"> {{ keyword }}</label><br>
+                    {% endfor %}
+                    </div>
+                </fieldset>
+
                 <div id="filter-status" aria-live="polite" aria-atomic="true"></div>
             </div>
 
@@ -293,7 +312,7 @@ canonical:
         function updateFilterStatus() {
             var visibleCount = Array.from(datasets).filter(d => d.style.display !== 'none').length;
             var totalCount = datasets.length;
-            var hasActiveFilter = datasetInput.value !== '' || siteCheckboxesArray.some(c => c.checked);
+            var hasActiveFilter = datasetInput.value !== '' || siteCheckboxesArray.some(c => c.checked) || keywordCheckboxesArray.some(c => c.checked);
             if (hasActiveFilter) {
                 filterStatus.textContent = visibleCount + ' of ' + totalCount + ' datasets shown';
             } else {

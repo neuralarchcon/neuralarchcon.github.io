@@ -4,7 +4,7 @@ title: EQ-Short – Empathy Quotient-Short
 modality:
   - questionnaires
 keywords:
-  - Social cognition
+  - Social Cognition
 site:
   - Krakow
 contact:

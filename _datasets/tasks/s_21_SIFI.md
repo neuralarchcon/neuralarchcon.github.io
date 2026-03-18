@@ -4,11 +4,9 @@ title: Sound Induced Flash Illusion
 modality:
   - behavior
 keywords:
-  - auditory
-  - vision
-  - integration
-  - multisensory integration
-  - crossmodal stimuli
+  - Auditory
+  - Vision
+  - Multisensory Integration
 site:
   - Krakow
 contact:

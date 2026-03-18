@@ -4,7 +4,7 @@ title: CES-D – Center for Epidemiologic Studies Depression Scale
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
 site:
   - Krakow
   - Aarhus

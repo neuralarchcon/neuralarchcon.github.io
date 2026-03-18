@@ -4,10 +4,10 @@ title: "Bistable perception: battery of tasks"
 modality:
   - behavior
 keywords:
-  - vision
-  - auditory
-  - bistable perception
-  - illusion
+  - Vision
+  - Auditory
+  - Bistable Perception
+  - Illusion
 site:
   - Krakow
 contact:

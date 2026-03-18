@@ -4,7 +4,7 @@ title: MW-S / MW-D – Mind-Wandering Spontaneous and Deliberate (SDMWS)
 modality:
   - questionnaires
 keywords:
-  - States of consciousness
+  - States Of Consciousness
 site:
   - Krakow
 contact:

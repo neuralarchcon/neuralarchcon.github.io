@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Personality
-  - Mental health
+  - Mental Health
 site:
   - Krakow
 contact:

@@ -5,7 +5,7 @@ modality:
   - questionnaires
 keywords:
   - Emotion
-  - Mental health
+  - Mental Health
 site:
   - Aarhus
 contact:

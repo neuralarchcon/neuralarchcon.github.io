@@ -4,9 +4,9 @@ title: Structure from motion
 modality:
   - behavior
 keywords:
-  - vision
-  - bistable perception
-  - multisite
+  - Vision
+  - Bistable Perception
+  - Multisite
 site:
   - Aarhus
   - Krakow

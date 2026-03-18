@@ -4,7 +4,7 @@ title: PSS – Perceived Stress Scale
 modality:
   - questionnaires
 keywords:
-  - Mental health
+  - Mental Health
 site:
   - Krakow
   - Aarhus
