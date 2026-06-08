@@ -20,7 +20,7 @@ cc_email:
   - michal.wierzchon@uj.edu.pl
   - renate.rutiku@uj.edu.pl
 summary: Participants have viewed black-and-white two-tone images with their eye movements being recorded. The images were derived from photographs of natural scenes (“templates”). Each two-tone image appears as meaningless patches on initial viewing. Once the observer has acquired relevant prior object knowledge by viewing the corresponding template, however, processes of perceptual organization in the visual system bind the patches of the two-tone image into a coherent percept of an object.
-participants: ~300
+participants: ~250
 ---
 
 {% include JB/setup %}
