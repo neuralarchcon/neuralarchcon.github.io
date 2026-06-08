@@ -33,7 +33,7 @@ Participants have observed an ambiguous rotating sphere of dots presented agains
 
 #### Graphical overview
 
-![Structure from motion rotating dot sphere]({{ BASE_PATH }}/assets/images/datasets/s_03_1.png)
+![Structure from motion rotating dot sphere]({{ BASE_PATH }}/assets/images/datasets/s_03_1.gif)
 
 #### Number of participants (raw)
 
